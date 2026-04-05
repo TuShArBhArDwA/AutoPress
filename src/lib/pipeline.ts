@@ -5,7 +5,9 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // ─── File-based cache (survives HMR in dev, essential for demo) ───────────────
-const CACHE_DIR = path.join(process.cwd(), '.cache');
+const CACHE_DIR = process.env.VERCEL
+  ? path.join('/tmp', '.autopress-cache')
+  : path.join(process.cwd(), '.cache');
 const CACHE_FILE = path.join(CACHE_DIR, 'articles.json');
 const CACHE_TTL_MS = 30 * 60 * 1000; // 30 minutes
 
@@ -258,6 +260,9 @@ export async function ensureArticles(): Promise<GeneratedArticle[]> {
  * If the article is just a discovery highlight, it triggers the full 700-word authoring pass.
  */
 export async function ensureFullReport(slug: string): Promise<GeneratedArticle | undefined> {
+  // Ensure articles are loaded (triggers pipeline if cache is missing/expired)
+  await ensureArticles();
+  
   const cached = readCache();
   if (!cached) return undefined;
 
