@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <img src="./src/app/icon.svg" width="80" height="80" alt="AutoPress Logo" />
   <br/>
