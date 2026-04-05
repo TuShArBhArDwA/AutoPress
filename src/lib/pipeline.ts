@@ -182,7 +182,55 @@ export async function runPipeline(): Promise<{
     const results = await Promise.all(analysisPromises);
     const generatedArticles = results.filter((r): r is GeneratedArticle => r !== null);
 
-    pipelineStatus = { status: 'generating', message: 'Preparing morning briefing...', progress: 92 };
+    // ─── Proactive Synthesis for Top Reports ─────────────────────────────────
+    pipelineStatus = { status: 'generating', message: 'Synthesizing flagship reports...', progress: 60 };
+    
+    // Top 3 stories get full treatment immediately
+    const topStoriesToSynthesize = generatedArticles.slice(0, 3);
+    console.log(`[Pipeline] Proactive Synthesis: ${topStoriesToSynthesize.length} articles`);
+
+    await Promise.all(topStoriesToSynthesize.map(async (article) => {
+      try {
+        const index = generatedArticles.findIndex(a => a.id === article.id);
+        const analysis = {
+          angle: article.angle || '',
+          context: article.context || '',
+          stakeholders: article.stakeholders || [],
+          keyQuestions: article.keyQuestions || [],
+          talkingPoints: article.talkingPoints || [],
+          timeline: article.timeline || [],
+          impact: article.impact || 'national',
+          editorialPriority: article.editorialPriority || 'feature',
+          confidenceScore: article.confidenceScore || 0.7,
+        };
+
+        const topGenerated = await generateWithRetry(() =>
+          generateArticle(
+            article.headline,
+            article.subheadline || '',
+            analysis as any,
+            article.sourceStories.slice(1) as any
+          )
+        );
+
+        generatedArticles[index] = {
+          ...article,
+          isFullReport: true,
+          headline: topGenerated.headline,
+          body: topGenerated.body,
+          keyPoints: topGenerated.keyPoints,
+          readTime: topGenerated.readTime,
+          pullQuote: topGenerated.pullQuote,
+          wordCount: topGenerated.wordCount,
+          viralSnapshot: topGenerated.viralSnapshot,
+          tags: Array.from(new Set([...article.tags, ...(topGenerated.tags || [])])),
+        };
+      } catch (e) {
+        console.error(`[Pipeline] Proactive Synthesis failed for ${article.headline}`, e);
+      }
+    }));
+
+    pipelineStatus = { status: 'generating', message: 'Preparing news digest...', progress: 92 };
 
     let digestItems: DigestItem[] = [];
     try {
@@ -251,12 +299,14 @@ export async function ensureArticles(): Promise<GeneratedArticle[]> {
   const cached = readCache();
   if (cached && cached.articles.length > 0) {
     if (cached.isStale) {
-      console.log('[Pipeline] Stale cache detected, triggering background refresh...');
-      // We don't await this so the user gets the stale data immediately
+      console.log('[Pipeline] Refreshing stale pipeline in background...');
+      // Use fire-and-forget for background refresh to keep response fast
       runPipeline().catch(e => console.error('[Pipeline] Background refresh error:', e));
     }
     return cached.articles;
   }
+  
+  console.log('[Pipeline] Cache miss, executing full pipeline...');
   const { articles } = await runPipeline();
   return articles;
 }
@@ -284,21 +334,24 @@ export async function ensureFullReport(slug: string): Promise<GeneratedArticle |
   // If already synthesized, return it
   if (article.isFullReport) return article;
 
-  console.log(`[Pipeline] JIT Synthesis: Authorship Pass for "${article.headline}"...`);
+  console.log(`[Pipeline] Triggering JIT Synthesis for "${article.headline}"...`);
 
+  // We DO NOT await this here if we want instant page load, 
+  // but since it's the article page, we usually need the content.
+  // HOWEVER, for a better UX, we could return the highlight and have the UI handle the "loading" state.
+  // For now, let's keep it synchronous but optimized by the proactive synthesis.
+  
   try {
     const analysis = {
-      editorialPriority: article.editorialPriority,
-      timeline: article.timeline,
-      impact: article.impact,
-      confidenceScore: article.confidenceScore,
-      trendVelocity: article.trendVelocity,
-      // Metadata preserved from discovery
       angle: article.angle || '',
       context: article.context || '',
       stakeholders: article.stakeholders || [],
       keyQuestions: article.keyQuestions || [],
       talkingPoints: article.talkingPoints || [],
+      timeline: article.timeline || [],
+      impact: article.impact || 'national',
+      editorialPriority: article.editorialPriority || 'feature',
+      confidenceScore: article.confidenceScore || 0.7,
     };
 
     const mainStory = article.sourceStories[0];
@@ -313,11 +366,10 @@ export async function ensureFullReport(slug: string): Promise<GeneratedArticle |
       )
     );
 
-    // Update the article object in cache
     const fullArticle: GeneratedArticle = {
       ...article,
       isFullReport: true,
-      headline: generated.headline, // Use model-refined headline
+      headline: generated.headline,
       body: generated.body,
       keyPoints: generated.keyPoints,
       readTime: generated.readTime,
@@ -327,12 +379,19 @@ export async function ensureFullReport(slug: string): Promise<GeneratedArticle |
       tags: Array.from(new Set([...article.tags, ...(generated.tags || [])])),
     };
 
-    cached.articles[index] = fullArticle;
-    writeCache(cached.articles, cached.digest);
+    // Re-verify index in case cache changed
+    const freshCache = readCache();
+    if (freshCache) {
+      const freshIndex = freshCache.articles.findIndex(a => a.id === article.id);
+      if (freshIndex !== -1) {
+        freshCache.articles[freshIndex] = fullArticle;
+        writeCache(freshCache.articles, freshCache.digest);
+      }
+    }
 
     return fullArticle;
   } catch (error) {
-    console.error(`[Pipeline] JIT Authorship Failed: "${article.headline}"`, error);
-    return article; // Return the highlight if full synthesis fails
+    console.error(`[Pipeline] Synthesis failed for "${article.headline}"`, error);
+    return article; 
   }
 }

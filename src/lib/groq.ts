@@ -187,17 +187,17 @@ Facts to work in: ${(analysis.talkingPoints || []).join(' | ')}
 ${sourceList}
 
 ━━━ WRITING REQUIREMENTS ━━━
-1. LEDE (first paragraph, ~60 words): Must answer who, what, when, where in the first two sentences. Most critical fact comes first — inverted pyramid.
-2. CONTEXT (paragraph 2, ~80 words): Historical background. What makes this significant? What preceded it?
-3. BODY (paragraphs 3-5, ~400 words total): Develop the story with specifics. Quote or paraphrase named stakeholders. Show tension, competing interests, or unanswered questions.
-4. IMPLICATIONS (paragraph 6, ~100 words): What happens next? Who is watching? What are the stakes?
-5. CLOSING (paragraph 7, ~60 words): Leave the reader with the most clarifying or haunting detail — something concrete, not a generality.
+1. LEDE (first paragraph, ~60 words): Must answer who, what, when, where in the first two sentences. Use an active, authoritative voice. Most critical fact comes first — inverted pyramid.
+2. SYSTEMIC CONTEXT (paragraph 2, ~100 words): Historical background and structural causes. What makes this significant beyond the immediate headline?
+3. STAKEHOLDER CONFLICT (paragraphs 3-5, ~400 words total): Develop the story through the lens of tension. Quote or paraphrase specific named stakeholders. Show competing interests or unanswered questions.
+4. MACRO IMPLICATIONS (paragraph 6, ~120 words): Global or national ripple effects. Who is watching? What are the long-term stakes?
+5. CLOSING (paragraph 7, ~60 words): A sharp, concrete detail that anchors the story's gravity — not a summary.
 
 ━━━ ABSOLUTE PROHIBITIONS ━━━
-Never write: "in conclusion", "it is important to note", "it is worth noting", "it should be noted", "this article will explore", "as we can see", "shed light on", "in today's world", "at the time of writing"
-Never start a paragraph with "Additionally" or "Furthermore"
-Never use passive voice for the lede
-Never editorialize without factual grounding
+Never write: "in conclusion", "it is important to note", "it is worth noting", "it should be noted", "this article will explore", "as we can see", "shed light on", "in today's world", "at the time of writing", "a beacon of hope", "tapestry of", "paving the way"
+Never start a paragraph with "Additionally", "Furthermore", or "Moreover"
+Never use passive voice for the lede or key observations
+Never editorialize with adjectives; let the reported facts establish the magnitude
 
 ━━━ OUTPUT FORMAT ━━━
 Return JSON:
@@ -216,8 +216,8 @@ Rules for viralSnapshot:
 - Professional but high-impact. No hashtags. No emojis. 
 - Must sound like a professional anchor speaking a 15-second TikTok script.`;
 
-  // Use 8B first for "instant" synthesis in JIT; 70B is reserved for full scheduled passes (if any)
-  const WRITE_MODELS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile'];
+  // Use 70B for "Global Newsroom" quality (proactive); 8B is fallback for JIT speed
+  const WRITE_MODELS = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
   let completion;
   for (const model of WRITE_MODELS) {
     try {

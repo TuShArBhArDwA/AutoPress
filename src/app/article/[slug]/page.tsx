@@ -16,7 +16,19 @@ import {
 import ReadingProgress from "@/components/ReadingProgress";
 import QAPanel from "@/components/QAPanel";
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600; // 1 hour
+
+export async function generateStaticParams() {
+  try {
+    const { ensureArticles } = await import("@/lib/pipeline");
+    const articles = await ensureArticles();
+    return articles.map((article) => ({
+      slug: article.slug,
+    }));
+  } catch {
+    return [];
+  }
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>;

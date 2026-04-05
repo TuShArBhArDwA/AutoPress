@@ -11,7 +11,7 @@ import {
 } from "@/lib/utils";
 import DiscoveryHub from "@/components/DiscoveryHub";
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 600; // 10 minutes
 
 // ─── Velocity Badge ──────────────────────────────────────────────────────────
 function VelocityBadge({ velocity }: { velocity: string }) {
