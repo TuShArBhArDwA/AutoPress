@@ -27,13 +27,6 @@
 
 ---
 
-## 📺 Demo
-
-https://github.com/user-attachments/assets/882f23a5-433a-4fb4-8f54-3923c03800f9 (Replace with your AutoPress demo link)
-
-
----
-
 ## What It Does
 
 **AutoPress** is a fully automated AI-native news surface. It monitors global wire services and performs state-of-the-art synthesis to deliver high-authority reporting without human intervention.
@@ -168,4 +161,4 @@ If you’d like to connect or provide feedback, feel free to reach out — [Clic
 
 ---
 
-**[Try AutoPress](https://github.com/TuShArBhArDwA/AutoPress)** | **[Submit Feedback](https://github.com/TuShArBhArDwA/AutoPress/issues)**
+**[Try AutoPress](https://autoopress.vercel.app/)** | **[Submit Feedback](https://github.com/TuShArBhArDwA/AutoPress/issues)**
