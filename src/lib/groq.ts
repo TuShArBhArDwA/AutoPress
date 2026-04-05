@@ -29,18 +29,22 @@ export async function generateWithRetry<T>(
       return await fn(getGroqClient());
     } catch (error: any) {
       lastError = error;
-      console.warn(`[Groq] Attempt ${attempt + 1} failed:`, error?.message || error);
-
       const isRateLimit =
         error?.status === 429 ||
         error?.message?.toLowerCase().includes('rate limit') ||
         error?.message?.toLowerCase().includes('too many requests');
 
       const isServerError = error?.status >= 500;
+      
+      console.warn(`[Groq] Attempt ${attempt + 1} failed ${isRateLimit ? '(Rate Limit)' : ''}:`, error?.message || error);
 
       if (isRateLimit || isServerError) {
         rotateApiKey();
-        const backoff = Math.min(1000 * Math.pow(2, attempt), 8000);
+        // Exponential backoff + jitter (500ms - 2000ms extra)
+        const jitter = Math.random() * 1500 + 500;
+        const baseBackoff = Math.min(1000 * Math.pow(2, attempt), 10000);
+        const backoff = baseBackoff + jitter;
+        
         await new Promise((r) => setTimeout(r, backoff));
         continue;
       }
@@ -48,7 +52,7 @@ export async function generateWithRetry<T>(
       // For other errors (auth, bad request), still rotate and try
       if (attempt < maxRetries - 1) {
         rotateApiKey();
-        await new Promise((r) => setTimeout(r, 500));
+        await new Promise((r) => setTimeout(r, 1000 + (Math.random() * 1000)));
         continue;
       }
 

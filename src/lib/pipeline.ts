@@ -132,105 +132,72 @@ export async function runPipeline(): Promise<{
       progress: 30,
     };
 
-    const analysisPromises = scored.map(async (item, i) => {
-      try {
-        console.log(`[Pipeline] Parallel Analysis: ${item.article.title.slice(0, 40)}...`);
-        const otherHeadlines = scored
-          .filter((s) => s.article.title !== item.article.title)
-          .slice(0, 3)
-          .map((s) => h(s.article.title, s.article.source.name));
+    const generatedArticles: GeneratedArticle[] = [];
+    const BATCH_SIZE = 2;
 
-        const analysis = await generateWithRetry((client) =>
-          analyzeStory(
-            item.article.title,
-            item.article.description || '',
-            otherHeadlines.map(h => h.title)
-          )
-        );
+    for (let i = 0; i < scored.length; i += BATCH_SIZE) {
+      const batch = scored.slice(i, i + BATCH_SIZE);
+      console.log(`[Pipeline] Processing batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(scored.length / BATCH_SIZE)}`);
+      
+      const batchResults = await Promise.all(batch.map(async (item) => {
+        try {
+          const otherHeadlines = scored
+            .filter((s) => s.article.title !== item.article.title)
+            .slice(0, 3)
+            .map((s) => h(s.article.title, s.article.source.name));
 
-        return {
-          id: generateId(),
-          slug: generateSlug(item.article.title),
-          headline: item.article.title,
-          subheadline: item.article.description || '',
-          isFullReport: false,
-          tags: (analysis as any).tags || [],
-          sourceStories: [
-            { title: item.article.title, source: item.article.source.name, url: item.article.url },
-            ...otherHeadlines.map((h) => ({ ...h, url: '' })),
-          ],
-          generatedAt: new Date().toISOString(),
-          category: detectCategory(item.article),
-          imageUrl: item.article.urlToImage,
-          editorialPriority: analysis.editorialPriority,
-          timeline: analysis.timeline,
-          impact: analysis.impact,
-          confidenceScore: analysis.confidenceScore,
-          trendVelocity: analysis.trendVelocity,
-          angle: analysis.angle,
-          context: analysis.context,
-          stakeholders: analysis.stakeholders,
-          keyQuestions: analysis.keyQuestions,
-          talkingPoints: analysis.talkingPoints,
-        } as GeneratedArticle;
-      } catch (error) {
-        console.error(`[Pipeline] Analysis Failed: ${item.article.title.slice(0, 40)}`, error);
-        return null;
+          const analysis = await generateWithRetry((client) =>
+            analyzeStory(
+              item.article.title,
+              item.article.description || '',
+              otherHeadlines.map(h => h.title)
+            )
+          );
+
+          return {
+            id: generateId(),
+            slug: generateSlug(item.article.title),
+            headline: item.article.title,
+            subheadline: item.article.description || '',
+            isFullReport: false,
+            tags: (analysis as any).tags || [],
+            sourceStories: [
+              { title: item.article.title, source: item.article.source.name, url: item.article.url },
+              ...otherHeadlines.map((h) => ({ ...h, url: '' })),
+            ],
+            generatedAt: new Date().toISOString(),
+            category: detectCategory(item.article),
+            imageUrl: item.article.urlToImage,
+            editorialPriority: analysis.editorialPriority,
+            timeline: analysis.timeline,
+            impact: analysis.impact,
+            confidenceScore: analysis.confidenceScore,
+            trendVelocity: analysis.trendVelocity,
+            angle: analysis.angle,
+            context: analysis.context,
+            stakeholders: analysis.stakeholders,
+            keyQuestions: analysis.keyQuestions,
+            talkingPoints: analysis.talkingPoints,
+          } as GeneratedArticle;
+        } catch (error) {
+          console.error(`[Pipeline] Analysis Failed: ${item.article.title.slice(0, 40)}`, error);
+          return null;
+        }
+      }));
+
+      generatedArticles.push(...batchResults.filter((r): r is GeneratedArticle => r !== null));
+      
+      // Small pause between batches if not the last one to stay safely under TPM limits
+      if (i + BATCH_SIZE < scored.length) {
+        await new Promise(r => setTimeout(r, 1200));
       }
-    });
+    }
 
-    const results = await Promise.all(analysisPromises);
-    const generatedArticles = results.filter((r): r is GeneratedArticle => r !== null);
+    // ─── Phase 2: Synthesis moved to JIT / Background ─────────────────────────
+    // We NO LONGER block on synthesis here to keep pipeline fast.
+    console.log(`[Pipeline] Analysis complete. Synthesis will happen JIT.`);
 
-    // ─── Proactive Synthesis for Top Reports ─────────────────────────────────
-    pipelineStatus = { status: 'generating', message: 'Synthesizing flagship reports...', progress: 60 };
-    
-    // Top 3 stories get full treatment immediately
-    const topStoriesToSynthesize = generatedArticles.slice(0, 3);
-    console.log(`[Pipeline] Proactive Synthesis: ${topStoriesToSynthesize.length} articles`);
-
-    await Promise.all(topStoriesToSynthesize.map(async (article) => {
-      try {
-        const index = generatedArticles.findIndex(a => a.id === article.id);
-        const analysis = {
-          angle: article.angle || '',
-          context: article.context || '',
-          stakeholders: article.stakeholders || [],
-          keyQuestions: article.keyQuestions || [],
-          talkingPoints: article.talkingPoints || [],
-          timeline: article.timeline || [],
-          impact: article.impact || 'national',
-          editorialPriority: article.editorialPriority || 'feature',
-          confidenceScore: article.confidenceScore || 0.7,
-        };
-
-        const topGenerated = await generateWithRetry(() =>
-          generateArticle(
-            article.headline,
-            article.subheadline || '',
-            analysis as any,
-            article.sourceStories.slice(1) as any
-          )
-        );
-
-        generatedArticles[index] = {
-          ...article,
-          isFullReport: true,
-          headline: topGenerated.headline,
-          body: topGenerated.body,
-          keyPoints: topGenerated.keyPoints,
-          readTime: topGenerated.readTime,
-          pullQuote: topGenerated.pullQuote,
-          wordCount: topGenerated.wordCount,
-          viralSnapshot: topGenerated.viralSnapshot,
-          tags: Array.from(new Set([...article.tags, ...(topGenerated.tags || [])])),
-        };
-      } catch (e) {
-        console.error(`[Pipeline] Proactive Synthesis failed for ${article.headline}`, e);
-      }
-    }));
-
-    pipelineStatus = { status: 'generating', message: 'Preparing news digest...', progress: 92 };
+    pipelineStatus = { status: 'generating', message: 'Preparing news digest...', progress: 85 };
 
     let digestItems: DigestItem[] = [];
     try {
@@ -297,16 +264,18 @@ export function getDigest(): DigestItem[] {
 
 export async function ensureArticles(): Promise<GeneratedArticle[]> {
   const cached = readCache();
+  
   if (cached && cached.articles.length > 0) {
-    if (cached.isStale) {
-      console.log('[Pipeline] Refreshing stale pipeline in background...');
-      // Use fire-and-forget for background refresh to keep response fast
-      runPipeline().catch(e => console.error('[Pipeline] Background refresh error:', e));
-    }
+    // If not stale, return immediate
+    if (!cached.isStale) return cached.articles;
+
+    // If stale, return cached but trigger background refresh
+    console.log('[Pipeline] Cache is stale, triggering background refresh...');
+    runPipeline().catch(e => console.error('[Pipeline] Background refresh error:', e));
     return cached.articles;
   }
   
-  console.log('[Pipeline] Cache miss, executing full pipeline...');
+  console.log('[Pipeline] Cache miss, executing blocking pipeline...');
   const { articles } = await runPipeline();
   return articles;
 }
