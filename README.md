@@ -117,8 +117,6 @@ Create a `.env.local` file in the root directory:
 ```bash
 NEWS_API_KEY=your_news_api_key_here
 GROQ_API_KEY=your_primary_groq_key
-GROQ_API_KEY_2=optional_backup_key
-GROQ_API_KEY_3=optional_backup_key
 ```
 
 ### 3. Run Locally
@@ -142,7 +140,6 @@ Visit `http://localhost:3000`
 
 ## Security & Reliability
 
-- **API Rotation**: Automatic multi-key rotation ensures 24/7 uptime even under JAI (Judge) evaluation loads.
 - **Token Efficiency**: Tiered generation (Highlights vs. Full Reports) saves 90% of token budgets.
 - **Isolated Pipeline**: Full architectural separation between data gathering and creative authorship.
 

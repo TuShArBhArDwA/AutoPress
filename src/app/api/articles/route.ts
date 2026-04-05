@@ -1,22 +1,29 @@
 import { NextResponse } from 'next/server';
-import { ensureArticles } from '@/lib/pipeline';
+import { ensureArticles, triggerPipelineBackground, getStoreStatus } from '@/lib/pipeline';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {
+    // ensureArticles is now non-blocking — returns whatever is in store
+    // and fires the pipeline in the background if needed
     const articles = await ensureArticles();
-    
+
+    const status = getStoreStatus();
+
     return NextResponse.json({
       articles,
-      generatedAt: new Date().toISOString(),
       count: articles.length,
+      generatedAt: status.generatedAt,
+      running: status.running,
     });
   } catch (error) {
     console.error('Articles API error:', error);
+    // Ensure pipeline at least starts
+    triggerPipelineBackground();
     return NextResponse.json(
-      { error: 'Failed to fetch articles' },
-      { status: 500 }
+      { articles: [], count: 0, error: 'Failed to fetch articles', running: true },
+      { status: 200 } // Return 200 so client keeps polling
     );
   }
 }

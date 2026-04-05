@@ -97,7 +97,10 @@ export function truncateText(text: string, maxLength: number): string {
 }
 
 export function getBodyParagraphs(body: string): string[] {
-  return body.split('\n\n').filter((p) => p.trim().length > 0);
+  // Some LLMs output literal "\n\n" as string characters instead of actual newlines.
+  // We sanitize them into real newlines, clean up markdown, and split by breaks.
+  const unescaped = body.replace(/\\n/g, '\n');
+  return unescaped.split(/\n+/).filter((p) => p.trim().length > 0);
 }
 
 export function sortArticlesByDate(articles: GeneratedArticle[]): GeneratedArticle[] {
