@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { answerQuestion } from '@/lib/groq';
 import { getArticleBySlug } from '@/lib/pipeline';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   try {
     const { question, slug } = await request.json();

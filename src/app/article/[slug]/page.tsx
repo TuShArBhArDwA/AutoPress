@@ -16,6 +16,8 @@ import {
 import ReadingProgress from "@/components/ReadingProgress";
 import QAPanel from "@/components/QAPanel";
 
+export const dynamic = 'force-dynamic';
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

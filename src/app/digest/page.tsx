@@ -4,6 +4,8 @@ import SafeImage from "@/components/SafeImage";
 import { GeneratedArticle } from "@/types";
 import { getCategoryColor, getReadTimeText, getEditionLabel, formatDate } from "@/lib/utils";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: "Daily Digest | AutoPress",
   description: "Morning briefing: the day's critical stories synthesized by the AutoPress Editorial Engine and verified for accuracy.",

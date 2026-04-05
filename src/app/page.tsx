@@ -11,6 +11,8 @@ import {
 } from "@/lib/utils";
 import DiscoveryHub from "@/components/DiscoveryHub";
 
+export const dynamic = 'force-dynamic';
+
 // ─── Velocity Badge ──────────────────────────────────────────────────────────
 function VelocityBadge({ velocity }: { velocity: string }) {
   const badge = getVelocityBadge(velocity);
