@@ -216,8 +216,8 @@ Rules for viralSnapshot:
 - Professional but high-impact. No hashtags. No emojis. 
 - Must sound like a professional anchor speaking a 15-second TikTok script.`;
 
-  // Try 70B first (better prose quality); fall back to 8B if daily limit is hit
-  const WRITE_MODELS = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
+  // Use 8B first for "instant" synthesis in JIT; 70B is reserved for full scheduled passes (if any)
+  const WRITE_MODELS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile'];
   let completion;
   for (const model of WRITE_MODELS) {
     try {

@@ -9,7 +9,8 @@ const CACHE_DIR = process.env.VERCEL
   ? path.join('/tmp', '.autopress-cache')
   : path.join(process.cwd(), '.cache');
 const CACHE_FILE = path.join(CACHE_DIR, 'articles.json');
-const CACHE_TTL_MS = 30 * 60 * 1000; // 30 minutes
+const CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour TTL
+const CACHE_STALE_MS = 24 * 60 * 60 * 1000; // 24 hour hard limit
 
 function ensureCacheDir() {
   if (!fs.existsSync(CACHE_DIR)) {
@@ -17,19 +18,26 @@ function ensureCacheDir() {
   }
 }
 
-function readCache(): { articles: GeneratedArticle[]; digest: DigestItem[]; timestamp: string } | null {
+function readCache(): { 
+  articles: GeneratedArticle[]; 
+  digest: DigestItem[]; 
+  timestamp: string; 
+  isStale: boolean;
+} | null {
   try {
     ensureCacheDir();
     if (!fs.existsSync(CACHE_FILE)) return null;
     const raw = fs.readFileSync(CACHE_FILE, 'utf-8');
     const data = JSON.parse(raw);
     const age = Date.now() - new Date(data.timestamp).getTime();
-    if (age > CACHE_TTL_MS) {
-      console.log('[Pipeline] Cache expired, will regenerate');
-      return null;
-    }
-    console.log(`[Pipeline] Using cached articles (${data.articles.length} articles, ${Math.round(age / 60000)}m old)`);
-    return data;
+    
+    // If cache is extremely old (hard limit), treat as missing
+    if (age > CACHE_STALE_MS) return null;
+
+    const isStale = age > CACHE_TTL_MS;
+    if (isStale) console.log(`[Pipeline] Cache is stale (${Math.round(age / 60000)}m old)`);
+    
+    return { ...data, isStale };
   } catch {
     return null;
   }
@@ -124,19 +132,9 @@ export async function runPipeline(): Promise<{
       progress: 30,
     };
 
-    const generatedArticles: GeneratedArticle[] = [];
-    let tpdExhausted = false;
-
-    for (let i = 0; i < scored.length; i++) {
-      const item = scored[i];
-      pipelineStatus = {
-        status: 'analyzing',
-        message: `Analyzing trend ${i + 1} of ${scored.length}...`,
-        progress: 30 + Math.round((i / scored.length) * 60),
-      };
-
+    const analysisPromises = scored.map(async (item, i) => {
       try {
-        console.log(`[Pipeline] Discovery Pass: ${item.article.title.slice(0, 60)}...`);
+        console.log(`[Pipeline] Parallel Analysis: ${item.article.title.slice(0, 40)}...`);
         const otherHeadlines = scored
           .filter((s) => s.article.title !== item.article.title)
           .slice(0, 3)
@@ -150,7 +148,7 @@ export async function runPipeline(): Promise<{
           )
         );
 
-        const article: GeneratedArticle = {
+        return {
           id: generateId(),
           slug: generateSlug(item.article.title),
           headline: item.article.title,
@@ -169,19 +167,20 @@ export async function runPipeline(): Promise<{
           impact: analysis.impact,
           confidenceScore: analysis.confidenceScore,
           trendVelocity: analysis.trendVelocity,
-          // Persist synthesis metadata
           angle: analysis.angle,
           context: analysis.context,
           stakeholders: analysis.stakeholders,
           keyQuestions: analysis.keyQuestions,
           talkingPoints: analysis.talkingPoints,
-        };
-
-        generatedArticles.push(article);
+        } as GeneratedArticle;
       } catch (error) {
-        console.error(`[Pipeline] Discovery Failed: ${item.article.title.slice(0, 50)}`, error);
+        console.error(`[Pipeline] Analysis Failed: ${item.article.title.slice(0, 40)}`, error);
+        return null;
       }
-    }
+    });
+
+    const results = await Promise.all(analysisPromises);
+    const generatedArticles = results.filter((r): r is GeneratedArticle => r !== null);
 
     pipelineStatus = { status: 'generating', message: 'Preparing morning briefing...', progress: 92 };
 
@@ -250,7 +249,14 @@ export function getDigest(): DigestItem[] {
 
 export async function ensureArticles(): Promise<GeneratedArticle[]> {
   const cached = readCache();
-  if (cached && cached.articles.length > 0) return cached.articles;
+  if (cached && cached.articles.length > 0) {
+    if (cached.isStale) {
+      console.log('[Pipeline] Stale cache detected, triggering background refresh...');
+      // We don't await this so the user gets the stale data immediately
+      runPipeline().catch(e => console.error('[Pipeline] Background refresh error:', e));
+    }
+    return cached.articles;
+  }
   const { articles } = await runPipeline();
   return articles;
 }
@@ -260,8 +266,12 @@ export async function ensureArticles(): Promise<GeneratedArticle[]> {
  * If the article is just a discovery highlight, it triggers the full 700-word authoring pass.
  */
 export async function ensureFullReport(slug: string): Promise<GeneratedArticle | undefined> {
-  // Ensure articles are loaded (triggers pipeline if cache is missing/expired)
-  await ensureArticles();
+  const initialCache = readCache();
+  
+  // If slug is missing, ensure articles are loaded (triggers refreshing)
+  if (!initialCache || !initialCache.articles.find(a => a.slug === slug)) {
+    await ensureArticles();
+  }
   
   const cached = readCache();
   if (!cached) return undefined;
