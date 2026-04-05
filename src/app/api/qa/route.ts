@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
 
     const answer = await answerQuestion(
       question.trim(),
-      article.body,
+      article.body || article.subheadline || 'No further report content available.',
       article.headline
     );
 

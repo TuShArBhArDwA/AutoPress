@@ -48,7 +48,7 @@ function DigestItem({
             {article.category}
           </span>
           <span className="text-xs" style={{ color: "var(--foreground-dim)", fontFamily: "monospace" }}>
-            {getReadTimeText(article.readTime)}
+            {getReadTimeText(article.readTime || 0)}
           </span>
           {article.impact === "global" && (
             <span className="text-xs" style={{ color: "var(--foreground-dim)" }}>🌐 Global</span>
