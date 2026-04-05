@@ -45,7 +45,7 @@
 ## Premium UI/UX Features
 
 - **Editorial Light (Ink & Cream)**: A premium "Newsprint" aesthetic with high-contrast typography designed for trust and professional readability.
-- **Just-In-Time (JIT) Synthesis**: Performance-optimized pipeline that authors deep reports only when requested, ensuring an instant-load homepage.
+- **Proactive Background Pipeline**: High-performance architecture that authors deep reports asynchronously in the background. The homepage loads instantly with skeletons, polling the pipeline without blocking.
 - **Newsprint Loading Skeletons**: High-fidelity shimmer animations maintain visual interest and visual hierarchy during real-time data discovery.
 - **Discovery Intelligence Hub**: Interactive dashboard for monitoring story velocity and impact across various categories.
 - **Mobile-Authority Design**: Responsive vanilla CSS that guarantees sharp, high-contrast reading layout on every device.
@@ -57,7 +57,7 @@
 | Layer | Technology |
 |---|---|
 | Framework | Next.js 14 (App Router) |
-| Editorial AI | [Groq API](https://groq.com) – `llama-3.3-70b-versatile` |
+| Editorial AI | [Groq API](https://groq.com) – `llama-3.1-8b-instant` (Two-Pass Generation) |
 | News Data | [NewsAPI](https://newsapi.org) – International Wire Service |
 | Persistence | File-based cache (.cache/articles.json) |
 | Styling | Vanilla CSS (Editorial-Light System) |
@@ -70,7 +70,7 @@
 ```
 AutoPress/
 ├── src/app/                 # Next.js App Router (Pages & Routes)
-│   ├── article/[slug]/      # JIT Synthesis detail pages
+│   ├── article/[slug]/      # Client-side article viewer (SWR)
 │   ├── digest/              # Morning briefing portal
 │   └── layout.tsx           # Global branding & SEO metadata
 ├── src/components/          # Reusable UI (Skeletons, Cards, Modals)
@@ -91,7 +91,7 @@ AutoPress/
 | Document | Description |
 |---|---|
 | [High Level Design (HLD)](./docs/HLD.md) | System architecture, pipeline flow, and AI editorial strategy |
-| [Low Level Design (LLD)](./docs/LLD.md) | Groq API rotation logic, JIT synthesis specs, and data schema |
+| [Low Level Design (LLD)](./docs/LLD.md) | Pipeline background worker, Two-pass LLM synthesis logic, and SWR data schema |
 
 ---
 
@@ -132,7 +132,7 @@ Visit `http://localhost:3000`
 ## Editorial Logic
 
 1. **Discovery Pass**: Engine monitors wires for Story Density. Articles exceeding the momentum mean are marked as **Rising**.
-2. **Authorship Pass**: On-demand 70B Model authors 700-word reports using the **Inverted Pyramid** model.
+2. **Authorship Pass**: Two-Pass generation via `llama-3.1-8b-instant` authors 700-word reports. Pass 1 extracts JSON metadata; Pass 2 writes the narrative.
 3. **Verification**: Reports are assessed for factual grounding and source cross-referencing.
 4. **Synthesis**: Final output includes Social briefings, Timelines, and Impact scores.
 

@@ -4,7 +4,7 @@ AutoPress is an AI-native news surface designed for zero-human-intervention repo
 
 ## 1. System Overview
 
-AutoPress operates on a **Pull-Based Editorial Model**. Instead of human editors selecting stories, the system monitors global wire services, scores them for significance, and synthesizes 700+ word reports with verbatim citations.
+AutoPress operates on a **Pull-Based Editorial Model**. The system actively monitors global wire services, and runs a proactive background pipeline to synthesize 700+ word reports, storing them in memory so the frontend surface is entirely disconnected from inference latency.
 
 ## 2. Core Components
 
@@ -17,7 +17,7 @@ AutoPress operates on a **Pull-Based Editorial Model**. Instead of human editors
 - **Significance Scoring**: 8B-parameter Groq models filter the wire for institutional weight and factual density.
 
 ### B. The Synthesis Engine
-- **Report Authoring**: 70B-parameter models (Llama 3.3) synthesize reports using the **Inverted Pyramid** journalistic standard.
+- **Report Authoring**: Utilizes a Two-Pass architecture with Llama 3.1 8B (`llama-3.1-8b-instant`). Pass 1 extracts heavily structured JSON metadata; Pass 2 authors a fluid 700-word markdown report using the **Inverted Pyramid** journalistic standard.
 - **Viral Snapshot (Social Briefing)**: Every report is automatically synthesized into a 3-point high-impact "Social Briefing" optimized for short-form video (TikTok/Reels).
 
 ### C. The Frontend Surface
@@ -29,9 +29,9 @@ AutoPress operates on a **Pull-Based Editorial Model**. Instead of human editors
 2. **Analyze**: Momentum and Significance are calculated.
 3. **Select**: Top indices are sent to the Synthesis Engine.
 4. **Draft**: 700-word reports + social briefs are authored.
-5. **Publish**: Articles are cached locally and rendered visually.
+5. **Publish**: Articles are written to an in-memory datastore and file-based `.cache` for instant client-side retrieval via SWR (Stale-While-Revalidate).
 
 ## 4. Key Integrations
-- **AI Engine**: Groq SDK (Llama 3.1 & 3.3).
+- **AI Engine**: Groq SDK (`llama-3.1-8b-instant`).
 - **Data Source**: NewsAPI (Live Wire).
 - **Frontend**: Next.js 14 (App Router) + Vanilla CSS.

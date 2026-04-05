@@ -9,8 +9,8 @@ The pipeline follows a sequential processing model to maintain stability under d
 ### A. Sequential Flow
 1. **Fetching**: Calls NewsAPI to retrieve Top Headlines for the `us` market.
 2. **Analysis**: Uses the `llama-3.1-8b-instant` model on Groq to evaluate the significance and momentum of each headline.
-3. **Cache Invalidation**: The system checks `articles.json`'s TTL (currently 30 minutes). If expired, the pipeline triggers.
-4. **Resilience**: Implements a `generateWithRetry` wrapper that rotates between multiple Groq API keys and handles exponential backoff.
+3. **Background Execution**: Runs completely asynchronously on `forceRefresh()` triggers, storing partial arrays in-memory to prevent frontend blocks.
+4. **Resilience**: Implements a `generateWithRetry` wrapper to combat Groq rate limits, automatically pacing 429 errors using exponential backoff.
 
 ### B. Discovery Engine
 - **Velocity Scoring**: Each article is assigned a `trendVelocity` (`hot`, `rising`, `steady`, or `outlier`).
@@ -20,9 +20,9 @@ The pipeline follows a sequential processing model to maintain stability under d
 
 The synthesis phase leverages high-parameter models for deep reporting.
 
-### A. Model Hierarchy
-- **Primary**: `llama-3.3-70b-versatile` — Used for the main 700+ word synthesis.
-- **Fallback**: `llama-3.1-8b-instant` — Activated only if the 70B TPD limit is reached.
+### A. Two-Pass Architecture (Llama 3.1 8B)
+- **Pass 1 (JSON Metadata)**: Executes a heavily constrained response_format extraction to pull key Questions, Angles, and Timelines without breaking free-tier limits.
+- **Pass 2 (Narrative)**: Drops JSON constraints and authors a 700-word paragraph-delimited report. Converts raw `\n` to valid arrays on the frontend.
 
 ### B. Input Contextualization
 The synthesis prompt is injected with:
