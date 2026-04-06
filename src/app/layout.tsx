@@ -194,18 +194,6 @@ export default function RootLayout({
               <p className="text-xs" style={{ color: "var(--foreground-dim)", fontFamily: "monospace" }}>
                 © {new Date().getFullYear()} AutoPress.
               </p>
-              <div className="flex items-center gap-2 text-xs font-medium" style={{ color: "var(--foreground-muted)" }}>
-                <span>Made with 💙 by</span>
-                <a 
-                  href="https://minianonlink.vercel.app/tusharbhardwaj" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-blue-500 transition-colors underline underline-offset-4 decoration-blue-500/30"
-                  style={{ color: "var(--foreground)" }}
-                >
-                  Tushar Bhardwaj
-                </a>
-              </div>
               <p className="text-xs" style={{ color: "var(--foreground-dim)" }}>
                 Editorial Standards: Verified Synthesis · Multi-source Grounding
               </p>

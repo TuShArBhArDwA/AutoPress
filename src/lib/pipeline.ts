@@ -10,6 +10,7 @@ const CACHE_DIR = process.env.VERCEL
   : path.join(process.cwd(), '.cache');
 const CACHE_FILE = path.join(CACHE_DIR, 'articles.json');
 const CACHE_TTL_MS = 2 * 60 * 60 * 1000; // 2 hours
+const SEED_CACHE_FILE = path.join(process.cwd(), '.cache', 'articles.json');
 
 // ─── In-Memory Store (fastest — zero I/O for warm instances) ─────────────────
 interface ArticleStore {
@@ -64,6 +65,19 @@ function readFileCache(): ArticleStore | null {
   }
 }
 
+function readSeedCache(): ArticleStore | null {
+  try {
+    if (!fs.existsSync(SEED_CACHE_FILE)) return null;
+    const raw = fs.readFileSync(SEED_CACHE_FILE, 'utf-8');
+    const data = JSON.parse(raw) as ArticleStore;
+    if (!data || !Array.isArray(data.articles)) return null;
+    if (data.articles.length === 0) return null;
+    return data;
+  } catch {
+    return null;
+  }
+}
+
 function writeFileCache(store: ArticleStore): void {
   try {
     if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
@@ -83,6 +97,15 @@ function writeFileCache(store: ArticleStore): void {
   if (cached && cached.articles.length > 0) {
     memStore = cached;
     console.log(`[Pipeline] Warmed from disk: ${cached.articles.length} articles`);
+    return;
+  }
+
+  // On Vercel, cold starts + background work are unreliable. If we shipped a seed
+  // cache with the deployment, use it so the homepage is never empty.
+  const seeded = readSeedCache();
+  if (seeded && seeded.articles.length > 0) {
+    memStore = seeded;
+    console.log(`[Pipeline] Warmed from seed cache: ${seeded.articles.length} articles`);
   }
 })();
 
@@ -255,14 +278,27 @@ export async function ensureArticles(): Promise<GeneratedArticle[]> {
   // Warm but stale — return immediately and refresh in background
   if (memStore && memStore.articles.length > 0 && isCacheStale()) {
     console.log('[Pipeline] Stale store — returning cached, refreshing in background...');
-    triggerPipelineBackground();
+    // Avoid attempting background work on Vercel — serverless may freeze after response.
+    if (!process.env.VERCEL) triggerPipelineBackground();
     return memStore.articles;
   }
-  // Cold — trigger pipeline in background, return empty immediately
-  // Callers handle the empty state with a loading UI
-  console.log('[Pipeline] Cold store — triggering background pipeline, returning empty.');
-  triggerPipelineBackground();
-  return [];
+
+  // Cold — first try a bundled seed cache so we always return something in
+  // serverless environments.
+  const seeded = readSeedCache();
+  if (seeded && seeded.articles.length > 0) {
+    memStore = seeded;
+    return memStore.articles;
+  }
+
+  // Cold with no seed — locally we can spin up the background pipeline; on
+  // Vercel, callers should use /api/refresh (long-running) to populate storage.
+  console.log('[Pipeline] Cold store — no cache available.');
+  if (!process.env.VERCEL) {
+    console.log('[Pipeline] Triggering background pipeline (non-Vercel).');
+    triggerPipelineBackground();
+  }
+  return memStore?.articles || [];
 }
 
 /**
