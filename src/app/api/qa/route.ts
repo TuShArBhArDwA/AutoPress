@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { answerQuestion } from '@/lib/groq';
 import { getArticleBySlug } from '@/lib/pipeline';
+import { readStaticStore } from '@/lib/staticStore';
 
 export const dynamic = 'force-dynamic';
 
@@ -16,7 +17,11 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Article slug is required' }, { status: 400 });
     }
 
-    const article = getArticleBySlug(slug);
+    // Prefer the static daily snapshot store if present (GitHub Actions -> Vercel).
+    const staticStore = readStaticStore();
+    const article =
+      staticStore?.articles?.find((a) => a.slug === slug) ??
+      getArticleBySlug(slug);
     if (!article) {
       return NextResponse.json(
         { error: 'Article not found. It may have expired from the cache.' },
