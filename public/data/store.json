@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-04-06T00:00:00.000Z",
+  "articles": [
+    {
+      "id": "seed_static_store",
+      "slug": "welcome-to-autopress-editorial-engine",
+      "headline": "Welcome to AutoPress: an AI-native editorial engine",
+      "subheadline": "This is a seeded report included so the homepage renders on first deploy. A scheduled GitHub Action can refresh this store daily.",
+      "isFullReport": true,
+      "body": "AutoPress is an AI-native news surface designed around reporting-quality articles, produced via an automated pipeline. To keep deployments reliable on serverless platforms, this publication can be served from a daily snapshot (store.json) generated outside the request path.\n\nOnce you configure the pipeline keys in GitHub Actions, a scheduled job can generate a fresh edition each day and commit it to the repository. Vercel then serves the latest edition instantly for all readers.\n\nThis seed is intentionally transparent: it is a demo safeguard, not live reporting.",
+      "keyPoints": [
+        "A static store snapshot prevents blank pages on deploy.",
+        "Run the pipeline daily in GitHub Actions and commit store.json.",
+        "Vercel renders the snapshot for everyone."
+      ],
+      "readTime": 3,
+      "tags": ["AutoPress", "Demo", "Snapshot"],
+      "sourceStories": [
+        { "title": "AutoPress snapshot store", "source": "AutoPress", "url": "" }
+      ],
+      "generatedAt": "2026-04-06T00:00:00.000Z",
+      "category": "world",
+      "imageUrl": null,
+      "editorialPriority": "analysis",
+      "timeline": [
+        { "date": "2026-04-06", "event": "Seed edition bundled as store.json" }
+      ],
+      "impact": "global",
+      "pullQuote": "A daily snapshot makes serverless publishing reliable.",
+      "confidenceScore": 0.6,
+      "wordCount": 210,
+      "trendVelocity": "steady",
+      "viralSnapshot": [
+        "Static store included",
+        "Daily pipeline runs in GitHub",
+        "Vercel renders snapshot"
+      ],
+      "angle": "Why daily snapshots make serverless reliable.",
+      "context": "Long-running generation pipelines should not run inside user-facing serverless requests.",
+      "stakeholders": ["Readers", "Operators"],
+      "keyQuestions": ["Are GitHub secrets set?", "Is the daily workflow enabled?"],
+      "talkingPoints": ["Snapshot prevents blank state"]
+    }
+  ],
+  "digest": [
+    {
+      "id": "seed_digest_static_store",
+      "headline": "Getting started",
+      "summary": "Set GitHub secrets and enable the daily workflow to generate a new edition.",
+      "category": "world"
+    }
+  ]
+}
+

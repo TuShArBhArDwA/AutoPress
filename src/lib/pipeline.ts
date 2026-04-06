@@ -2,6 +2,8 @@ import { GeneratedArticle, DigestItem } from '@/types';
 import { fetchTopHeadlines, filterSignificantArticles, scoreArticleRelevance } from './newsapi';
 import { synthesizeStory, generateDigest } from './groq';
 import { SEED_STORE } from './seed';
+import { loadRemoteStore, saveRemoteStore } from './remoteStore';
+import { readStaticStore } from './staticStore';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -82,6 +84,11 @@ function writeFileCache(store: ArticleStore): void {
   } catch (e) {
     console.warn('[Pipeline] Failed to write cache:', e);
   }
+}
+
+async function persistStore(store: ArticleStore): Promise<void> {
+  writeFileCache(store);
+  await saveRemoteStore(store);
 }
 
 // ─── Warm in-memory store from file cache on module load ─────────────────────
@@ -185,7 +192,7 @@ export async function runPipeline(): Promise<ArticleStore> {
         digest: memStore?.digest || [],
         generatedAt: new Date().toISOString(),
       };
-      writeFileCache(memStore);
+      await persistStore(memStore);
     } catch (err) {
       console.error(`[Pipeline] Failed story ${i + 1}:`, err);
     }
@@ -222,7 +229,7 @@ export async function runPipeline(): Promise<ArticleStore> {
   };
 
   memStore = finalStore;
-  writeFileCache(finalStore);
+  await persistStore(finalStore);
   console.log(`[Pipeline] Complete. ${finalStore.articles.length} full reports ready.`);
   return finalStore;
 }
@@ -267,6 +274,23 @@ export function triggerPipelineBackground(): void {
  * if store is empty or stale. NEVER blocks the request.
  */
 export async function ensureArticles(): Promise<GeneratedArticle[]> {
+  // First: if a static snapshot exists (GitHub Actions output), use it.
+  // This is the most reliable path for Vercel rendering.
+  const staticStore = readStaticStore();
+  if (staticStore?.articles?.length) {
+    memStore = staticStore;
+    return memStore.articles;
+  }
+
+  // Vercel: first try durable remote store (KV) so everyone sees the same snapshot.
+  if (process.env.VERCEL && (!memStore || memStore.articles.length === 0)) {
+    const remote = await loadRemoteStore();
+    if (remote && remote.articles.length > 0) {
+      memStore = remote;
+      return memStore.articles;
+    }
+  }
+
   // Warm and fresh
   if (memStore && memStore.articles.length > 0 && !isCacheStale()) {
     return memStore.articles;

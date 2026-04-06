@@ -1,10 +1,22 @@
 import { NextResponse } from 'next/server';
 import { ensureArticles, triggerPipelineBackground, getStoreStatus } from '@/lib/pipeline';
+import { readStaticStore } from '@/lib/staticStore';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {
+    const staticStore = readStaticStore();
+    if (staticStore?.articles?.length) {
+      return NextResponse.json({
+        articles: staticStore.articles,
+        count: staticStore.articles.length,
+        generatedAt: staticStore.generatedAt,
+        running: false,
+        source: 'static',
+      });
+    }
+
     // ensureArticles is now non-blocking — returns whatever is in store
     // and fires the pipeline in the background if needed
     const articles = await ensureArticles();
