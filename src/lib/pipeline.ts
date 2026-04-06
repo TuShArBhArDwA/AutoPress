@@ -1,6 +1,7 @@
 import { GeneratedArticle, DigestItem } from '@/types';
 import { fetchTopHeadlines, filterSignificantArticles, scoreArticleRelevance } from './newsapi';
 import { synthesizeStory, generateDigest } from './groq';
+import { SEED_STORE } from './seed';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -10,7 +11,6 @@ const CACHE_DIR = process.env.VERCEL
   : path.join(process.cwd(), '.cache');
 const CACHE_FILE = path.join(CACHE_DIR, 'articles.json');
 const CACHE_TTL_MS = 2 * 60 * 60 * 1000; // 2 hours
-const SEED_CACHE_FILE = path.join(process.cwd(), '.cache', 'articles.json');
 
 // ─── In-Memory Store (fastest — zero I/O for warm instances) ─────────────────
 interface ArticleStore {
@@ -65,17 +65,13 @@ function readFileCache(): ArticleStore | null {
   }
 }
 
-function readSeedCache(): ArticleStore | null {
-  try {
-    if (!fs.existsSync(SEED_CACHE_FILE)) return null;
-    const raw = fs.readFileSync(SEED_CACHE_FILE, 'utf-8');
-    const data = JSON.parse(raw) as ArticleStore;
-    if (!data || !Array.isArray(data.articles)) return null;
-    if (data.articles.length === 0) return null;
-    return data;
-  } catch {
-    return null;
-  }
+function getBundledSeed(): ArticleStore | null {
+  if (!SEED_STORE?.articles?.length) return null;
+  return {
+    articles: SEED_STORE.articles,
+    digest: SEED_STORE.digest || [],
+    generatedAt: SEED_STORE.generatedAt || new Date().toISOString(),
+  };
 }
 
 function writeFileCache(store: ArticleStore): void {
@@ -100,9 +96,9 @@ function writeFileCache(store: ArticleStore): void {
     return;
   }
 
-  // On Vercel, cold starts + background work are unreliable. If we shipped a seed
-  // cache with the deployment, use it so the homepage is never empty.
-  const seeded = readSeedCache();
+  // On Vercel, cold starts + background work are unreliable. Use a bundled seed
+  // store so the homepage is never empty.
+  const seeded = getBundledSeed();
   if (seeded && seeded.articles.length > 0) {
     memStore = seeded;
     console.log(`[Pipeline] Warmed from seed cache: ${seeded.articles.length} articles`);
@@ -283,9 +279,9 @@ export async function ensureArticles(): Promise<GeneratedArticle[]> {
     return memStore.articles;
   }
 
-  // Cold — first try a bundled seed cache so we always return something in
+  // Cold — first try a bundled seed store so we always return something in
   // serverless environments.
-  const seeded = readSeedCache();
+  const seeded = getBundledSeed();
   if (seeded && seeded.articles.length > 0) {
     memStore = seeded;
     return memStore.articles;
