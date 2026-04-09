@@ -198,12 +198,17 @@ export async function runPipeline(): Promise<ArticleStore> {
     }
 
     if (i < scored.length - 1) {
-      await new Promise((r) => setTimeout(r, 3000));
+      console.log(`[Pipeline] Adding 60s buffer before next article to respect rate limits...`);
+      await new Promise((r) => setTimeout(r, 60000));
     }
   }
 
   // Generate digest
   let digestItems: DigestItem[] = [];
+  if (generatedArticles.length > 0) {
+    console.log(`[Pipeline] Adding 60s buffer before final digest to respect rate limits...`);
+    await new Promise((r) => setTimeout(r, 60000));
+  }
   try {
     const digestResult = await generateDigest(
       generatedArticles.map((a) => ({
