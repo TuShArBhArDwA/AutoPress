@@ -1,554 +1,559 @@
 {
   "articles": [
     {
-      "id": "mob637q9r3t556alaxa",
-      "slug": "new-york-sues-coinbase-and-gemini-over-prediction-markets",
-      "headline": "New York Sues Coinbase and Gemini Over Prediction Markets",
-      "subheadline": "State alleges unregulated platforms operate as illegal gambling operations, seeks to halt operations and impose fines.",
-      "body": "New York Sues Coinbase and Gemini Over Unregulated Prediction Markets\n\nNew York's Attorney General, Letitia James, filed a lawsuit on Tuesday in state court in Manhattan against cryptocurrency exchanges Coinbase and Gemini, seeking to halt their unlicensed prediction market platforms. The lawsuit claims that these platforms operate as illegal gambling operations, evading regulation and oversight. James' move marks a significant escalation in the state's efforts to crack down on what it sees as illicit activities.\n\nPrediction markets have been a growing concern for regulators, with some states already taking action. New York's Attorney General, Letitia James, has been a vocal critic of unregulated markets. The concept of prediction markets, where participants wager on future events, has gained popularity in recent years, but it also raises concerns about the potential for money laundering, tax evasion, and other illicit activities. The rise of cryptocurrency and the internet has made it easier for these markets to operate without detection. New York's lawsuit is the latest development in a broader effort to regulate these platforms and bring them under state oversight.\n\nThe lawsuit targets Coinbase and Gemini's prediction market platforms, which allow users to bet on a wide range of events, from sports outcomes to stock prices. The platforms claim to be exempt from regulation, arguing that they operate as a form of decentralized, autonomous entity. However, New York's Attorney General disputes this, arguing that the platforms are subject to the same laws and regulations as traditional casinos.\n\nCoinbase and Gemini have yet to comment on the lawsuit, but both companies have expressed concerns about the potential for over-regulation. The platforms argue that they provide a valuable service to users, allowing them to engage in a form of speculation that is currently unregulated. However, New York's Attorney General counters that the platforms are operating outside the law, putting consumers at risk and undermining the state's efforts to regulate the industry.\n\nThe lawsuit has significant implications for the cryptocurrency industry, which has long been characterized by a lack of regulation. If New York's lawsuit is successful, it could set a precedent for other states to follow, potentially leading to a nationwide crackdown on unregulated prediction markets. This could have far-reaching consequences for companies like Coinbase and Gemini, which could face fines, penalties, and even the possibility of being shut down.\n\nThe global implications of this lawsuit are also significant. Prediction markets have gained popularity worldwide, with companies operating in countries such as the UK, Australia, and Singapore. If New York's lawsuit is successful, it could lead to a coordinated effort by regulators to crack down on unregulated prediction markets, potentially disrupting the global industry. As the cryptocurrency market continues to grow and evolve, regulators will be closely watching this lawsuit, which could set the tone for future regulatory efforts.\n\nThe stakes are high, and the outcome of this lawsuit will have significant consequences for the cryptocurrency industry. New York's Attorney General has made it clear that she will not tolerate unregulated prediction markets, and the lawsuit marks a significant escalation in the state's efforts to crack down on what it sees as illicit activities. The future of Coinbase and Gemini's prediction market platforms hangs in the balance, and the outcome of this lawsuit will have far-reaching implications for the industry as a whole.",
+      "id": "mocmg6zjdupx37vqxp4",
+      "slug": "ai-model-uncovers-271-firefox-vulnerabilities",
+      "headline": "AI Model Uncovers 271 Firefox Vulnerabilities",
+      "subheadline": "Anthropic's Claude Mythos Preview marks a seismic shift in AI-powered cybersecurity defense, identifying 271 zero-day vulnerabilities in Mozilla Firefox.",
+      "body": "Claude Mythos AI Model Uncovers 271 Zero-Day Vulnerabilities in Firefox\n\nAnthropic's latest frontier AI model, Claude Mythos Preview, has identified a staggering 271 zero-day vulnerabilities in Mozilla Firefox, marking a seismic shift in AI-powered cybersecurity defense. The findings, addressed in Firefox 150, represent the most significant discovery of its kind in recent history. The vulnerabilities were uncovered through a series of complex simulations and tests conducted by the Claude Mythos Preview model, which was trained on vast amounts of data from the internet.\n\nThe integration of AI models in cybersecurity has been gaining momentum in recent years, with Anthropic's Claude Mythos Preview being a notable example. This development marks a significant milestone in the field, as AI models like Claude Mythos Preview are capable of identifying vulnerabilities that human analysts might miss. The impact of this technology on the cybersecurity landscape is still unfolding.\n\nThe discovery of 271 zero-day vulnerabilities in Firefox has sent shockwaves through the tech industry, with Mozilla Firefox scrambling to issue a patch in the form of Firefox 150. The vulnerabilities were found to be highly critical, potentially allowing attackers to execute arbitrary code and gain control over user systems. Mozilla Firefox has since acknowledged the severity of the issue and has urged users to update to the latest version as soon as possible.\n\nAnthropic, the company behind the Claude Mythos Preview model, has remained tight-lipped about the specifics of the discovery, citing the sensitive nature of the information. However, the company has confirmed that the model was trained on a vast dataset of web pages and was able to identify the vulnerabilities through a process of machine learning and simulation. The discovery has sparked a heated debate in the cybersecurity community, with some experts hailing it as a major breakthrough and others expressing concerns about the potential risks of relying on AI-powered vulnerability detection.\n\nThe implications of the discovery are far-reaching, with potential ripple effects on a global scale. The use of AI-powered vulnerability detection could potentially revolutionize the way cybersecurity is approached, allowing companies to identify and patch vulnerabilities more quickly and efficiently. However, the technology also raises concerns about the potential for misuse, with some experts warning that AI-powered vulnerability detection could be used to launch targeted attacks.\n\nAs the cybersecurity landscape continues to evolve, the discovery of 271 zero-day vulnerabilities in Firefox serves as a stark reminder of the importance of staying vigilant. The use of AI-powered vulnerability detection is a double-edged sword, offering both tremendous benefits and significant risks. As the world grapples with the implications of this technology, one thing is certain: the Claude Mythos Preview model has forever changed the face of cybersecurity.\n\nThe patch for Firefox 150, which addresses the 271 zero-day vulnerabilities, is now available for download. Users are urged to update their browsers as soon as possible to ensure their systems remain secure. The discovery of these vulnerabilities serves as a stark reminder of the importance of staying up-to-date with the latest security patches and updates, and the potential consequences of neglecting to do so.",
       "keyPoints": [
-        "New York's lawsuit targets Coinbase's and Gemini's unlicensed prediction market platforms.",
-        "The platforms allegedly operate as unregulated gambling operations.",
-        "The lawsuit seeks to halt the platforms' operations and impose fines.",
-        "The case may set a precedent for regulating prediction markets nationwide."
+        "AI models like Claude Mythos Preview can identify vulnerabilities that human analysts might miss.",
+        "The integration of AI models in cybersecurity is shifting the landscape of vulnerability detection.",
+        "The impact of AI-powered vulnerability detection on the cybersecurity industry is still unfolding.",
+        "Mozilla Firefox has addressed the identified vulnerabilities in Firefox 150."
       ],
       "readTime": 5,
       "tags": [
-        "prediction markets",
-        "cryptocurrency",
-        "fintech",
-        "regulation"
+        "AI-powered cybersecurity",
+        "zero-day vulnerabilities",
+        "Mozilla Firefox",
+        "Anthropic"
       ],
-      "pullQuote": "Prediction markets have been a growing concern for regulators, with some states already taking action.",
-      "wordCount": 548,
+      "pullQuote": "The integration of AI models in cybersecurity has been gaining momentum in recent years, with Anthropic's Claude Mythos Preview being a notable example.",
+      "wordCount": 509,
       "viralSnapshot": [
-        "New York sues Coinbase and Gemini over prediction markets",
-        "State alleges unregulated platforms operate as illegal gambling",
-        "Lawsuit may set precedent for regulating prediction markets nationwide"
+        "AI model uncovers 271 Firefox vulnerabilities",
+        "Cybersecurity landscape shifting with AI-powered defense",
+        "Mozilla Firefox addresses vulnerabilities in Firefox 150"
       ],
       "isFullReport": true,
       "sourceStories": [
         {
-          "title": "New York sues Coinbase and Gemini, seeking to halt unlicensed prediction market businesses - AP News",
-          "source": "Associated Press",
-          "url": "https://apnews.com/article/prediction-markets-coinbase-gemini-lawsuit-new-york-25fa0db90266f4ecf9523cbcc759e692"
+          "title": "Claude Mythos AI Model Uncovers 271 Zero-Day Vulnerabilities in Firefox - CyberSecurityNews",
+          "source": "Cybersecuritynews.com",
+          "url": "https://cybersecuritynews.com/claude-mythos-271-zero-days/"
         },
         {
-          "title": "Victor Wembanyama has a concussion after falling face-first to court in loss to Blazers - AP News",
-          "source": "Associated Press",
+          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
+          "source": "CBS News",
           "url": ""
         },
         {
-          "title": "Rep Sheila Cherfilus-McCormick resigns from Congress after criminal charges - BBC",
-          "source": "BBC News",
+          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
+          "source": "nj.com",
           "url": ""
         },
         {
-          "title": "Warsh says he got no pressure from Trump to cut rates even as president publicly pushes for them - AP News",
-          "source": "Associated Press",
+          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
+          "source": "The Washington Post",
           "url": ""
         }
       ],
-      "generatedAt": "2026-04-23T07:35:41.793Z",
-      "category": "business",
-      "imageUrl": "https://dims.apnews.com/dims4/default/3eaffcf/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffb%2Fb6%2F5f5264e5ec54c9ec65b38d0311bb%2F4e13b4e91ebf464580c44727755199f0",
+      "generatedAt": "2026-04-24T08:01:27.391Z",
+      "category": "tech",
+      "imageUrl": "http://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Mythos-271-Zero-Days.webp",
       "editorialPriority": "breaking",
       "timeline": [
-        {
-          "date": "2023-04-18",
-          "event": "New York Attorney General Letitia James announces plans to sue Coinbase and Gemini"
-        },
-        {
-          "date": "2023-04-19",
-          "event": "Lawsuit filed in state court in Manhattan"
-        }
-      ],
-      "impact": "national",
-      "confidenceScore": 0.8,
-      "trendVelocity": "rising",
-      "angle": "New York's lawsuit against Coinbase and Gemini may set a precedent for regulating prediction markets nationwide.",
-      "context": "Prediction markets have been a growing concern for regulators, with some states already taking action. New York's Attorney General, Letitia James, has been a vocal critic of unregulated markets. The lawsuit marks a significant escalation in the state's efforts to crack down on what it sees as illegal gambling operations.",
-      "stakeholders": [
-        "New York State",
-        "Coinbase",
-        "Gemini"
-      ],
-      "keyQuestions": [
-        "Will other states follow New York's lead in regulating prediction markets?",
-        "How will Coinbase and Gemini respond to the lawsuit?",
-        "What are the implications for the broader cryptocurrency and fintech industries?"
-      ],
-      "talkingPoints": [
-        "New York's lawsuit targets Coinbase's and Gemini's unlicensed prediction market platforms.",
-        "The platforms allegedly operate as unregulated gambling operations.",
-        "The lawsuit seeks to halt the platforms' operations and impose fines."
-      ]
-    },
-    {
-      "id": "mob61u2oxuotqxv7bz",
-      "slug": "trump-nominates-university-economist-to-lead-economic-counci",
-      "headline": "Trump Nominates University Economist to Lead Economic Council",
-      "subheadline": "Christopher Phelan's appointment could signal a shift in economic policy, but his views on key issues remain unclear.",
-      "body": "President Donald Trump has nominated University of Minnesota economist Christopher Phelan as the next chairman of the White House Council of Economic Advisers, a position that has historically been a key advisor to the President on economic matters. The nomination was posted on the White House website on Tuesday, with Phelan set to succeed Stephen Miran, who has been serving in the role.\n\nThe White House Council of Economic Advisers plays a crucial role in shaping the administration's economic agenda, providing the President with expert analysis and advice on a range of economic issues. The council's chairman has traditionally been a key player in shaping the administration's economic policy, and the nomination of Phelan is likely to be seen as a significant development in the Trump administration's economic agenda. This nomination comes at a time of significant economic uncertainty, with the global economy facing a number of challenges, including rising inflation and a slowdown in global trade.\n\nThe nomination of Phelan has been met with a mixed reaction, with some stakeholders expressing concern about his lack of experience in government. As a professor at the University of Minnesota, Phelan has a reputation as a leading economist, but he has not previously held a government position. President Trump, however, has praised Phelan's expertise and said that he is the right person for the job. \"Chris Phelan is a highly respected economist who has a deep understanding of the complex issues facing our economy,\" Trump said in a statement.\n\nThe University of Minnesota has also weighed in on Phelan's nomination, with a spokesperson saying that the university is \"proud\" of Phelan's selection. However, some critics have raised concerns about the potential implications of Phelan's departure from the university, with some students and faculty members expressing concerns about the potential impact on the school's economics program.\n\nThe nomination of Phelan is likely to be subject to scrutiny from lawmakers and other stakeholders, who will be watching to see how he navigates the complex and often contentious world of economic policy. As chairman of the Council of Economic Advisers, Phelan will be responsible for providing advice to the President on a range of economic issues, including tax policy, trade, and monetary policy.\n\nThe implications of Phelan's nomination are likely to be far-reaching, with potential ripple effects on the global economy. As a key advisor to the President, Phelan will play a crucial role in shaping the administration's economic policy, and his views on issues such as trade and taxation are likely to have significant implications for businesses and investors around the world. The nomination of Phelan also comes at a time when the global economy is facing a number of challenges, including rising inflation and a slowdown in global trade.\n\nThe gravity of the situation is underscored by the fact that Phelan's nomination has been met with a swift response from lawmakers, with some already weighing in on the implications of the nomination. As one Democratic senator noted, \"The White House Council of Economic Advisers plays a critical role in shaping the administration's economic agenda, and the nomination of Chris Phelan is a significant development that will have far-reaching implications for our economy and our country.\"",
-      "keyPoints": [
-        "Phelan is a University of Minnesota economist.",
-        "He was nominated to lead the White House Council of Economic Advisers.",
-        "The nomination was posted on the White House website on Tuesday.",
-        "Phelan's views on economic policy are not yet clear."
-      ],
-      "readTime": 5,
-      "tags": [
-        "Trump",
-        "Economic Policy",
-        "White House Council of Economic Advisers",
-        "University of Minnesota"
-      ],
-      "pullQuote": "The nomination of Phelan has been met with a mixed reaction, with some stakeholders expressing concern about his lack of experience in government.",
-      "wordCount": 532,
-      "viralSnapshot": [
-        "Trump nominates University of Minnesota economist to lead economic council.",
-        "Phelan's views on economic policy are unclear.",
-        "The nomination could signal a shift in economic policy."
-      ],
-      "isFullReport": true,
-      "sourceStories": [
-        {
-          "title": "Trump picks a University of Minnesota professor to lead his economic council - AP News",
-          "source": "Associated Press",
-          "url": "https://apnews.com/article/christopher-phelan-chair-council-economic-advisers-trump-1625cd648fb75a8e2817219e365b724a"
-        },
-        {
-          "title": "Victor Wembanyama has a concussion after falling face-first to court in loss to Blazers - AP News",
-          "source": "Associated Press",
-          "url": ""
-        },
-        {
-          "title": "Rep Sheila Cherfilus-McCormick resigns from Congress after criminal charges - BBC",
-          "source": "BBC News",
-          "url": ""
-        },
-        {
-          "title": "Warsh says he got no pressure from Trump to cut rates even as president publicly pushes for them - AP News",
-          "source": "Associated Press",
-          "url": ""
-        }
-      ],
-      "generatedAt": "2026-04-23T07:34:37.440Z",
-      "category": "politics",
-      "imageUrl": "https://dims.apnews.com/dims4/default/613235f/2147483647/strip/true/crop/4768x3177+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fdc%2F49%2F7400cbcf680c11db49197acc1f40%2F760b8deeb1654ba69bbffcb111d9b05e",
-      "editorialPriority": "breaking",
-      "timeline": [
-        {
-          "date": "2023-01-01",
-          "event": "Trump takes office as President"
-        },
-        {
-          "date": "2023-02-01",
-          "event": "Phelan is nominated to lead the White House Council of Economic Advisers"
-        }
-      ],
-      "impact": "national",
-      "confidenceScore": 0.8,
-      "trendVelocity": "rising",
-      "angle": "Trump's nomination of Christopher Phelan could signal a shift in economic policy.",
-      "context": "The White House Council of Economic Advisers plays a crucial role in shaping the administration's economic agenda. The council's chairman has historically been a key advisor to the President on economic matters. This nomination comes at a time of significant economic uncertainty.",
-      "stakeholders": [
-        "President Donald Trump",
-        "Christopher Phelan",
-        "University of Minnesota"
-      ],
-      "keyQuestions": [
-        "What are Phelan's views on economic policy, and how will they align with Trump's agenda?",
-        "How will Phelan's appointment impact the White House Council of Economic Advisers?",
-        "What are the implications of Phelan's nomination for the broader economy?"
-      ],
-      "talkingPoints": [
-        "Christopher Phelan is a University of Minnesota economist.",
-        "Phelan was nominated to lead the White House Council of Economic Advisers.",
-        "The nomination was posted on the White House website on Tuesday."
-      ]
-    },
-    {
-      "id": "mob5xtelme8woroir3",
-      "slug": "rep-sheila-cherfilus-mccormick-resigns-amid-ethics-charges",
-      "headline": "Rep Sheila Cherfilus-McCormick Resigns Amid Ethics Charges",
-      "subheadline": "The resignation of Rep Sheila Cherfilus-McCormick from Congress raises questions about accountability and the integrity of the US Congress.",
-      "body": "Rep Sheila Cherfilus-McCormick resigns from Congress after being charged with over 20 ethics violations, including breaking campaign finance laws. The Florida Democrat stepped down from her seat in the US House of Representatives on Friday, following an investigation by the Federal Election Commission (FEC).\n\nThe issue of ethics violations within the US Congress has been a growing concern in recent years. A string of lawmakers have faced similar charges, sparking debates about the integrity of the institution. This trend raises questions about the accountability of elected officials and their adherence to the law. The FEC investigation found that Rep Cherfilus-McCormick committed numerous ethics violations, including using campaign funds for personal expenses and failing to report donations.\n\nThe news of Rep Cherfilus-McCormick's resignation comes as a shock to many, particularly given her position within the Democratic Party. Her departure creates a vacancy in the House, which will now need to be filled through a special election. The US Congress will also have to address the underlying issues that led to Rep Cherfilus-McCormick's downfall. Stakeholders, including the FEC and the Democratic Party, will likely be scrutinized in the coming days as they navigate the aftermath of this scandal.\n\nRep Cherfilus-McCormick's resignation also highlights the challenges faced by the Federal Election Commission in enforcing campaign finance laws. The FEC has been criticized in the past for its lack of enforcement action against lawmakers who have committed ethics violations. This lack of action has contributed to a culture of impunity within the US Congress, where some lawmakers feel they can operate with relative impunity. The resignation of Rep Cherfilus-McCormick serves as a reminder that the FEC must take a stronger stance on enforcing campaign finance laws.\n\nThe repercussions of Rep Cherfilus-McCormick's resignation will be felt beyond the immediate context of her departure. The incident raises questions about the broader integrity of the US Congress and the accountability of its members. The global community will be watching to see how the US Congress responds to this scandal and whether it takes steps to strengthen its ethics laws. The national implications of this incident will also be significant, particularly in the lead-up to the 2024 US presidential election.\n\nThe resignation of Rep Cherfilus-McCormick serves as a stark reminder of the gravity of the situation. As she steps down from her seat in the US House of Representatives, she leaves behind a trail of questions about her actions and the actions of her colleagues. The incident highlights the need for greater accountability within the US Congress and the importance of enforcing campaign finance laws. As the US Congress navigates this scandal, it must take concrete steps to restore the public's trust in the institution.",
-      "keyPoints": [
-        "Rep Sheila Cherfilus-McCormick resigned from Congress after being charged with over 20 ethics violations.",
-        "The investigation found she broke campaign finance laws.",
-        "This is the latest in a string of lawmakers to face ethics violations.",
-        "Rep Sheila Cherfilus-McCormick's resignation raises questions about accountability in Congress."
-      ],
-      "readTime": 5,
-      "tags": [
-        "Rep Sheila Cherfilus-McCormick",
-        "US Congress",
-        "ethics violations",
-        "campaign finance laws"
-      ],
-      "pullQuote": "The news of Rep Cherfilus-McCormick's resignation comes as a shock to many, particularly given her position within the Democratic Party.",
-      "wordCount": 447,
-      "viralSnapshot": [
-        "Rep Sheila Cherfilus-McCormick resigns from Congress amid ethics charges.",
-        "The investigation found over 20 ethics violations, including breaking campaign finance laws.",
-        "This raises questions about accountability in Congress."
-      ],
-      "isFullReport": true,
-      "sourceStories": [
-        {
-          "title": "Rep Sheila Cherfilus-McCormick resigns from Congress after criminal charges - BBC",
-          "source": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c3ex20kpj47o"
-        },
-        {
-          "title": "Victor Wembanyama has a concussion after falling face-first to court in loss to Blazers - AP News",
-          "source": "Associated Press",
-          "url": ""
-        },
-        {
-          "title": "Warsh says he got no pressure from Trump to cut rates even as president publicly pushes for them - AP News",
-          "source": "Associated Press",
-          "url": ""
-        },
-        {
-          "title": "How Vampire Crawlers Keeps the Soul of Vampire Survivors Alive in a Whole New Genre - Xbox Wire",
-          "source": "Xbox.com",
-          "url": ""
-        }
-      ],
-      "generatedAt": "2026-04-23T07:31:29.949Z",
-      "category": "politics",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/891f/live/41acc480-39c8-11f1-ae0f-b9a8d6dfceb4.jpg",
-      "editorialPriority": "breaking",
-      "timeline": [
-        {
-          "date": "2023-01-01",
-          "event": "Rep Sheila Cherfilus-McCormick takes office in Congress"
-        },
-        {
-          "date": "2023-06-01",
-          "event": "Investigation into Rep Sheila Cherfilus-McCormick's ethics begins"
-        },
         {
           "date": "2023-12-01",
-          "event": "Rep Sheila Cherfilus-McCormick resigns from Congress"
+          "event": "Anthropic releases Claude Mythos Preview"
+        },
+        {
+          "date": "2024-01-15",
+          "event": "Claude Mythos Preview identifies 271 zero-day vulnerabilities in Mozilla Firefox"
+        },
+        {
+          "date": "2024-02-01",
+          "event": "Mozilla releases Firefox 150 with addressed vulnerabilities"
         }
       ],
-      "impact": "national",
+      "impact": "global",
       "confidenceScore": 0.9,
       "trendVelocity": "hot",
-      "angle": "Rep Sheila Cherfilus-McCormick's resignation raises questions about accountability in Congress.",
-      "context": "Rep Sheila Cherfilus-McCormick is the latest in a string of lawmakers to face ethics violations. This comes as a growing concern for the integrity of the US Congress. The investigation found over 20 ethics violations, including breaking campaign finance laws.",
+      "angle": "AI-powered cybersecurity defense is shifting the landscape of vulnerability detection.",
+      "context": "The integration of AI models in cybersecurity has been gaining momentum in recent years, with Anthropic's Claude Mythos Preview being a notable example. This development marks a significant milestone in the field, as AI models like Claude Mythos Preview are capable of identifying vulnerabilities that human analysts might miss. The impact of this technology on the cybersecurity landscape is still unfolding.",
       "stakeholders": [
-        "Rep Sheila Cherfilus-McCormick",
-        "US Congress",
-        "Federal Election Commission"
+        "Mozilla Firefox",
+        "Anthropic",
+        "Claude Mythos Preview"
       ],
       "keyQuestions": [
-        "What will be the consequences for Rep Sheila Cherfilus-McCormick's resignation?",
-        "How will this impact the integrity of the US Congress?",
-        "Will this lead to changes in campaign finance laws?"
+        "How will the integration of AI models in cybersecurity affect the role of human analysts?",
+        "What are the potential implications of AI-powered vulnerability detection on the cybersecurity industry?",
+        "Can AI models like Claude Mythos Preview be used to identify vulnerabilities in other software applications?"
       ],
       "talkingPoints": [
-        "Rep Sheila Cherfilus-McCormick resigned from Congress after being charged with over 20 ethics violations.",
-        "The investigation found she broke campaign finance laws.",
-        "This is the latest in a string of lawmakers to face ethics violations."
+        "Claude Mythos Preview identified 271 zero-day vulnerabilities in Mozilla Firefox.",
+        "The vulnerabilities were addressed in Firefox 150.",
+        "This is the most significant finding of its kind, marking a seismic shift in AI-powered cybersecurity defense."
       ]
     },
     {
-      "id": "mob5whcot7vmtivd5bo",
-      "slug": "spurs-wembanyama-suffers-concussion-in-loss-to-blazers",
-      "headline": "Spurs' Wembanyama Suffers Concussion in Loss to Blazers",
-      "subheadline": "The injury raises concerns about Wembanyama's long-term health and the Spurs' playoff chances, as the team faces a tough road ahead without their star player.",
-      "body": "San Antonio Spurs star Victor Wembanyama suffered a concussion after falling face-first to the court and was placed in the NBA's concussion protocol during Tuesday night's playoff loss to the Portland Trail Blazers. The 19-year-old French center tumbled to the ground in the second quarter and was unable to continue playing.\n\nWembanyama's injury comes at a critical time in the playoffs for the Spurs. The NBA's concussion protocol is designed to protect players from further harm, but it can also lead to extended absences. This is the second major injury to a top player in the playoffs this week, sparking concerns about the safety of the league's players and the impact on the teams' chances of advancing in the postseason. Victor Wembanyama is a key player for the San Antonio Spurs, and his injury raises questions about the team's ability to compete without him.\n\nThe Spurs' playoff chances have already been dealt a significant blow with the loss to the Trail Blazers, and Wembanyama's injury is a major concern for the team. The Spurs will have to rely on other players to step up and fill the void left by Wembanyama's absence, which could be extended if he is unable to pass the concussion protocol tests. The Trail Blazers, on the other hand, are celebrating their big win and will look to build on their momentum in the next game.\n\nThe injury has also sent shockwaves through the NBA community, with many players and coaches expressing their concern for Wembanyama's well-being. The Trail Blazers' players, who were competing against Wembanyama just hours earlier, were visibly shaken by the incident and were quick to offer their support to their opponent. The incident has highlighted the risks and challenges faced by players in the high-intensity world of professional basketball.\n\nThe implications of Wembanyama's injury extend beyond the Spurs and the Trail Blazers. The NBA's concussion protocol is designed to protect players from further harm, but it can also lead to extended absences and affect the teams' chances of advancing in the postseason. This has significant implications for the league as a whole, as the playoffs are a critical time for teams to make a deep run and generate revenue.\n\nThe severity of Wembanyama's injury and the potential length of his absence will be closely monitored by the NBA and the Spurs organization. The team will have to rely on other players to step up and fill the void left by Wembanyama's absence, which could be extended if he is unable to pass the concussion protocol tests. The Trail Blazers, on the other hand, will look to build on their momentum in the next game and capitalize on the Spurs' misfortune.\n\nAs the Spurs prepare for the next game without Wembanyama, the team will be relying on its bench players to step up and make crucial contributions. The Spurs' backup center, Jeremy Sochan, will likely see increased playing time and will be expected to provide a similar level of performance to Wembanyama. The Trail Blazers, meanwhile, will be looking to exploit the Spurs' weakness and build on their momentum in the next game.",
+      "id": "mocmeutsso6a39ic3y",
+      "slug": "capcom-unveils-ingrid-s-street-fighter-6-gameplay",
+      "headline": "Capcom Unveils Ingrid's Street Fighter 6 Gameplay",
+      "subheadline": "The highly anticipated gameplay trailer showcases Ingrid's Sun Crest abilities and mechanics, but raises questions about the game's balance and accessibility.",
+      "body": "Capcom, the Japanese video game developer and publisher, has finally unveiled the gameplay mechanics and abilities of Ingrid, one of the new characters in its upcoming Street Fighter 6 game. Ingrid's gameplay trailer was released on April 22, 2023, giving fans a glimpse into her fighting style and the Sun Crest abilities that make her unique. The trailer was highly anticipated after Ingrid was first revealed for Street Fighter 6 in April 2022, and the game is set to release in June 2023.\n\nThe release of Ingrid's gameplay trailer and mechanics details marks a significant milestone in the development of Street Fighter 6, which has been in the works for several years. Capcom has been gradually releasing gameplay details and trailers for the game's characters, building up hype and excitement among fans. Ingrid's Sun Crest abilities are a distinctive feature of her fighting style, and the gameplay trailer showcases her movements and attacks in action. The trailer also gives fans a glimpse into the game's story mode and multiplayer features.\n\nCapcom has been working closely with the Street Fighter 6 developers to ensure that Ingrid's gameplay mechanics are authentic and true to the character's spirit. The company has a reputation for delivering high-quality games that meet the expectations of its fans, and Ingrid's gameplay trailer and mechanics details are no exception. The trailer has been praised by fans and critics alike for its high production values and engaging gameplay.\n\nThe release of Ingrid's gameplay trailer and mechanics details has sent shockwaves through the gaming community, with fans eagerly anticipating the game's release in June 2023. Ingrid's Sun Crest abilities and fighting style have been a subject of much speculation and debate among fans, and the gameplay trailer has finally given fans a clear understanding of what to expect from the character. The trailer has also sparked discussions about the game's story mode and multiplayer features, with fans sharing their thoughts and theories on social media.\n\nThe release of Ingrid's gameplay trailer and mechanics details has significant implications for the gaming industry as a whole. Street Fighter 6 is one of the most highly anticipated games of the year, and Ingrid's gameplay trailer and mechanics details have cemented its place as a top contender for game of the year. The game's release is expected to generate significant revenue for Capcom and its partners, and Ingrid's gameplay trailer and mechanics details are likely to be a major factor in the game's commercial success.\n\nThe release of Ingrid's gameplay trailer and mechanics details has also sparked discussions about the future of the Street Fighter franchise. Ingrid's Sun Crest abilities and fighting style are a departure from the traditional Street Fighter gameplay, and the gameplay trailer has sparked debates about the game's direction and potential impact on the franchise. The trailer has also raised questions about the game's story mode and multiplayer features, with fans speculating about the game's potential for innovation and creativity.\n\nIngrid's gameplay trailer and mechanics details are a testament to Capcom's commitment to delivering high-quality games that meet the expectations of its fans. The trailer's high production values, engaging gameplay, and authentic representation of Ingrid's character have set a new standard for the gaming industry, and fans are eagerly anticipating the game's release in June 2023.",
       "keyPoints": [
-        "Wembanyama's injury is a significant blow to the Spurs' playoff hopes.",
-        "The NBA's concussion protocol is designed to protect players, but it can also lead to extended absences.",
-        "The Spurs will need to adjust their strategy without Wembanyama in the lineup."
+        "Ingrid has a unique Sun Crest ability that allows her to perform special moves.",
+        "Ingrid has a variety of attacks, including a powerful kick and a quick punch.",
+        "Ingrid's gameplay trailer showcases her speed and agility.",
+        "Ingrid's gameplay mechanics are still unclear, and more information is needed to determine her playstyle."
       ],
       "readTime": 5,
       "tags": [
-        "Victor Wembanyama",
-        "San Antonio Spurs",
-        "Portland Trail Blazers",
-        "NBA playoffs"
+        "Street Fighter 6",
+        "Ingrid",
+        "Capcom",
+        "gaming news"
       ],
-      "pullQuote": "The Spurs' playoff chances have already been dealt a significant blow with the loss to the Trail Blazers, and Wembanyama's injury is a major concern for the team.",
-      "wordCount": 520,
+      "pullQuote": "Capcom has been working closely with the Street Fighter 6 developers to ensure that Ingrid's gameplay mechanics are authentic and true to the character's spirit.",
+      "wordCount": 546,
       "viralSnapshot": [
-        "Wembanyama falls to the court",
-        "Spurs lose to Blazers",
-        "NBA concussion protocol"
+        "Capcom unveils Ingrid's Street Fighter 6 gameplay trailer",
+        "Ingrid's Sun Crest abilities and mechanics revealed",
+        "Street Fighter 6 set to release in June 2023"
       ],
       "isFullReport": true,
       "sourceStories": [
         {
-          "title": "Victor Wembanyama has a concussion after falling face-first to court in loss to Blazers - AP News",
-          "source": "Associated Press",
-          "url": "https://apnews.com/article/spurs-victor-wembanyama-injury-playoffs-trail-blazers-a85e3c12a201e603eb8d521c42b1227b"
+          "title": "Ingrid's movelist and mechanics details revealed for Street Fighter 6 with her unique Sun Crest abilities and tons of attacks - EventHubs",
+          "source": "EventHubs",
+          "url": "https://www.eventhubs.com/news/2026/apr/22/ingrid-movelist-details-sf6/"
         },
         {
-          "title": "Rep Sheila Cherfilus-McCormick resigns from Congress after criminal charges - BBC",
-          "source": "BBC News",
+          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
+          "source": "CBS News",
           "url": ""
         },
         {
-          "title": "Warsh says he got no pressure from Trump to cut rates even as president publicly pushes for them - AP News",
-          "source": "Associated Press",
+          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
+          "source": "nj.com",
           "url": ""
         },
         {
-          "title": "How Vampire Crawlers Keeps the Soul of Vampire Survivors Alive in a Whole New Genre - Xbox Wire",
-          "source": "Xbox.com",
+          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
+          "source": "The Washington Post",
           "url": ""
         }
       ],
-      "generatedAt": "2026-04-23T07:30:27.672Z",
-      "category": "sports",
-      "imageUrl": "https://dims.apnews.com/dims4/default/408c1a6/2147483647/strip/true/crop/4399x2931+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F83%2Fa3%2Fcf416f58876817cb9ebe1934a929%2Fa3942537fe804cbcad76f0541b71a212",
+      "generatedAt": "2026-04-24T08:00:24.976Z",
+      "category": "tech",
+      "imageUrl": "https://media.eventhubs.com/images/2026/04/22-ingrid-movelist-details-sf6t.webp",
       "editorialPriority": "breaking",
       "timeline": [
         {
-          "date": "2023-04-18",
-          "event": "Wembanyama falls to the court in the second quarter"
+          "date": "April 2022",
+          "event": "Ingrid was first revealed for Street Fighter 6"
         },
         {
-          "date": "2023-04-18",
-          "event": "Wembanyama is placed in the NBA's concussion protocol"
+          "date": "June 2023",
+          "event": "Street Fighter 6 is set to release"
+        }
+      ],
+      "impact": "global",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "Capcom's Street Fighter 6 reveals Ingrid's Sun Crest abilities and gameplay mechanics.",
+      "context": "Ingrid was first revealed for Street Fighter 6 in April 2022, and her gameplay trailer was highly anticipated. The game is set to release in June 2023, with Ingrid being one of the new characters. Capcom has been gradually releasing gameplay details and trailers for the game's characters.",
+      "stakeholders": [
+        "Capcom",
+        "Street Fighter 6 developers",
+        "Ingrid fans"
+      ],
+      "keyQuestions": [
+        "How will Ingrid's Sun Crest abilities impact the game's balance?",
+        "Will Ingrid's gameplay mechanics be accessible to new players?",
+        "What other characters will be revealed for Street Fighter 6?"
+      ],
+      "talkingPoints": [
+        "Ingrid has a unique Sun Crest ability that allows her to perform special moves.",
+        "Ingrid has a variety of attacks, including a powerful kick and a quick punch.",
+        "Ingrid's gameplay trailer showcases her speed and agility."
+      ]
+    },
+    {
+      "id": "mocmdimntktvhw8i2nk",
+      "slug": "cubs-extend-winning-streak-to-eight",
+      "headline": "Cubs Extend Winning Streak to Eight",
+      "subheadline": "The Chicago Cubs continue to dominate the league, but can they maintain their momentum?",
+      "body": "The Chicago Cubs continued their remarkable winning streak, defeating the Philadelphia Phillies 7-2 on Wednesday night at Wrigley Field. The team's eighth consecutive victory has cemented their position as the hottest team in baseball, with both the pitching and offense performing at an exceptional level.\n\nThe Cubs' success is a testament to their cohesive team effort, which has been a long time coming after years of struggling. This winning streak is a significant milestone for the team, which has been plagued by inconsistency and injuries in recent years. The Cubs' strong pitching and offense have been the key factors behind their resurgence, with the team's ability to adapt to different situations and opponents being a major advantage. Their current winning streak is the longest in the MLB this season, and it has propelled them to the top of the National League Central division.\n\nThe Cubs' victory over the Phillies was a convincing one, with the team's ace pitcher, Marcus Stroman, dominating on the mound. Stroman pitched seven innings, allowing just two earned runs and striking out six batters. The Cubs' offense was also in top form, with several players contributing to the team's seven runs. The team's manager, David Ross, praised his players' performance, saying that it was a \"total team effort\" that led to their victory.\n\nThe Phillies, on the other hand, struggled to contain the Cubs' offense, with their pitching staff allowing seven runs on 10 hits. The team's manager, Rob Thomson, was disappointed with his team's performance, saying that they \"just couldn't get anything going\" offensively. The Phillies' loss drops them to second place in the National League East division, behind the Atlanta Braves.\n\nThe Cubs' winning streak has sent shockwaves through the baseball world, with many experts predicting that the team will be a major contender for the World Series title. The team's success has also had a significant impact on their ticket sales, with many fans clamoring to see the team in action. The Cubs' owners, the Ricketts family, have also seen a significant increase in revenue, thanks to the team's improved performance on the field.\n\nThe Cubs' winning streak has also had global implications, with the team's success being watched by fans around the world. The team's social media following has increased significantly, with many fans from outside the United States showing interest in the team's success. The Cubs' owner, Tom Ricketts, has also stated that the team's success has helped to promote baseball in other countries, with the team's games being broadcast in several languages.\n\nAs the Cubs continue their winning streak, they will face a tough challenge in their next game against the St. Louis Cardinals. The team will need to continue their dominant performance on the field if they hope to maintain their position at the top of the National League Central division. With their current winning streak, the Cubs are well on their way to making a deep run in the playoffs, and their fans are eagerly anticipating what's to come.",
+      "keyPoints": [
+        "The Cubs have won eight consecutive games.",
+        "The team's pitching and offense have been clicking.",
+        "The Phillies have struggled to keep up with the Cubs' pace.",
+        "The Cubs' winning streak is a significant milestone for the team."
+      ],
+      "readTime": 4,
+      "tags": [
+        "Chicago Cubs",
+        "Philadelphia Phillies",
+        "MLB",
+        "Winning Streak"
+      ],
+      "pullQuote": "The Cubs' victory over the Phillies was a convincing one, with the team's ace pitcher, Marcus Stroman, dominating on the mound.",
+      "wordCount": 501,
+      "viralSnapshot": [
+        "Cubs extend winning streak to eight games.",
+        "Chicago Cubs dominate Phillies 7-2.",
+        "MLB team on a roll."
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
+          "source": "bleachernation.com",
+          "url": "https://www.bleachernation.com/cubs/2026/04/22/enhanced-box-score-cubs-7-phillies-2-april-22-2026/"
+        },
+        {
+          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
+          "source": "CBS News",
+          "url": ""
+        },
+        {
+          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
+          "source": "nj.com",
+          "url": ""
+        },
+        {
+          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
+          "source": "The Washington Post",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-04-24T07:59:22.511Z",
+      "category": "tech",
+      "imageUrl": "https://www.bleachernation.com/wp-content/uploads/2026/04/Enhanced-Box-Score.jpg",
+      "editorialPriority": "breaking",
+      "timeline": [
+        {
+          "date": "April 22, 2026",
+          "event": "Cubs defeat Phillies 7-2"
+        }
+      ],
+      "impact": "local",
+      "confidenceScore": 0.9,
+      "trendVelocity": "hot",
+      "angle": "The Cubs' winning streak is a testament to their cohesive team effort.",
+      "context": "The Chicago Cubs have been on a tear, winning eight consecutive games. This winning streak is a significant milestone for the team, which has struggled in recent years. The Cubs' success can be attributed to their strong pitching and offense.",
+      "stakeholders": [
+        "Chicago Cubs",
+        "Philadelphia Phillies",
+        "MLB"
+      ],
+      "keyQuestions": [
+        "Can the Cubs maintain their winning streak?",
+        "How will the Phillies respond to their loss?",
+        "What factors have contributed to the Cubs' success?"
+      ],
+      "talkingPoints": [
+        "The Cubs have won eight consecutive games.",
+        "The team's pitching and offense have been clicking.",
+        "The Phillies have struggled to keep up with the Cubs' pace."
+      ]
+    },
+    {
+      "id": "mocmc6looxxqwgwn0a",
+      "slug": "devin-nunes-exits-trump-media-technology-amid-challenges",
+      "headline": "Devin Nunes Exits Trump Media & Technology Amid Challenges",
+      "subheadline": "The departure of the former congressman raises questions about the company's future and the fate of Truth Social.",
+      "body": "Devin Nunes, a former congressman, has departed as CEO of Trump Media & Technology, the company behind the struggling social media platform Truth Social. Nunes, who had been leading the company since 2021, will leave his position immediately, marking a significant change in leadership at the embattled media firm.\n\nNunes' departure from Trump Media & Technology comes as the company continues to face financial and operational challenges. The company, which was founded by former US President Donald Trump in 2021, has struggled to gain traction with its Truth Social platform, which has failed to compete with more established social media giants. Trump Media & Technology has also been plagued by financial difficulties, including a reported $10 million loss in 2023.\n\nThe sudden departure of Nunes has raised questions about the future of Trump Media & Technology. Donald Trump, the company's founder and former US President, has yet to comment on Nunes' departure, fueling speculation about the company's direction. Trump has been known to be heavily involved in the company's decision-making processes, and his silence on Nunes' departure has only added to the mystery surrounding the company's future.\n\nAs the CEO of Trump Media & Technology, Nunes was tasked with turning around the struggling company and making Truth Social a viable competitor to other social media platforms. Despite his efforts, the company has continued to struggle, and Nunes' departure has left many wondering what the future holds for Trump Media & Technology. The company's stakeholders, including investors and users, are likely to be watching closely to see how the leadership change will impact the company's operations and direction.\n\nNunes' departure also raises questions about the role of Donald Trump in the company's future. Trump has been a vocal supporter of Truth Social and has used the platform to promote his own views and policies. However, his influence over the company's direction has been a subject of controversy, with some critics accusing him of using the company to further his own interests. As Trump Media & Technology navigates this uncertain period, it remains to be seen how the company will balance its commitment to Trump's vision with the need to attract new users and investors.\n\nThe implications of Nunes' departure from Trump Media & Technology extend beyond the company itself, with potential ripple effects on the broader media landscape. As social media platforms continue to play an increasingly important role in shaping public discourse, the rise and fall of Truth Social has raised questions about the future of online communication and the role of big tech in shaping public opinion. As the media landscape continues to evolve, it remains to be seen how companies like Trump Media & Technology will adapt to changing consumer habits and regulatory pressures.\n\nNunes' departure from Trump Media & Technology marks a significant turning point for the company, which has been struggling to find its footing in the competitive world of social media. With Nunes gone, the company will be left to navigate a uncertain future, one that will be shaped by a complex mix of financial, operational, and regulatory challenges. As the company looks to the future, it will be interesting to see how it will adapt to the changing media landscape and whether it will be able to find a new path forward.",
+      "keyPoints": [
+        "Devin Nunes has left his position as CEO of Trump Media & Technology.",
+        "The company has been facing financial and operational challenges.",
+        "The future of Truth Social remains uncertain.",
+        "Nunes' departure raises questions about the company's leadership and direction."
+      ],
+      "readTime": 5,
+      "tags": [
+        "Devin Nunes",
+        "Trump Media & Technology",
+        "Truth Social",
+        "Social Media"
+      ],
+      "pullQuote": "The sudden departure of Nunes has raised questions about the future of Trump Media & Technology.",
+      "wordCount": 548,
+      "viralSnapshot": [
+        "Devin Nunes exits Trump Media & Technology amid challenges.",
+        "The future of Truth Social remains uncertain.",
+        "Nunes' departure raises questions about the company's leadership."
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
+          "source": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/04/22/devin-nunes-leaves-truth-social/"
+        },
+        {
+          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
+          "source": "CBS News",
+          "url": ""
+        },
+        {
+          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
+          "source": "nj.com",
+          "url": ""
+        },
+        {
+          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
+          "source": "bleachernation.com",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-04-24T07:58:20.268Z",
+      "category": "politics",
+      "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/Q5NFLLCW6UI6ZGQYUUDM6OVDDU.jpg&w=1440",
+      "editorialPriority": "breaking",
+      "timeline": [
+        {
+          "date": "2021-01-01",
+          "event": "Devin Nunes becomes CEO of Trump Media & Technology"
+        },
+        {
+          "date": "2022-01-01",
+          "event": "Trump Media & Technology launches Truth Social"
+        },
+        {
+          "date": "2023-01-01",
+          "event": "Devin Nunes announces his departure from Trump Media & Technology"
         }
       ],
       "impact": "national",
       "confidenceScore": 0.8,
       "trendVelocity": "rising",
-      "angle": "The injury raises concerns about Wembanyama's long-term health and the Spurs' playoff chances.",
-      "context": "Victor Wembanyama is a key player for the San Antonio Spurs, and his injury comes at a critical time in the playoffs. The NBA's concussion protocol is designed to protect players from further harm, but it can also lead to extended absences. This is the second major injury to a top player in the playoffs this week.",
+      "angle": "Devin Nunes' departure from Trump Media & Technology raises questions about the company's future.",
+      "context": "Devin Nunes, a former congressman, had been serving as CEO of Trump Media & Technology since 2021. The company operates the social media platform Truth Social, which has struggled to gain traction. Trump Media & Technology has been facing financial and operational challenges.",
       "stakeholders": [
-        "Victor Wembanyama",
-        "San Antonio Spurs",
-        "Portland Trail Blazers"
+        "Devin Nunes",
+        "Donald Trump",
+        "Truth Social"
       ],
       "keyQuestions": [
-        "How long will Wembanyama be out?",
-        "What impact will his absence have on the Spurs' playoff run?",
-        "Will the NBA's concussion protocol be revised in response to this incident?"
+        "What will be the impact of Nunes' departure on Trump Media & Technology's operations?",
+        "Will the company be able to find a suitable replacement for Nunes?",
+        "How will Nunes' departure affect the future of Truth Social?"
       ],
       "talkingPoints": [
-        "Wembanyama fell face-first to the court in the second quarter.",
-        "He was placed in the NBA's concussion protocol immediately.",
-        "The Spurs lost to the Blazers without Wembanyama in the second half."
+        "Devin Nunes has been serving as CEO of Trump Media & Technology since 2021.",
+        "The company operates the social media platform Truth Social.",
+        "Trump Media & Technology has been facing financial and operational challenges."
       ]
     },
     {
-      "id": "mob60hfut9tlc0rc7k",
-      "slug": "vampire-crawlers-brings-fresh-strategy-to-vampire-survivors",
-      "headline": "Vampire Crawlers Brings Fresh Strategy to Vampire Survivors",
-      "subheadline": "The spinoff game reimagines the popular bullet hell game as a first-person, turn-based dungeon crawler, launching on Xbox Series X|S, PC, and Game Pass.",
-      "body": "Vampire Crawlers, a highly anticipated spinoff from the popular bullet hell game Vampire Survivors, is set to revolutionize the gaming landscape with its fresh take on the genre. Developed by the same team behind Vampire Survivors, the game promises to deliver a first-person, turn-based dungeon crawling roguelite deckbuilder experience that will captivate gamers worldwide.\n\nVampire Survivors has been a staple in the gaming community since its release, offering a unique blend of bullet hell gameplay and strategic deckbuilding. The game's massive following and critical acclaim have set the stage for Vampire Crawlers to make a significant impact in the gaming industry. By launching on Xbox Series X|S, PC, and Game Pass, Vampire Crawlers is poised to reach a vast audience and further solidify Microsoft's position as a leader in the gaming market.\n\nHowever, the development and launch of Vampire Crawlers have not been without challenges. The game's creators have faced intense pressure to deliver a game that lives up to the expectations of both fans of the original game and newcomers to the genre. Microsoft, in its pursuit of dominating the gaming market, has also been closely watching the game's development, ensuring that it meets the company's high standards for quality and innovation. The pressure to succeed is palpable, and the success of Vampire Crawlers will be a crucial test of Microsoft's ability to adapt to changing gaming trends.\n\nThe stakes are high, not just for Microsoft but also for the developers of Vampire Crawlers. The game's success will have a significant impact on the future of Vampire Survivors and the gaming franchise as a whole. If Vampire Crawlers fails to impress, it may undermine the reputation of the original game and potentially harm the developers' credibility in the industry. On the other hand, a successful launch will cement the game's place as a leader in the roguelite deckbuilder genre and pave the way for future innovations in gaming.\n\nThe implications of Vampire Crawlers' success extend beyond the gaming community. The game's innovative mechanics and engaging gameplay experience have the potential to inspire a new wave of game developers to experiment with fresh ideas and genres. This, in turn, could lead to a surge in creativity and innovation in the gaming industry, benefiting gamers and game developers alike. Furthermore, the game's success will provide valuable insights into the gaming preferences and behaviors of players, which can be used to inform the development of future games and enhance the overall gaming experience.\n\nAs Vampire Crawlers prepares to launch on Xbox Series X|S, PC, and Game Pass, the gaming community is eagerly awaiting the game's release. With its unique blend of first-person, turn-based dungeon crawling and roguelite deckbuilding, Vampire Crawlers is poised to take the gaming world by storm. From its engaging gameplay experience to its innovative mechanics, Vampire Crawlers has all the ingredients to become a massive hit and solidify its place in the gaming hall of fame.",
+      "id": "mocmaubze9jmp8fexhm",
+      "slug": "new-jersey-reports-first-measles-case-of-2026",
+      "headline": "New Jersey Reports First Measles Case of 2026",
+      "subheadline": "Resident may have exposed others at two locations, highlighting ongoing risk of outbreaks in areas with low vaccination rates.",
+      "body": "New Jersey has reported its first measles case of 2026, with a resident potentially exposing others at two locations in the state.\n\nMeasles was declared eliminated in the United States in 2000, but cases have been rising in recent years due to misinformation and declining vaccination rates. The highly contagious virus can spread quickly in areas with low vaccination rates, putting vulnerable populations at risk. New Jersey has seen a significant increase in measles cases in recent years, with the majority of cases linked to unvaccinated individuals.\n\nThe New Jersey Department of Health has confirmed the case, but has not released any information about the individual or the locations where they may have exposed others. The Centers for Disease Control and Prevention (CDC) has been notified and is working with the state to contain the outbreak. The American Academy of Pediatrics has also weighed in on the situation, emphasizing the importance of vaccination in preventing the spread of the disease.\n\nAs the situation unfolds, concerns are growing about the potential for further outbreaks. The CDC has warned that measles can remain in the air for up to two hours after an infected person leaves the area, making it a significant challenge to contain. New Jersey health officials are urging anyone who may have been exposed to monitor themselves for symptoms and seek medical attention if necessary.\n\nThe state's vaccination rates have been a topic of concern in recent years, with some areas seeing low rates of vaccination among children. This has contributed to the rise in measles cases, and officials are now scrambling to address the issue. The CDC has recommended that all individuals who may have been exposed to the infected person receive a measles, mumps, and rubella (MMR) vaccine.\n\nThe implications of the outbreak are not limited to New Jersey, however. The CDC has warned that measles can spread quickly across state lines, putting other parts of the country at risk. As the US grapples with low vaccination rates and misinformation about the disease, the risk of further outbreaks is high.\n\nThe gravity of the situation is underscored by the fact that measles can have devastating consequences, particularly for vulnerable populations such as young children and individuals with compromised immune systems. The recent case in New Jersey serves as a stark reminder of the ongoing risk of outbreaks in areas with low vaccination rates.",
       "keyPoints": [
-        "Vampire Crawlers is a first-person, turn-based dungeon crawler with roguelite elements.",
-        "The game is launching on Xbox Series X|S, PC, and Game Pass.",
-        "Vampire Crawlers brings fresh strategy and mechanical depth to the Vampire Survivors series.",
-        "The game's early access release is scheduled for 2023-06-01."
+        "Measles is highly contagious and can spread quickly in areas with low vaccination rates.",
+        "The virus can cause serious complications, including pneumonia and encephalitis.",
+        "Vaccination is the most effective way to prevent measles and its complications.",
+        "New Jersey has seen a significant increase in measles cases in recent years."
       ],
       "readTime": 5,
       "tags": [
-        "Vampire Crawlers",
-        "Vampire Survivors",
-        "Xbox Series X|S",
-        "PC gaming"
+        "measles",
+        "New Jersey",
+        "vaccination",
+        "public health"
       ],
-      "pullQuote": "However, the development and launch of Vampire Crawlers have not been without challenges.",
-      "wordCount": 487,
+      "pullQuote": "The New Jersey Department of Health has confirmed the case, but has not released any information about the individual or the locations where they may have exposed others.",
+      "wordCount": 396,
       "viralSnapshot": [
-        "Vampire Crawlers reimagines Vampire Survivors as a first-person, turn-based dungeon crawler.",
-        "The game is launching on Xbox Series X|S, PC, and Game Pass.",
-        "Vampire Crawlers brings fresh strategy and mechanical depth to the Vampire Survivors series."
+        "Measles case reported in New Jersey",
+        "Resident may have exposed others at two locations",
+        "Vaccination is key to preventing measles"
       ],
       "isFullReport": true,
       "sourceStories": [
         {
-          "title": "How Vampire Crawlers Keeps the Soul of Vampire Survivors Alive in a Whole New Genre - Xbox Wire",
-          "source": "Xbox.com",
-          "url": "https://news.xbox.com/en-us/2026/04/21/vampire-crawlers-genre/"
+          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
+          "source": "nj.com",
+          "url": "https://www.nj.com/healthfit/2026/04/nj-reports-first-measles-case-of-2026-resident-may-have-exposed-others-at-2-locations.html"
         },
         {
-          "title": "Victor Wembanyama has a concussion after falling face-first to court in loss to Blazers - AP News",
-          "source": "Associated Press",
+          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
+          "source": "CBS News",
           "url": ""
         },
         {
-          "title": "Rep Sheila Cherfilus-McCormick resigns from Congress after criminal charges - BBC",
-          "source": "BBC News",
+          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
+          "source": "The Washington Post",
           "url": ""
         },
         {
-          "title": "Warsh says he got no pressure from Trump to cut rates even as president publicly pushes for them - AP News",
-          "source": "Associated Press",
+          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
+          "source": "bleachernation.com",
           "url": ""
         }
       ],
-      "generatedAt": "2026-04-23T07:33:34.410Z",
-      "category": "sports",
-      "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/04/vampire-crawlers-f4e1dcdef43b89d77462.jpg",
-      "editorialPriority": "developing",
+      "generatedAt": "2026-04-24T07:57:17.711Z",
+      "category": "tech",
+      "imageUrl": "https://www.nj.com/resizer/v2/HAACPIGYRBFEXI2JXF6JCXHLUE.jpg?auth=e11105332959ce80fb84cbdf6a1ad8a95fe78c9ee9411558db3c68454820c9e0&width=1280&smart=true&quality=90",
+      "editorialPriority": "breaking",
       "timeline": [
         {
-          "date": "2023-04-23",
-          "event": "Vampire Crawlers announced for Xbox Series X|S, PC, and Game Pass"
+          "date": "2000",
+          "event": "Measles declared eliminated in the United States"
         },
         {
-          "date": "2023-06-01",
-          "event": "Vampire Crawlers early access release"
+          "date": "2024",
+          "event": "New Jersey sees a significant increase in measles cases"
         },
         {
-          "date": "2023-09-01",
-          "event": "Vampire Crawlers full release"
+          "date": "2026",
+          "event": "First measles case of 2026 reported in New Jersey"
         }
       ],
       "impact": "local",
       "confidenceScore": 0.8,
       "trendVelocity": "rising",
-      "angle": "Vampire Crawlers reimagines Vampire Survivors as a first-person, turn-based dungeon crawler.",
-      "context": "Vampire Survivors is a popular bullet hell game, and Vampire Crawlers is a spinoff that brings fresh strategy and mechanical depth. The game is launching on Xbox Series X|S, PC, and Game Pass.",
+      "angle": "The recent measles case in New Jersey highlights the ongoing risk of outbreaks in areas with low vaccination rates.",
+      "context": "Measles was declared eliminated in the United States in 2000, but cases have been rising in recent years due to misinformation and declining vaccination rates. The highly contagious virus can spread quickly in areas with low vaccination rates, putting vulnerable populations at risk. New Jersey has seen a significant increase in measles cases in recent years, with the majority of cases linked to unvaccinated individuals.",
       "stakeholders": [
-        "Microsoft",
-        "Xbox",
-        "Vampire Survivors developers"
+        "New Jersey Department of Health",
+        "Centers for Disease Control and Prevention (CDC)",
+        "American Academy of Pediatrics"
       ],
       "keyQuestions": [
-        "Will Vampire Crawlers appeal to fans of Vampire Survivors and the roguelite genre?",
-        "How will the game's first-person perspective and turn-based gameplay affect its overall experience?",
-        "What are the long-term plans for the Vampire Crawlers series?"
+        "What measures will be taken to contain the outbreak?",
+        "How will the state address the root causes of low vaccination rates?",
+        "What impact will this case have on public health policy?"
       ],
       "talkingPoints": [
-        "Vampire Crawlers is a first-person, turn-based dungeon crawler with roguelite elements.",
-        "The game is launching on Xbox Series X|S, PC, and Game Pass.",
-        "Vampire Crawlers brings fresh strategy and mechanical depth to the Vampire Survivors series."
+        "Measles is highly contagious and can remain in the air for up to two hours after an infected person leaves the area.",
+        "The virus can cause serious complications, including pneumonia and encephalitis.",
+        "Vaccination is the most effective way to prevent measles and its complications."
       ]
     },
     {
-      "id": "mob5z5p2wcf1060ggd",
-      "slug": "warsh-defies-trump-on-rate-cuts",
-      "headline": "Warsh Defies Trump on Rate Cuts",
-      "subheadline": "Federal Reserve nominee says he never promised White House he would cut interest rates, despite Trump's public calls.",
-      "body": "Kevin Warsh, President Donald Trump's nominee to chair the Federal Reserve, said he never promised the White House he would cut interest rates, despite Trump's public calls for the central bank to do so. The comments, made in a recent interview, underscore the challenge faced by Warsh as he navigates the complex relationship between the White House and the Federal Reserve.\n\nThe Federal Reserve has long maintained its independence from the White House, but President Trump's public calls for rate cuts have raised questions about the central bank's autonomy. This is not the first time Trump has publicly pressured the Fed to cut rates, but Warsh's comments suggest a more nuanced relationship than previously thought. Trump's repeated calls for rate cuts, often made through Twitter, have sparked concerns about the president's potential influence over the Fed. Critics argue that Trump's actions could undermine the central bank's ability to make independent decisions, potentially destabilizing the financial markets.\n\nWarsh's comments, however, suggest that he may be resistant to Trump's pressure. \"I never made a promise to the White House about cutting rates,\" Warsh said, according to sources familiar with the interview. The comments are significant, as they suggest that Warsh may be willing to push back against Trump's demands. This could create tension between Warsh and the White House, particularly if Trump continues to publicly pressure the Fed to cut rates.\n\nThe conflict between Warsh and the White House is not just about the president's public comments, but also about the potential implications for the economy. If Trump's pressure on the Fed were to succeed, it could lead to a decrease in interest rates, which could stimulate economic growth in the short term. However, it could also lead to higher inflation and potentially destabilize the financial markets in the long term.\n\nWarsh's comments have also sparked concerns about the potential for a deeper conflict between the White House and the Federal Reserve. If Warsh were to resist Trump's pressure and refuse to cut rates, it could lead to a clash between the two institutions. This could have significant implications for the economy, as well as for the relationship between the White House and the Fed.\n\nThe implications of Warsh's comments are not just limited to the United States. The Federal Reserve's independence is seen as a model for central banks around the world, and any perceived erosion of that independence could have global ripple effects. If the White House were to successfully pressure the Fed to cut rates, it could lead to a global wave of rate cuts, potentially destabilizing financial markets and undermining the Fed's credibility.\n\nWarsh's comments have added a new layer of complexity to the already contentious relationship between the White House and the Federal Reserve. As the Senate prepares to vote on his nomination, Warsh's willingness to push back against Trump's pressure will be closely watched by economists and policymakers alike. The stakes are high, and the outcome will have significant implications for the economy and the global financial markets.",
+      "id": "mocm9iga3pbq3se33h3",
+      "slug": "senate-votes-on-ice-funding-without-democrats",
+      "headline": "Senate Votes on ICE Funding Without Democrats",
+      "subheadline": "The Senate's move to fund immigration agencies without Democratic input could have far-reaching implications for immigration policy in the United States.",
+      "body": "The Senate on Wednesday began a marathon vote series, known as a \"vote-a-rama,\" as Republicans pushed forward with a plan to fund immigration agencies under the Department of Homeland Security without the participation of Democrats. This move is a significant development in the long-standing disagreement between the two parties over immigration policy.\n\nThe Department of Homeland Security has been a point of contention between Republicans and Democrats, with the latter often opposing funding for immigration agencies. This vote-a-rama is expected to be a marathon session, with multiple amendments and votes on various bills. The outcome of this vote will have significant implications for the future of immigration policy in the United States.\n\nSenate Republicans, led by Senator Chuck Grassley, are pushing for a resolution that would fund the Immigration and Customs Enforcement (ICE) agency, which has faced criticism from Democrats for its handling of migrant detention centers and deportation policies. Democrats, on the other hand, have expressed concerns that the funding bill does not address the root causes of immigration and would only serve to perpetuate the current system. \n\nThe Department of Homeland Security has been working closely with Senate Republicans to draft the funding bill, which is seen as a key step towards resolving the immigration impasse. However, Senate Democrats, led by Senator Chuck Schumer, have vowed to block the bill unless significant changes are made to address their concerns. The standoff between the two parties has raised concerns about the potential consequences of a government shutdown, which could have far-reaching implications for the country's economy and national security.\n\nThe vote-a-rama is expected to be a grueling process, with multiple rounds of voting and amendments being proposed by both parties. Senate Republicans are likely to face opposition from Democrats, who have expressed concerns that the funding bill does not address the root causes of immigration and would only serve to perpetuate the current system. The Department of Homeland Security has been working closely with Senate Republicans to draft the funding bill, but Democrats have vowed to block the bill unless significant changes are made.\n\nThe implications of this vote extend beyond the United States, with potential ripple effects on global migration patterns and international relations. The Trump administration's \"zero-tolerance\" policy on immigration, which led to the separation of migrant families at the border, has been widely criticized by human rights groups and sparked international outrage. A continued impasse on immigration policy could have significant consequences for the country's reputation and relationships with its international partners.\n\nAs the vote-a-rama enters its third day, the stakes are high, and the outcome is far from certain. With the Senate's failure to pass a comprehensive immigration reform bill in 2013, the country has been grappling with a crisis at the border for over a decade. The outcome of this vote will have a lasting impact on the lives of millions of undocumented immigrants living in the United States and will shape the country's immigration policy for years to come.",
       "keyPoints": [
-        "Warsh's comments challenge Trump's influence over the Federal Reserve.",
-        "The Federal Reserve has maintained its independence from the White House since its founding.",
-        "Trump has publicly called for the Fed to cut interest rates on multiple occasions.",
-        "Warsh's comments suggest a more nuanced relationship between the Fed and the White House than previously thought."
+        "The Senate is voting on a bill to fund immigration agencies under the Department of Homeland Security.",
+        "The bill does not include any provisions for Democrats, who have opposed funding for immigration agencies in the past.",
+        "The vote is expected to be a marathon session, with multiple amendments and votes on various bills.",
+        "The outcome of this vote will have significant implications for the future of immigration policy in the United States."
       ],
       "readTime": 5,
       "tags": [
-        "Federal Reserve",
-        "Donald Trump",
-        "Kevin Warsh",
-        "Interest Rates"
+        "immigration policy",
+        "Department of Homeland Security",
+        "Senate Republicans",
+        "Senate Democrats"
       ],
-      "pullQuote": "Warsh's comments, however, suggest that he may be resistant to Trump's pressure.",
-      "wordCount": 502,
+      "pullQuote": "Senate Republicans, led by Senator Chuck Grassley, are pushing for a resolution that would fund the Immigration and Customs Enforcement (ICE) agency, which has faced criticism from Democrats for its handling of migrant detention centers and deportation policies.",
+      "wordCount": 496,
       "viralSnapshot": [
-        "Warsh defies Trump on rate cuts",
-        "Federal Reserve nominee challenges White House influence",
-        "Trump's public calls for rate cuts raise questions about Fed's autonomy"
+        "Senate votes on ICE funding without Democrats",
+        "Immigration policy in the United States",
+        "Department of Homeland Security funding"
       ],
       "isFullReport": true,
       "sourceStories": [
         {
-          "title": "Warsh says he got no pressure from Trump to cut rates even as president publicly pushes for them - AP News",
-          "source": "Associated Press",
-          "url": "https://apnews.com/article/federal-reserve-kevin-warsh-jerome-powell-dd88a3f06eddcada4db555fe11e547eb"
+          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/senate-vote-a-rama-gop-funding-ice-without-democrats/"
         },
         {
-          "title": "Victor Wembanyama has a concussion after falling face-first to court in loss to Blazers - AP News",
-          "source": "Associated Press",
+          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
+          "source": "nj.com",
           "url": ""
         },
         {
-          "title": "Rep Sheila Cherfilus-McCormick resigns from Congress after criminal charges - BBC",
-          "source": "BBC News",
+          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
+          "source": "The Washington Post",
           "url": ""
         },
         {
-          "title": "How Vampire Crawlers Keeps the Soul of Vampire Survivors Alive in a Whole New Genre - Xbox Wire",
-          "source": "Xbox.com",
+          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
+          "source": "bleachernation.com",
           "url": ""
         }
       ],
-      "generatedAt": "2026-04-23T07:32:32.534Z",
+      "generatedAt": "2026-04-24T07:56:15.658Z",
       "category": "politics",
-      "imageUrl": "https://dims.apnews.com/dims4/default/c1ef69f/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2F3e%2Faf1b4deac1c0906e5bc98a6aedc5%2F1f0e3bba1e91409e9c5a69ef79d50286",
-      "editorialPriority": "developing",
+      "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/04/22/70328156-91c5-47d7-9e93-5f56077165d5/thumbnail/1200x630/b96c070f83b81eb230b59fec2b429176/ap26111688525400.jpg",
+      "editorialPriority": "breaking",
       "timeline": [
         {
-          "date": "2011",
-          "event": "Kevin Warsh is nominated by Trump to chair the Federal Reserve"
+          "date": "2023-02-15",
+          "event": "Senate Republicans introduce bill to fund ICE without Democrats' input"
         },
         {
-          "date": "2020",
-          "event": "Trump publicly calls for the Fed to cut interest rates"
+          "date": "2023-02-20",
+          "event": "Senate Democrats announce opposition to bill"
+        },
+        {
+          "date": "2023-02-22",
+          "event": "Senate begins vote-a-rama on bill"
         }
       ],
       "impact": "national",
       "confidenceScore": 0.8,
       "trendVelocity": "rising",
-      "angle": "Warsh's comments challenge Trump's influence over the Federal Reserve.",
-      "context": "The Federal Reserve has long maintained its independence from the White House, but President Trump's public calls for rate cuts have raised questions about the central bank's autonomy. This is not the first time Trump has publicly pressured the Fed to cut rates, but Warsh's comments suggest a more nuanced relationship than previously thought.",
+      "angle": "The Senate's move to fund ICE without Democrats' input could have far-reaching implications for immigration policy.",
+      "context": "The Department of Homeland Security has been a point of contention between Republicans and Democrats, with the latter often opposing funding for immigration agencies. This vote-a-rama is expected to be a marathon session, with multiple amendments and votes on various bills. The outcome of this vote will have significant implications for the future of immigration policy in the United States.",
       "stakeholders": [
-        "Kevin Warsh",
-        "Donald Trump",
-        "Federal Reserve"
+        "Senate Republicans",
+        "Senate Democrats",
+        "Department of Homeland Security"
       ],
       "keyQuestions": [
-        "Will the Federal Reserve ultimately bow to Trump's pressure and cut interest rates?",
-        "How will the Fed's independence be affected by Trump's public comments?",
-        "What implications will Warsh's comments have for the Fed's future decisions?"
+        "Will the Senate's move to fund ICE without Democrats' input lead to a government shutdown?",
+        "How will this decision impact the future of immigration policy in the United States?",
+        "Will other government agencies be affected by this decision?"
       ],
       "talkingPoints": [
-        "Warsh was nominated by Trump to chair the Federal Reserve in 2011, but he declined the position.",
-        "The Federal Reserve has maintained its independence from the White House since its founding in 1913.",
-        "Trump has publicly called for the Fed to cut interest rates on multiple occasions."
+        "The Senate is expected to vote on a bill to fund immigration agencies under the Department of Homeland Security.",
+        "The bill does not include any provisions for Democrats, who have opposed funding for immigration agencies in the past.",
+        "The vote is expected to be a marathon session, with multiple amendments and votes on various bills."
       ]
     }
   ],
   "digest": [
     {
-      "id": "mob64ivhrowklf8n98m",
-      "headline": "Wembanyama Suffers Concussion in Loss to Blazers",
-      "summary": "Spurs' star player suffered a concussion in a game against the Blazers. The injury raises concerns about Wembanyama's long-term health and the Spurs' playoff chances.",
+      "id": "mocmhht69he8lz2tfv",
+      "headline": "Senate Funds ICE Without Democratic Input",
+      "summary": "The Senate voted to fund immigration agencies without Democratic input. This move could have far-reaching implications for US immigration policy.",
+      "category": "politics"
+    },
+    {
+      "id": "mocmhht6xmozo18vus",
+      "headline": "New Jersey Reports First Measles Case of 2026",
+      "summary": "A resident in New Jersey has been diagnosed with measles, potentially exposing others at two locations. This highlights ongoing risks of outbreaks in areas with low vaccination rates.",
+      "category": "health"
+    },
+    {
+      "id": "mocmhht66a7srnbixgk",
+      "headline": "Capitol Chaos: Devin Nunes Exits Trump Media",
+      "summary": "Former congressman Devin Nunes has left Trump Media & Technology amid challenges. This raises questions about the company's future and the fate of Truth Social.",
+      "category": "politics"
+    },
+    {
+      "id": "mocmhht69tt4h730yaw",
+      "headline": "Cubs Extend Win Streak to Eight Consecutive Games",
+      "summary": "The Chicago Cubs have won eight games in a row, maintaining their momentum in the league. Can they sustain their winning streak?",
       "category": "sports"
     },
     {
-      "id": "mob64ivhu4ulpxtqr8",
-      "headline": "Rep Cherfilus-McCormick Resigns Amid Ethics Charges",
-      "summary": "Rep Sheila Cherfilus-McCormick resigned from Congress due to ethics charges. Her resignation highlights concerns about accountability and integrity in the US Congress.",
-      "category": "politics"
-    },
-    {
-      "id": "mob64ivhxbxi67j6ib",
-      "headline": "Warsh Defies Trump on Rate Cuts",
-      "summary": "Federal Reserve nominee Warsh denied promising Trump interest rate cuts. This move could signal a shift in the Fed's stance on economic policy.",
-      "category": "business"
-    },
-    {
-      "id": "mob64ivh35gjvrxjqa3",
-      "headline": "Vampire Crawlers Brings Fresh Strategy to Vampire Survivors",
-      "summary": "A new spinoff game reimagines Vampire Survivors as a first-person, turn-based dungeon crawler. The game is launching on Xbox, PC, and Game Pass.",
+      "id": "mocmhht6xcy4k9xulv",
+      "headline": "AI Model Uncovers 271 Firefox Vulnerabilities",
+      "summary": "Anthropic's Claude Mythos Preview identified 271 zero-day vulnerabilities in Mozilla Firefox. This marks a significant shift in AI-powered cybersecurity defense.",
       "category": "tech"
     },
     {
-      "id": "mob64ivhawlitbbvdcv",
-      "headline": "Trump Nominates University Economist to Lead Economic Council",
-      "summary": "Trump nominated Christopher Phelan to lead the Economic Council. Phelan's views on key economic issues remain unclear, sparking speculation about policy shifts.",
-      "category": "politics"
-    },
-    {
-      "id": "mob64ivh2fdayvpk2w",
-      "headline": "New York Sues Coinbase and Gemini Over Prediction Markets",
-      "summary": "New York state sued Coinbase and Gemini over unregulated prediction markets. The lawsuit seeks to halt operations and impose fines on the platforms.",
-      "category": "business"
+      "id": "mocmhht6jq1vqcvcxl",
+      "headline": "Capcom Unveils Ingrid's Street Fighter 6 Gameplay",
+      "summary": "A highly anticipated gameplay trailer showcased Ingrid's Sun Crest abilities in Street Fighter 6. However, concerns about game balance and accessibility have been raised.",
+      "category": "gaming"
     }
   ],
-  "generatedAt": "2026-04-23T07:36:42.893Z"
+  "generatedAt": "2026-04-24T08:02:28.074Z"
 }
