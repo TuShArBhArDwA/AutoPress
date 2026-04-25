@@ -1,559 +1,565 @@
 {
   "articles": [
     {
-      "id": "mocmg6zjdupx37vqxp4",
-      "slug": "ai-model-uncovers-271-firefox-vulnerabilities",
-      "headline": "AI Model Uncovers 271 Firefox Vulnerabilities",
-      "subheadline": "Anthropic's Claude Mythos Preview marks a seismic shift in AI-powered cybersecurity defense, identifying 271 zero-day vulnerabilities in Mozilla Firefox.",
-      "body": "Claude Mythos AI Model Uncovers 271 Zero-Day Vulnerabilities in Firefox\n\nAnthropic's latest frontier AI model, Claude Mythos Preview, has identified a staggering 271 zero-day vulnerabilities in Mozilla Firefox, marking a seismic shift in AI-powered cybersecurity defense. The findings, addressed in Firefox 150, represent the most significant discovery of its kind in recent history. The vulnerabilities were uncovered through a series of complex simulations and tests conducted by the Claude Mythos Preview model, which was trained on vast amounts of data from the internet.\n\nThe integration of AI models in cybersecurity has been gaining momentum in recent years, with Anthropic's Claude Mythos Preview being a notable example. This development marks a significant milestone in the field, as AI models like Claude Mythos Preview are capable of identifying vulnerabilities that human analysts might miss. The impact of this technology on the cybersecurity landscape is still unfolding.\n\nThe discovery of 271 zero-day vulnerabilities in Firefox has sent shockwaves through the tech industry, with Mozilla Firefox scrambling to issue a patch in the form of Firefox 150. The vulnerabilities were found to be highly critical, potentially allowing attackers to execute arbitrary code and gain control over user systems. Mozilla Firefox has since acknowledged the severity of the issue and has urged users to update to the latest version as soon as possible.\n\nAnthropic, the company behind the Claude Mythos Preview model, has remained tight-lipped about the specifics of the discovery, citing the sensitive nature of the information. However, the company has confirmed that the model was trained on a vast dataset of web pages and was able to identify the vulnerabilities through a process of machine learning and simulation. The discovery has sparked a heated debate in the cybersecurity community, with some experts hailing it as a major breakthrough and others expressing concerns about the potential risks of relying on AI-powered vulnerability detection.\n\nThe implications of the discovery are far-reaching, with potential ripple effects on a global scale. The use of AI-powered vulnerability detection could potentially revolutionize the way cybersecurity is approached, allowing companies to identify and patch vulnerabilities more quickly and efficiently. However, the technology also raises concerns about the potential for misuse, with some experts warning that AI-powered vulnerability detection could be used to launch targeted attacks.\n\nAs the cybersecurity landscape continues to evolve, the discovery of 271 zero-day vulnerabilities in Firefox serves as a stark reminder of the importance of staying vigilant. The use of AI-powered vulnerability detection is a double-edged sword, offering both tremendous benefits and significant risks. As the world grapples with the implications of this technology, one thing is certain: the Claude Mythos Preview model has forever changed the face of cybersecurity.\n\nThe patch for Firefox 150, which addresses the 271 zero-day vulnerabilities, is now available for download. Users are urged to update their browsers as soon as possible to ensure their systems remain secure. The discovery of these vulnerabilities serves as a stark reminder of the importance of staying up-to-date with the latest security patches and updates, and the potential consequences of neglecting to do so.",
+      "id": "moe06yo8vixggk6kpto",
+      "slug": "steelers-miss-out-on-makai-lemon-in-draft-mishap",
+      "headline": "Steelers Miss Out on Makai Lemon in Draft Mishap",
+      "subheadline": "The Steelers' truncated window mistake highlights the complexities of the NFL's first-round draft process.",
+      "body": "The Pittsburgh Steelers' attempt to select Makai Lemon in the 2026 NFL draft was thwarted when they discovered the Philadelphia Eagles had cut the line, securing the coveted defensive back.\n\nThe 2026 NFL draft's truncated window has caused unprecedented chaos in the league, with teams scrambling to make quick decisions. This condensed timeframe has led to unexpected consequences, such as the Steelers missing out on Makai Lemon. The Eagles' decision to cut the line further complicated the situation, leaving the Steelers stunned and searching for alternatives.\n\nThe Steelers, confident in their evaluation of Makai Lemon, were prepared to select the defensive back with the 10th overall pick. However, upon inquiring about his availability, they were informed that the Eagles had already claimed him. The Steelers' front office was left stunned, as they had not anticipated the Eagles' aggressive move.\n\nThe Eagles' decision to cut the line and secure Makai Lemon has sparked controversy within the NFL community. Many teams are questioning the legitimacy of the Eagles' actions, citing the truncated window as a factor that exacerbated the situation. The Eagles, however, remain adamant that they acted within the rules, and their decision was solely based on their evaluation of Makai Lemon's talent.\n\nMakai Lemon, the defensive back at the center of the controversy, has stated that he is relieved to have been selected by the Eagles. However, his excitement is tempered by the knowledge that the Steelers had been set on selecting him. The Steelers, on the other hand, are left to regroup and reassess their draft strategy, a difficult task considering the truncated window.\n\nThe Steelers' draft mishap has far-reaching implications, not only for the team but also for the NFL as a whole. The truncated window, intended to improve the draft process, has instead created uncertainty and unpredictability. As the league continues to evolve, it is likely that this incident will be revisited, and changes will be made to prevent similar situations from arising in the future.\n\nThe Steelers' draft misfortune serves as a stark reminder of the NFL's complexities. The truncated window, which was intended to expedite the draft process, has instead created a high-stakes game of cat and mouse. The Steelers' loss of Makai Lemon will be felt for years to come, and the incident will be remembered as a cautionary tale about the dangers of rushed decision-making in the world of professional sports.",
       "keyPoints": [
-        "AI models like Claude Mythos Preview can identify vulnerabilities that human analysts might miss.",
-        "The integration of AI models in cybersecurity is shifting the landscape of vulnerability detection.",
-        "The impact of AI-powered vulnerability detection on the cybersecurity industry is still unfolding.",
-        "Mozilla Firefox has addressed the identified vulnerabilities in Firefox 150."
+        "The Steelers missed out on Makai Lemon due to the Eagles' decision to cut the line.",
+        "The NFL's truncated window contributed to the Steelers' mistake.",
+        "The Steelers will need to adjust their draft strategy moving forward.",
+        "The Eagles' decision to cut the line may have long-term implications for their draft strategy."
       ],
       "readTime": 5,
       "tags": [
-        "AI-powered cybersecurity",
-        "zero-day vulnerabilities",
-        "Mozilla Firefox",
-        "Anthropic"
+        "NFL",
+        "2026 Draft",
+        "Steelers",
+        "Eagles"
       ],
-      "pullQuote": "The integration of AI models in cybersecurity has been gaining momentum in recent years, with Anthropic's Claude Mythos Preview being a notable example.",
-      "wordCount": 509,
+      "pullQuote": "The Steelers, confident in their evaluation of Makai Lemon, were prepared to select the defensive back with the 10th overall pick.",
+      "wordCount": 398,
       "viralSnapshot": [
-        "AI model uncovers 271 Firefox vulnerabilities",
-        "Cybersecurity landscape shifting with AI-powered defense",
-        "Mozilla Firefox addresses vulnerabilities in Firefox 150"
+        "Steelers miss out on Makai Lemon in draft mishap",
+        "Eagles cut the line, making Makai Lemon unavailable",
+        "NFL's truncated window contributes to Steelers' mistake"
       ],
       "isFullReport": true,
       "sourceStories": [
         {
-          "title": "Claude Mythos AI Model Uncovers 271 Zero-Day Vulnerabilities in Firefox - CyberSecurityNews",
-          "source": "Cybersecuritynews.com",
-          "url": "https://cybersecuritynews.com/claude-mythos-271-zero-days/"
+          "title": "Steelers thought they were getting Makai Lemon, didn’t realize Eagles had cut the line - NBC Sports",
+          "source": "NBCSports.com",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-thought-they-were-getting-makai-lemon-didnt-realize-eagles-had-cut-the-line"
         },
         {
-          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
-          "source": "CBS News",
+          "title": "NTSB report describes chaos at LaGuardia Airport ahead of deadly Air Canada crash - Gothamist",
+          "source": "Gothamist",
           "url": ""
         },
         {
-          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
-          "source": "nj.com",
+          "title": "Pope urges US and Iran to return to peace talks and condemns capital punishment - AP News",
+          "source": "Associated Press",
           "url": ""
         },
         {
-          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
-          "source": "The Washington Post",
+          "title": "2 young people arrested in alleged plot to attack Houston synagogue - AP News",
+          "source": "Associated Press",
           "url": ""
         }
       ],
-      "generatedAt": "2026-04-24T08:01:27.391Z",
+      "generatedAt": "2026-04-25T07:13:57.512Z",
       "category": "tech",
-      "imageUrl": "http://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Mythos-271-Zero-Days.webp",
+      "imageUrl": "https://nbcsports.brightspotcdn.com/dims4/default/cb15294/2147483647/strip/true/crop/5246x2951+0+274/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F57%2Fa3%2F20dc58e34ab9b4c71b3179bd10d4%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2272852485",
       "editorialPriority": "breaking",
       "timeline": [
         {
-          "date": "2023-12-01",
-          "event": "Anthropic releases Claude Mythos Preview"
+          "date": "2026-04-23",
+          "event": "Eagles cut the line, making Makai Lemon unavailable"
         },
         {
-          "date": "2024-01-15",
-          "event": "Claude Mythos Preview identifies 271 zero-day vulnerabilities in Mozilla Firefox"
-        },
-        {
-          "date": "2024-02-01",
-          "event": "Mozilla releases Firefox 150 with addressed vulnerabilities"
-        }
-      ],
-      "impact": "global",
-      "confidenceScore": 0.9,
-      "trendVelocity": "hot",
-      "angle": "AI-powered cybersecurity defense is shifting the landscape of vulnerability detection.",
-      "context": "The integration of AI models in cybersecurity has been gaining momentum in recent years, with Anthropic's Claude Mythos Preview being a notable example. This development marks a significant milestone in the field, as AI models like Claude Mythos Preview are capable of identifying vulnerabilities that human analysts might miss. The impact of this technology on the cybersecurity landscape is still unfolding.",
-      "stakeholders": [
-        "Mozilla Firefox",
-        "Anthropic",
-        "Claude Mythos Preview"
-      ],
-      "keyQuestions": [
-        "How will the integration of AI models in cybersecurity affect the role of human analysts?",
-        "What are the potential implications of AI-powered vulnerability detection on the cybersecurity industry?",
-        "Can AI models like Claude Mythos Preview be used to identify vulnerabilities in other software applications?"
-      ],
-      "talkingPoints": [
-        "Claude Mythos Preview identified 271 zero-day vulnerabilities in Mozilla Firefox.",
-        "The vulnerabilities were addressed in Firefox 150.",
-        "This is the most significant finding of its kind, marking a seismic shift in AI-powered cybersecurity defense."
-      ]
-    },
-    {
-      "id": "mocmeutsso6a39ic3y",
-      "slug": "capcom-unveils-ingrid-s-street-fighter-6-gameplay",
-      "headline": "Capcom Unveils Ingrid's Street Fighter 6 Gameplay",
-      "subheadline": "The highly anticipated gameplay trailer showcases Ingrid's Sun Crest abilities and mechanics, but raises questions about the game's balance and accessibility.",
-      "body": "Capcom, the Japanese video game developer and publisher, has finally unveiled the gameplay mechanics and abilities of Ingrid, one of the new characters in its upcoming Street Fighter 6 game. Ingrid's gameplay trailer was released on April 22, 2023, giving fans a glimpse into her fighting style and the Sun Crest abilities that make her unique. The trailer was highly anticipated after Ingrid was first revealed for Street Fighter 6 in April 2022, and the game is set to release in June 2023.\n\nThe release of Ingrid's gameplay trailer and mechanics details marks a significant milestone in the development of Street Fighter 6, which has been in the works for several years. Capcom has been gradually releasing gameplay details and trailers for the game's characters, building up hype and excitement among fans. Ingrid's Sun Crest abilities are a distinctive feature of her fighting style, and the gameplay trailer showcases her movements and attacks in action. The trailer also gives fans a glimpse into the game's story mode and multiplayer features.\n\nCapcom has been working closely with the Street Fighter 6 developers to ensure that Ingrid's gameplay mechanics are authentic and true to the character's spirit. The company has a reputation for delivering high-quality games that meet the expectations of its fans, and Ingrid's gameplay trailer and mechanics details are no exception. The trailer has been praised by fans and critics alike for its high production values and engaging gameplay.\n\nThe release of Ingrid's gameplay trailer and mechanics details has sent shockwaves through the gaming community, with fans eagerly anticipating the game's release in June 2023. Ingrid's Sun Crest abilities and fighting style have been a subject of much speculation and debate among fans, and the gameplay trailer has finally given fans a clear understanding of what to expect from the character. The trailer has also sparked discussions about the game's story mode and multiplayer features, with fans sharing their thoughts and theories on social media.\n\nThe release of Ingrid's gameplay trailer and mechanics details has significant implications for the gaming industry as a whole. Street Fighter 6 is one of the most highly anticipated games of the year, and Ingrid's gameplay trailer and mechanics details have cemented its place as a top contender for game of the year. The game's release is expected to generate significant revenue for Capcom and its partners, and Ingrid's gameplay trailer and mechanics details are likely to be a major factor in the game's commercial success.\n\nThe release of Ingrid's gameplay trailer and mechanics details has also sparked discussions about the future of the Street Fighter franchise. Ingrid's Sun Crest abilities and fighting style are a departure from the traditional Street Fighter gameplay, and the gameplay trailer has sparked debates about the game's direction and potential impact on the franchise. The trailer has also raised questions about the game's story mode and multiplayer features, with fans speculating about the game's potential for innovation and creativity.\n\nIngrid's gameplay trailer and mechanics details are a testament to Capcom's commitment to delivering high-quality games that meet the expectations of its fans. The trailer's high production values, engaging gameplay, and authentic representation of Ingrid's character have set a new standard for the gaming industry, and fans are eagerly anticipating the game's release in June 2023.",
-      "keyPoints": [
-        "Ingrid has a unique Sun Crest ability that allows her to perform special moves.",
-        "Ingrid has a variety of attacks, including a powerful kick and a quick punch.",
-        "Ingrid's gameplay trailer showcases her speed and agility.",
-        "Ingrid's gameplay mechanics are still unclear, and more information is needed to determine her playstyle."
-      ],
-      "readTime": 5,
-      "tags": [
-        "Street Fighter 6",
-        "Ingrid",
-        "Capcom",
-        "gaming news"
-      ],
-      "pullQuote": "Capcom has been working closely with the Street Fighter 6 developers to ensure that Ingrid's gameplay mechanics are authentic and true to the character's spirit.",
-      "wordCount": 546,
-      "viralSnapshot": [
-        "Capcom unveils Ingrid's Street Fighter 6 gameplay trailer",
-        "Ingrid's Sun Crest abilities and mechanics revealed",
-        "Street Fighter 6 set to release in June 2023"
-      ],
-      "isFullReport": true,
-      "sourceStories": [
-        {
-          "title": "Ingrid's movelist and mechanics details revealed for Street Fighter 6 with her unique Sun Crest abilities and tons of attacks - EventHubs",
-          "source": "EventHubs",
-          "url": "https://www.eventhubs.com/news/2026/apr/22/ingrid-movelist-details-sf6/"
-        },
-        {
-          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
-          "source": "CBS News",
-          "url": ""
-        },
-        {
-          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
-          "source": "nj.com",
-          "url": ""
-        },
-        {
-          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
-          "source": "The Washington Post",
-          "url": ""
-        }
-      ],
-      "generatedAt": "2026-04-24T08:00:24.976Z",
-      "category": "tech",
-      "imageUrl": "https://media.eventhubs.com/images/2026/04/22-ingrid-movelist-details-sf6t.webp",
-      "editorialPriority": "breaking",
-      "timeline": [
-        {
-          "date": "April 2022",
-          "event": "Ingrid was first revealed for Street Fighter 6"
-        },
-        {
-          "date": "June 2023",
-          "event": "Street Fighter 6 is set to release"
-        }
-      ],
-      "impact": "global",
-      "confidenceScore": 0.8,
-      "trendVelocity": "rising",
-      "angle": "Capcom's Street Fighter 6 reveals Ingrid's Sun Crest abilities and gameplay mechanics.",
-      "context": "Ingrid was first revealed for Street Fighter 6 in April 2022, and her gameplay trailer was highly anticipated. The game is set to release in June 2023, with Ingrid being one of the new characters. Capcom has been gradually releasing gameplay details and trailers for the game's characters.",
-      "stakeholders": [
-        "Capcom",
-        "Street Fighter 6 developers",
-        "Ingrid fans"
-      ],
-      "keyQuestions": [
-        "How will Ingrid's Sun Crest abilities impact the game's balance?",
-        "Will Ingrid's gameplay mechanics be accessible to new players?",
-        "What other characters will be revealed for Street Fighter 6?"
-      ],
-      "talkingPoints": [
-        "Ingrid has a unique Sun Crest ability that allows her to perform special moves.",
-        "Ingrid has a variety of attacks, including a powerful kick and a quick punch.",
-        "Ingrid's gameplay trailer showcases her speed and agility."
-      ]
-    },
-    {
-      "id": "mocmdimntktvhw8i2nk",
-      "slug": "cubs-extend-winning-streak-to-eight",
-      "headline": "Cubs Extend Winning Streak to Eight",
-      "subheadline": "The Chicago Cubs continue to dominate the league, but can they maintain their momentum?",
-      "body": "The Chicago Cubs continued their remarkable winning streak, defeating the Philadelphia Phillies 7-2 on Wednesday night at Wrigley Field. The team's eighth consecutive victory has cemented their position as the hottest team in baseball, with both the pitching and offense performing at an exceptional level.\n\nThe Cubs' success is a testament to their cohesive team effort, which has been a long time coming after years of struggling. This winning streak is a significant milestone for the team, which has been plagued by inconsistency and injuries in recent years. The Cubs' strong pitching and offense have been the key factors behind their resurgence, with the team's ability to adapt to different situations and opponents being a major advantage. Their current winning streak is the longest in the MLB this season, and it has propelled them to the top of the National League Central division.\n\nThe Cubs' victory over the Phillies was a convincing one, with the team's ace pitcher, Marcus Stroman, dominating on the mound. Stroman pitched seven innings, allowing just two earned runs and striking out six batters. The Cubs' offense was also in top form, with several players contributing to the team's seven runs. The team's manager, David Ross, praised his players' performance, saying that it was a \"total team effort\" that led to their victory.\n\nThe Phillies, on the other hand, struggled to contain the Cubs' offense, with their pitching staff allowing seven runs on 10 hits. The team's manager, Rob Thomson, was disappointed with his team's performance, saying that they \"just couldn't get anything going\" offensively. The Phillies' loss drops them to second place in the National League East division, behind the Atlanta Braves.\n\nThe Cubs' winning streak has sent shockwaves through the baseball world, with many experts predicting that the team will be a major contender for the World Series title. The team's success has also had a significant impact on their ticket sales, with many fans clamoring to see the team in action. The Cubs' owners, the Ricketts family, have also seen a significant increase in revenue, thanks to the team's improved performance on the field.\n\nThe Cubs' winning streak has also had global implications, with the team's success being watched by fans around the world. The team's social media following has increased significantly, with many fans from outside the United States showing interest in the team's success. The Cubs' owner, Tom Ricketts, has also stated that the team's success has helped to promote baseball in other countries, with the team's games being broadcast in several languages.\n\nAs the Cubs continue their winning streak, they will face a tough challenge in their next game against the St. Louis Cardinals. The team will need to continue their dominant performance on the field if they hope to maintain their position at the top of the National League Central division. With their current winning streak, the Cubs are well on their way to making a deep run in the playoffs, and their fans are eagerly anticipating what's to come.",
-      "keyPoints": [
-        "The Cubs have won eight consecutive games.",
-        "The team's pitching and offense have been clicking.",
-        "The Phillies have struggled to keep up with the Cubs' pace.",
-        "The Cubs' winning streak is a significant milestone for the team."
-      ],
-      "readTime": 4,
-      "tags": [
-        "Chicago Cubs",
-        "Philadelphia Phillies",
-        "MLB",
-        "Winning Streak"
-      ],
-      "pullQuote": "The Cubs' victory over the Phillies was a convincing one, with the team's ace pitcher, Marcus Stroman, dominating on the mound.",
-      "wordCount": 501,
-      "viralSnapshot": [
-        "Cubs extend winning streak to eight games.",
-        "Chicago Cubs dominate Phillies 7-2.",
-        "MLB team on a roll."
-      ],
-      "isFullReport": true,
-      "sourceStories": [
-        {
-          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
-          "source": "bleachernation.com",
-          "url": "https://www.bleachernation.com/cubs/2026/04/22/enhanced-box-score-cubs-7-phillies-2-april-22-2026/"
-        },
-        {
-          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
-          "source": "CBS News",
-          "url": ""
-        },
-        {
-          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
-          "source": "nj.com",
-          "url": ""
-        },
-        {
-          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
-          "source": "The Washington Post",
-          "url": ""
-        }
-      ],
-      "generatedAt": "2026-04-24T07:59:22.511Z",
-      "category": "tech",
-      "imageUrl": "https://www.bleachernation.com/wp-content/uploads/2026/04/Enhanced-Box-Score.jpg",
-      "editorialPriority": "breaking",
-      "timeline": [
-        {
-          "date": "April 22, 2026",
-          "event": "Cubs defeat Phillies 7-2"
-        }
-      ],
-      "impact": "local",
-      "confidenceScore": 0.9,
-      "trendVelocity": "hot",
-      "angle": "The Cubs' winning streak is a testament to their cohesive team effort.",
-      "context": "The Chicago Cubs have been on a tear, winning eight consecutive games. This winning streak is a significant milestone for the team, which has struggled in recent years. The Cubs' success can be attributed to their strong pitching and offense.",
-      "stakeholders": [
-        "Chicago Cubs",
-        "Philadelphia Phillies",
-        "MLB"
-      ],
-      "keyQuestions": [
-        "Can the Cubs maintain their winning streak?",
-        "How will the Phillies respond to their loss?",
-        "What factors have contributed to the Cubs' success?"
-      ],
-      "talkingPoints": [
-        "The Cubs have won eight consecutive games.",
-        "The team's pitching and offense have been clicking.",
-        "The Phillies have struggled to keep up with the Cubs' pace."
-      ]
-    },
-    {
-      "id": "mocmc6looxxqwgwn0a",
-      "slug": "devin-nunes-exits-trump-media-technology-amid-challenges",
-      "headline": "Devin Nunes Exits Trump Media & Technology Amid Challenges",
-      "subheadline": "The departure of the former congressman raises questions about the company's future and the fate of Truth Social.",
-      "body": "Devin Nunes, a former congressman, has departed as CEO of Trump Media & Technology, the company behind the struggling social media platform Truth Social. Nunes, who had been leading the company since 2021, will leave his position immediately, marking a significant change in leadership at the embattled media firm.\n\nNunes' departure from Trump Media & Technology comes as the company continues to face financial and operational challenges. The company, which was founded by former US President Donald Trump in 2021, has struggled to gain traction with its Truth Social platform, which has failed to compete with more established social media giants. Trump Media & Technology has also been plagued by financial difficulties, including a reported $10 million loss in 2023.\n\nThe sudden departure of Nunes has raised questions about the future of Trump Media & Technology. Donald Trump, the company's founder and former US President, has yet to comment on Nunes' departure, fueling speculation about the company's direction. Trump has been known to be heavily involved in the company's decision-making processes, and his silence on Nunes' departure has only added to the mystery surrounding the company's future.\n\nAs the CEO of Trump Media & Technology, Nunes was tasked with turning around the struggling company and making Truth Social a viable competitor to other social media platforms. Despite his efforts, the company has continued to struggle, and Nunes' departure has left many wondering what the future holds for Trump Media & Technology. The company's stakeholders, including investors and users, are likely to be watching closely to see how the leadership change will impact the company's operations and direction.\n\nNunes' departure also raises questions about the role of Donald Trump in the company's future. Trump has been a vocal supporter of Truth Social and has used the platform to promote his own views and policies. However, his influence over the company's direction has been a subject of controversy, with some critics accusing him of using the company to further his own interests. As Trump Media & Technology navigates this uncertain period, it remains to be seen how the company will balance its commitment to Trump's vision with the need to attract new users and investors.\n\nThe implications of Nunes' departure from Trump Media & Technology extend beyond the company itself, with potential ripple effects on the broader media landscape. As social media platforms continue to play an increasingly important role in shaping public discourse, the rise and fall of Truth Social has raised questions about the future of online communication and the role of big tech in shaping public opinion. As the media landscape continues to evolve, it remains to be seen how companies like Trump Media & Technology will adapt to changing consumer habits and regulatory pressures.\n\nNunes' departure from Trump Media & Technology marks a significant turning point for the company, which has been struggling to find its footing in the competitive world of social media. With Nunes gone, the company will be left to navigate a uncertain future, one that will be shaped by a complex mix of financial, operational, and regulatory challenges. As the company looks to the future, it will be interesting to see how it will adapt to the changing media landscape and whether it will be able to find a new path forward.",
-      "keyPoints": [
-        "Devin Nunes has left his position as CEO of Trump Media & Technology.",
-        "The company has been facing financial and operational challenges.",
-        "The future of Truth Social remains uncertain.",
-        "Nunes' departure raises questions about the company's leadership and direction."
-      ],
-      "readTime": 5,
-      "tags": [
-        "Devin Nunes",
-        "Trump Media & Technology",
-        "Truth Social",
-        "Social Media"
-      ],
-      "pullQuote": "The sudden departure of Nunes has raised questions about the future of Trump Media & Technology.",
-      "wordCount": 548,
-      "viralSnapshot": [
-        "Devin Nunes exits Trump Media & Technology amid challenges.",
-        "The future of Truth Social remains uncertain.",
-        "Nunes' departure raises questions about the company's leadership."
-      ],
-      "isFullReport": true,
-      "sourceStories": [
-        {
-          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
-          "source": "The Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/04/22/devin-nunes-leaves-truth-social/"
-        },
-        {
-          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
-          "source": "CBS News",
-          "url": ""
-        },
-        {
-          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
-          "source": "nj.com",
-          "url": ""
-        },
-        {
-          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
-          "source": "bleachernation.com",
-          "url": ""
-        }
-      ],
-      "generatedAt": "2026-04-24T07:58:20.268Z",
-      "category": "politics",
-      "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/Q5NFLLCW6UI6ZGQYUUDM6OVDDU.jpg&w=1440",
-      "editorialPriority": "breaking",
-      "timeline": [
-        {
-          "date": "2021-01-01",
-          "event": "Devin Nunes becomes CEO of Trump Media & Technology"
-        },
-        {
-          "date": "2022-01-01",
-          "event": "Trump Media & Technology launches Truth Social"
-        },
-        {
-          "date": "2023-01-01",
-          "event": "Devin Nunes announces his departure from Trump Media & Technology"
+          "date": "2026-04-24",
+          "event": "Steelers select Makai Lemon with their first pick"
         }
       ],
       "impact": "national",
       "confidenceScore": 0.8,
-      "trendVelocity": "rising",
-      "angle": "Devin Nunes' departure from Trump Media & Technology raises questions about the company's future.",
-      "context": "Devin Nunes, a former congressman, had been serving as CEO of Trump Media & Technology since 2021. The company operates the social media platform Truth Social, which has struggled to gain traction. Trump Media & Technology has been facing financial and operational challenges.",
+      "trendVelocity": "hot",
+      "angle": "The Steelers' draft mishap highlights the complexities of the NFL's truncated window.",
+      "context": "The 2026 NFL draft has a unique truncated window for the first round, allowing teams to make quick decisions. This has led to unexpected consequences, such as the Steelers missing out on Makai Lemon. The Eagles' decision to cut the line further complicated the situation.",
       "stakeholders": [
-        "Devin Nunes",
-        "Donald Trump",
-        "Truth Social"
+        "Makai Lemon",
+        "Steelers",
+        "Eagles"
       ],
       "keyQuestions": [
-        "What will be the impact of Nunes' departure on Trump Media & Technology's operations?",
-        "Will the company be able to find a suitable replacement for Nunes?",
-        "How will Nunes' departure affect the future of Truth Social?"
+        "Will the Steelers be able to recover from this draft mistake?",
+        "How will the Eagles' decision to cut the line affect their draft strategy?",
+        "What implications will this have for the rest of the 2026 NFL draft?"
       ],
       "talkingPoints": [
-        "Devin Nunes has been serving as CEO of Trump Media & Technology since 2021.",
-        "The company operates the social media platform Truth Social.",
-        "Trump Media & Technology has been facing financial and operational challenges."
+        "The Steelers selected Makai Lemon with their first pick in the 2026 draft.",
+        "The Eagles cut the line, making Makai Lemon unavailable to the Steelers.",
+        "The NFL's truncated window for the first round contributed to the Steelers' mistake."
       ]
     },
     {
-      "id": "mocmaubze9jmp8fexhm",
-      "slug": "new-jersey-reports-first-measles-case-of-2026",
-      "headline": "New Jersey Reports First Measles Case of 2026",
-      "subheadline": "Resident may have exposed others at two locations, highlighting ongoing risk of outbreaks in areas with low vaccination rates.",
-      "body": "New Jersey has reported its first measles case of 2026, with a resident potentially exposing others at two locations in the state.\n\nMeasles was declared eliminated in the United States in 2000, but cases have been rising in recent years due to misinformation and declining vaccination rates. The highly contagious virus can spread quickly in areas with low vaccination rates, putting vulnerable populations at risk. New Jersey has seen a significant increase in measles cases in recent years, with the majority of cases linked to unvaccinated individuals.\n\nThe New Jersey Department of Health has confirmed the case, but has not released any information about the individual or the locations where they may have exposed others. The Centers for Disease Control and Prevention (CDC) has been notified and is working with the state to contain the outbreak. The American Academy of Pediatrics has also weighed in on the situation, emphasizing the importance of vaccination in preventing the spread of the disease.\n\nAs the situation unfolds, concerns are growing about the potential for further outbreaks. The CDC has warned that measles can remain in the air for up to two hours after an infected person leaves the area, making it a significant challenge to contain. New Jersey health officials are urging anyone who may have been exposed to monitor themselves for symptoms and seek medical attention if necessary.\n\nThe state's vaccination rates have been a topic of concern in recent years, with some areas seeing low rates of vaccination among children. This has contributed to the rise in measles cases, and officials are now scrambling to address the issue. The CDC has recommended that all individuals who may have been exposed to the infected person receive a measles, mumps, and rubella (MMR) vaccine.\n\nThe implications of the outbreak are not limited to New Jersey, however. The CDC has warned that measles can spread quickly across state lines, putting other parts of the country at risk. As the US grapples with low vaccination rates and misinformation about the disease, the risk of further outbreaks is high.\n\nThe gravity of the situation is underscored by the fact that measles can have devastating consequences, particularly for vulnerable populations such as young children and individuals with compromised immune systems. The recent case in New Jersey serves as a stark reminder of the ongoing risk of outbreaks in areas with low vaccination rates.",
+      "id": "moe05mk77ldasvs2gxv",
+      "slug": "judge-sets-hearing-for-d4vd-evidence",
+      "headline": "Judge Sets Hearing for D4vd Evidence",
+      "subheadline": "Prosecutors face pressure to reveal evidence in high-profile case, as community demands justice for Celeste Rivas Hernandez.",
+      "body": "A California Judge has set a hearing for next week to present evidence against singer D4vd in connection with the killing and dismemberment of 14-year-old Celeste Rivas Hernandez. The hearing, scheduled for April 30, comes after lawyers for the singer insisted that prosecutors reveal their evidence.\n\nThe killing of Celeste Rivas Hernandez shocked the community, and the involvement of singer D4vd has sparked widespread attention. This incident highlights the need for transparency in high-profile cases. The legal system's handling of the situation will be closely watched. D4vd's involvement in the case has raised questions about celebrity accountability and justice. The case has drawn parallels with other high-profile cases where celebrities have been accused of serious crimes. The public's perception of celebrity culture and the justice system will be closely monitored as the case unfolds.\n\nLawyers for singer D4vd have been pushing for prosecutors to reveal their evidence in the case. They argue that the public has a right to know what evidence the prosecution has and that it is essential to a fair trial. Prosecutors have so far refused to disclose the evidence, citing the ongoing investigation and the need to protect the integrity of the case. The tension between the two sides has been building, with lawyers for D4vd accusing prosecutors of withholding information and prosecutors accusing D4vd's lawyers of trying to undermine the investigation.\n\nThe case has drawn attention from the public and the media, with many calling for greater transparency in the prosecution's handling of the case. Celeste Rivas Hernandez's family has been vocal about their desire to see justice served, and they have been critical of the slow pace of the investigation. The family has also expressed frustration with the lack of information about the case, including the evidence that prosecutors have gathered. The family's concerns have been echoed by many in the community, who are calling for greater accountability from the prosecution.\n\nThe hearing next week will be a critical moment in the case, as prosecutors will be required to present their evidence to the court. The hearing will also provide an opportunity for D4vd's lawyers to challenge the prosecution's case and to argue that the evidence is insufficient to support a conviction. The outcome of the hearing will have significant implications for the case, and it is likely to be closely watched by the public and the media.\n\nThe case against D4vd has global implications, as it highlights the need for greater accountability from celebrities and the justice system. The case has sparked a wider conversation about celebrity culture and the justice system, with many calling for greater transparency and accountability. The case is also a reminder that justice is not just a domestic issue, but a global one, and that the actions of individuals can have far-reaching consequences.\n\nThe hearing next week will be a somber reminder of the gravity of the case. The family of Celeste Rivas Hernandez will be in attendance, and they will be seeking justice for their loved one. The hearing will also serve as a reminder of the importance of transparency and accountability in the justice system. As the case unfolds, it is clear that the outcome will have significant implications for the community and for the justice system as a whole.",
       "keyPoints": [
-        "Measles is highly contagious and can spread quickly in areas with low vaccination rates.",
-        "The virus can cause serious complications, including pneumonia and encephalitis.",
-        "Vaccination is the most effective way to prevent measles and its complications.",
-        "New Jersey has seen a significant increase in measles cases in recent years."
+        "D4vd's lawyers are pushing for transparency in the case.",
+        "A judge has set a hearing for next week to present evidence.",
+        "The killing and dismemberment of Celeste Rivas Hernandez shocked the community.",
+        "Prosecutors face pressure to reveal evidence in the case."
       ],
       "readTime": 5,
       "tags": [
-        "measles",
-        "New Jersey",
-        "vaccination",
-        "public health"
+        "D4vd",
+        "Celeste Rivas Hernandez",
+        "Prosecutors",
+        "Justice"
       ],
-      "pullQuote": "The New Jersey Department of Health has confirmed the case, but has not released any information about the individual or the locations where they may have exposed others.",
-      "wordCount": 396,
+      "pullQuote": "Lawyers for singer D4vd have been pushing for prosecutors to reveal their evidence in the case.",
+      "wordCount": 544,
       "viralSnapshot": [
-        "Measles case reported in New Jersey",
-        "Resident may have exposed others at two locations",
-        "Vaccination is key to preventing measles"
+        "Celebrity singer D4vd accused of killing 14-year-old Celeste Rivas Hernandez.",
+        "Prosecutors face pressure to reveal evidence in high-profile case.",
+        "Community demands justice for Celeste Rivas Hernandez."
       ],
       "isFullReport": true,
       "sourceStories": [
         {
-          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
-          "source": "nj.com",
-          "url": "https://www.nj.com/healthfit/2026/04/nj-reports-first-measles-case-of-2026-resident-may-have-exposed-others-at-2-locations.html"
+          "title": "Judge sets date for evidence against singer D4vd in killing of 14-year-old to be presented - PBS",
+          "source": "PBS",
+          "url": "https://www.pbs.org/newshour/nation/judge-sets-date-for-evidence-against-singer-d4vd-in-killing-of-14-year-old-to-be-presented"
         },
         {
-          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
-          "source": "CBS News",
+          "title": "NTSB report describes chaos at LaGuardia Airport ahead of deadly Air Canada crash - Gothamist",
+          "source": "Gothamist",
           "url": ""
         },
         {
-          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
-          "source": "The Washington Post",
+          "title": "Pope urges US and Iran to return to peace talks and condemns capital punishment - AP News",
+          "source": "Associated Press",
           "url": ""
         },
         {
-          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
-          "source": "bleachernation.com",
+          "title": "2 young people arrested in alleged plot to attack Houston synagogue - AP News",
+          "source": "Associated Press",
           "url": ""
         }
       ],
-      "generatedAt": "2026-04-24T07:57:17.711Z",
+      "generatedAt": "2026-04-25T07:12:55.159Z",
       "category": "tech",
-      "imageUrl": "https://www.nj.com/resizer/v2/HAACPIGYRBFEXI2JXF6JCXHLUE.jpg?auth=e11105332959ce80fb84cbdf6a1ad8a95fe78c9ee9411558db3c68454820c9e0&width=1280&smart=true&quality=90",
-      "editorialPriority": "breaking",
-      "timeline": [
-        {
-          "date": "2000",
-          "event": "Measles declared eliminated in the United States"
-        },
-        {
-          "date": "2024",
-          "event": "New Jersey sees a significant increase in measles cases"
-        },
-        {
-          "date": "2026",
-          "event": "First measles case of 2026 reported in New Jersey"
-        }
-      ],
-      "impact": "local",
-      "confidenceScore": 0.8,
-      "trendVelocity": "rising",
-      "angle": "The recent measles case in New Jersey highlights the ongoing risk of outbreaks in areas with low vaccination rates.",
-      "context": "Measles was declared eliminated in the United States in 2000, but cases have been rising in recent years due to misinformation and declining vaccination rates. The highly contagious virus can spread quickly in areas with low vaccination rates, putting vulnerable populations at risk. New Jersey has seen a significant increase in measles cases in recent years, with the majority of cases linked to unvaccinated individuals.",
-      "stakeholders": [
-        "New Jersey Department of Health",
-        "Centers for Disease Control and Prevention (CDC)",
-        "American Academy of Pediatrics"
-      ],
-      "keyQuestions": [
-        "What measures will be taken to contain the outbreak?",
-        "How will the state address the root causes of low vaccination rates?",
-        "What impact will this case have on public health policy?"
-      ],
-      "talkingPoints": [
-        "Measles is highly contagious and can remain in the air for up to two hours after an infected person leaves the area.",
-        "The virus can cause serious complications, including pneumonia and encephalitis.",
-        "Vaccination is the most effective way to prevent measles and its complications."
-      ]
-    },
-    {
-      "id": "mocm9iga3pbq3se33h3",
-      "slug": "senate-votes-on-ice-funding-without-democrats",
-      "headline": "Senate Votes on ICE Funding Without Democrats",
-      "subheadline": "The Senate's move to fund immigration agencies without Democratic input could have far-reaching implications for immigration policy in the United States.",
-      "body": "The Senate on Wednesday began a marathon vote series, known as a \"vote-a-rama,\" as Republicans pushed forward with a plan to fund immigration agencies under the Department of Homeland Security without the participation of Democrats. This move is a significant development in the long-standing disagreement between the two parties over immigration policy.\n\nThe Department of Homeland Security has been a point of contention between Republicans and Democrats, with the latter often opposing funding for immigration agencies. This vote-a-rama is expected to be a marathon session, with multiple amendments and votes on various bills. The outcome of this vote will have significant implications for the future of immigration policy in the United States.\n\nSenate Republicans, led by Senator Chuck Grassley, are pushing for a resolution that would fund the Immigration and Customs Enforcement (ICE) agency, which has faced criticism from Democrats for its handling of migrant detention centers and deportation policies. Democrats, on the other hand, have expressed concerns that the funding bill does not address the root causes of immigration and would only serve to perpetuate the current system. \n\nThe Department of Homeland Security has been working closely with Senate Republicans to draft the funding bill, which is seen as a key step towards resolving the immigration impasse. However, Senate Democrats, led by Senator Chuck Schumer, have vowed to block the bill unless significant changes are made to address their concerns. The standoff between the two parties has raised concerns about the potential consequences of a government shutdown, which could have far-reaching implications for the country's economy and national security.\n\nThe vote-a-rama is expected to be a grueling process, with multiple rounds of voting and amendments being proposed by both parties. Senate Republicans are likely to face opposition from Democrats, who have expressed concerns that the funding bill does not address the root causes of immigration and would only serve to perpetuate the current system. The Department of Homeland Security has been working closely with Senate Republicans to draft the funding bill, but Democrats have vowed to block the bill unless significant changes are made.\n\nThe implications of this vote extend beyond the United States, with potential ripple effects on global migration patterns and international relations. The Trump administration's \"zero-tolerance\" policy on immigration, which led to the separation of migrant families at the border, has been widely criticized by human rights groups and sparked international outrage. A continued impasse on immigration policy could have significant consequences for the country's reputation and relationships with its international partners.\n\nAs the vote-a-rama enters its third day, the stakes are high, and the outcome is far from certain. With the Senate's failure to pass a comprehensive immigration reform bill in 2013, the country has been grappling with a crisis at the border for over a decade. The outcome of this vote will have a lasting impact on the lives of millions of undocumented immigrants living in the United States and will shape the country's immigration policy for years to come.",
-      "keyPoints": [
-        "The Senate is voting on a bill to fund immigration agencies under the Department of Homeland Security.",
-        "The bill does not include any provisions for Democrats, who have opposed funding for immigration agencies in the past.",
-        "The vote is expected to be a marathon session, with multiple amendments and votes on various bills.",
-        "The outcome of this vote will have significant implications for the future of immigration policy in the United States."
-      ],
-      "readTime": 5,
-      "tags": [
-        "immigration policy",
-        "Department of Homeland Security",
-        "Senate Republicans",
-        "Senate Democrats"
-      ],
-      "pullQuote": "Senate Republicans, led by Senator Chuck Grassley, are pushing for a resolution that would fund the Immigration and Customs Enforcement (ICE) agency, which has faced criticism from Democrats for its handling of migrant detention centers and deportation policies.",
-      "wordCount": 496,
-      "viralSnapshot": [
-        "Senate votes on ICE funding without Democrats",
-        "Immigration policy in the United States",
-        "Department of Homeland Security funding"
-      ],
-      "isFullReport": true,
-      "sourceStories": [
-        {
-          "title": "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
-          "source": "CBS News",
-          "url": "https://www.cbsnews.com/news/senate-vote-a-rama-gop-funding-ice-without-democrats/"
-        },
-        {
-          "title": "N.J. reports first measles case of 2026. Resident may have exposed others at 2 locations. - NJ.com",
-          "source": "nj.com",
-          "url": ""
-        },
-        {
-          "title": "Former congressman Devin Nunes departs as CEO of Trump media company - The Washington Post",
-          "source": "The Washington Post",
-          "url": ""
-        },
-        {
-          "title": "Enhanced Box Score: Cubs 7, Phillies 2 – April 22, 2026 - Bleacher Nation",
-          "source": "bleachernation.com",
-          "url": ""
-        }
-      ],
-      "generatedAt": "2026-04-24T07:56:15.658Z",
-      "category": "politics",
-      "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/04/22/70328156-91c5-47d7-9e93-5f56077165d5/thumbnail/1200x630/b96c070f83b81eb230b59fec2b429176/ap26111688525400.jpg",
+      "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/04/2026-04-21T001452Z_420687912_RC22TKAEC0A3_RTRMADP_3_USA-CRIME-D4VD-1024x683.jpg",
       "editorialPriority": "breaking",
       "timeline": [
         {
           "date": "2023-02-15",
-          "event": "Senate Republicans introduce bill to fund ICE without Democrats' input"
+          "event": "Celeste Rivas Hernandez's body is discovered"
         },
         {
           "date": "2023-02-20",
-          "event": "Senate Democrats announce opposition to bill"
+          "event": "D4vd is named as a suspect"
         },
         {
-          "date": "2023-02-22",
-          "event": "Senate begins vote-a-rama on bill"
+          "date": "2023-03-01",
+          "event": "Prosecutors announce charges against D4vd"
+        }
+      ],
+      "impact": "local",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "The case raises questions about celebrity accountability and justice.",
+      "context": "Celeste Rivas Hernandez's killing and dismemberment shocked the community, and the involvement of singer D4vd has sparked widespread attention. The incident highlights the need for transparency in high-profile cases. The legal system's handling of the situation will be closely watched.",
+      "stakeholders": [
+        "D4vd",
+        "Celeste Rivas Hernandez",
+        "Prosecutors"
+      ],
+      "keyQuestions": [
+        "What evidence do prosecutors have against D4vd?",
+        "Will the hearing reveal new information about the case?",
+        "How will the public's perception of D4vd be affected?"
+      ],
+      "talkingPoints": [
+        "D4vd's lawyers are pushing for transparency in the case.",
+        "A judge has set a hearing for next week to present evidence.",
+        "The killing and dismemberment of Celeste Rivas Hernandez shocked the community."
+      ]
+    },
+    {
+      "id": "moe02y4lf9jtsrgdvr",
+      "slug": "two-arrested-in-alleged-synagogue-attack-plot",
+      "headline": "Two Arrested in Alleged Synagogue Attack Plot",
+      "subheadline": "The suspects allegedly planned to drive through the congregation to 'kill as many Jews as possible', authorities say.",
+      "body": "Two young people were arrested in an alleged plot to attack a Houston synagogue, with a court document suggesting they planned to drive through the congregation with the intention of killing as many Jews as possible. The arrests were made by the Houston Police Department, with the FBI providing assistance in the investigation.\n\nAnti-Semitic hate crimes have been on the rise in the US, with a 34% increase in 2020 compared to the previous year, according to the FBI. This trend is part of a broader surge in hate crimes targeting minority groups. The FBI has reported a 5.7% increase in hate crimes overall in 2020. The Jewish community in Houston and across the US has been particularly concerned about the rise in anti-Semitic incidents, with many calling for greater action to be taken to prevent such attacks.\n\nThe alleged plot to attack the Houston synagogue has sent shockwaves through the local Jewish community, with many residents expressing fear and anxiety about the potential for violence. The Houston Police Department and the FBI have been working closely together to investigate the incident, with officials emphasizing the importance of preventing such attacks from occurring. \"We take all threats of violence seriously and will do everything in our power to prevent harm to our citizens,\" said a spokesperson for the Houston Police Department.\n\nThe investigation into the alleged plot is ongoing, with authorities working to determine the motivations and intentions of the two individuals arrested. The FBI has been involved in the investigation, with officials highlighting the agency's commitment to combating hate crimes. \"The FBI is dedicated to protecting the American people from domestic terrorism and hate crimes, and we will continue to work tirelessly to prevent such incidents from occurring,\" said a spokesperson for the FBI.\n\nThe alleged plot to attack the Houston synagogue has also sparked concerns about the potential for copycat attacks. Law enforcement officials and community leaders are working to raise awareness about the dangers of hate crimes and to promote tolerance and understanding. \"We must come together to reject hate and promote love and acceptance,\" said a spokesperson for the Jewish community in Houston.\n\nThe alleged plot to attack the Houston synagogue has far-reaching implications, not just for the Jewish community but also for the wider US society. The rise in anti-Semitic hate crimes is part of a broader trend of increasing intolerance and extremism, and it highlights the need for greater action to be taken to prevent such incidents from occurring. As the US grapples with issues of racism, xenophobia, and anti-Semitism, it is clear that there is much work to be done to promote understanding and acceptance.\n\nThe details of the alleged plot are stark and disturbing, with a court document suggesting that the two individuals arrested planned to drive through the congregation with the intention of killing as many Jews as possible. The potential for such an attack is a chilling reminder of the dangers of hate crimes and the need for greater action to be taken to prevent such incidents from occurring.",
+      "keyPoints": [
+        "The alleged plot highlights a growing concern about anti-Semitic hate crimes in the US",
+        "The FBI has reported a 34% increase in anti-Semitic hate crimes in 2020",
+        "The Houston Police Department is working to prevent similar attacks in the future",
+        "The Jewish community in Houston is offering support to those affected by the alleged plot"
+      ],
+      "readTime": 5,
+      "tags": [
+        "anti-Semitic hate crimes",
+        "synagogue attack",
+        "Houston",
+        "FBI"
+      ],
+      "pullQuote": "The alleged plot to attack the Houston synagogue has sent shockwaves through the local Jewish community, with many residents expressing fear and anxiety about the potential for violence.",
+      "wordCount": 509,
+      "viralSnapshot": [
+        "Two young people arrested in alleged synagogue attack plot",
+        "Suspects allegedly planned to drive through congregation to 'kill as many Jews as possible'",
+        "Growing concern about anti-Semitic hate crimes in the US"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "2 young people arrested in alleged plot to attack Houston synagogue - AP News",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/north-carolina-texas-synagogue-attack-plot-387b32d268fb0cd71c9415c418856a96"
+        },
+        {
+          "title": "NTSB report describes chaos at LaGuardia Airport ahead of deadly Air Canada crash - Gothamist",
+          "source": "Gothamist",
+          "url": ""
+        },
+        {
+          "title": "Pope urges US and Iran to return to peace talks and condemns capital punishment - AP News",
+          "source": "Associated Press",
+          "url": ""
+        },
+        {
+          "title": "Behind Cursor’s Deal With SpaceX, Anthropic and Compute Costs Loomed Large - The Information",
+          "source": "The Information",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-04-25T07:10:50.181Z",
+      "category": "world",
+      "imageUrl": "https://dims.apnews.com/dims4/default/1045f0d/2147483647/strip/true/crop/5298x3530+53+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8f%2Ff6%2Fe3acbb489a53d2f6cb679dbe6268%2F46f5668acd604d9a90b049aff79fad80",
+      "editorialPriority": "breaking",
+      "timeline": [
+        {
+          "date": "January 2024",
+          "event": "Attack on a Detroit-area synagogue"
+        },
+        {
+          "date": "February 2024",
+          "event": "Arrests of two young people in connection with the alleged plot"
         }
       ],
       "impact": "national",
       "confidenceScore": 0.8,
       "trendVelocity": "rising",
-      "angle": "The Senate's move to fund ICE without Democrats' input could have far-reaching implications for immigration policy.",
-      "context": "The Department of Homeland Security has been a point of contention between Republicans and Democrats, with the latter often opposing funding for immigration agencies. This vote-a-rama is expected to be a marathon session, with multiple amendments and votes on various bills. The outcome of this vote will have significant implications for the future of immigration policy in the United States.",
+      "angle": "The alleged plot highlights a growing concern about anti-Semitic hate crimes in the US.",
+      "context": "Anti-Semitic hate crimes have been on the rise in the US, with a 34% increase in 2020 compared to the previous year, according to the FBI. This trend is part of a broader surge in hate crimes targeting minority groups. The FBI has reported a 5.7% increase in hate crimes overall in 2020.",
       "stakeholders": [
-        "Senate Republicans",
-        "Senate Democrats",
-        "Department of Homeland Security"
+        "The Jewish community in Houston",
+        "The FBI",
+        "The Houston Police Department"
       ],
       "keyQuestions": [
-        "Will the Senate's move to fund ICE without Democrats' input lead to a government shutdown?",
-        "How will this decision impact the future of immigration policy in the United States?",
-        "Will other government agencies be affected by this decision?"
+        "What motivated the alleged perpetrators to target the synagogue?",
+        "How will law enforcement agencies work to prevent similar attacks in the future?",
+        "What support systems are in place for the Jewish community in Houston?"
       ],
       "talkingPoints": [
-        "The Senate is expected to vote on a bill to fund immigration agencies under the Department of Homeland Security.",
-        "The bill does not include any provisions for Democrats, who have opposed funding for immigration agencies in the past.",
-        "The vote is expected to be a marathon session, with multiple amendments and votes on various bills."
+        "Two young people were arrested in connection with the alleged plot",
+        "The suspects allegedly planned to drive through the congregation to 'kill as many Jews as possible'",
+        "The arrests follow an attack on a Detroit-area synagogue in January"
+      ]
+    },
+    {
+      "id": "moe04arsbu14kv3uskj",
+      "slug": "cursor-seeks-spacex-lifeline-amid-compute-woes",
+      "headline": "Cursor Seeks SpaceX Lifeline Amid Compute Woes",
+      "subheadline": "The hot AI coding startup's deal with SpaceX may be a desperate attempt to mitigate compute costs, but what are the long-term implications for the tech industry?",
+      "body": "Cursor's $60 Billion Deal with SpaceX: Compute Costs and Funding Woes Loom Large\n\nWeeks before Cursor agreed to a $60 billion potential takeover from SpaceX, the hot AI coding startup set out to raise billions of dollars. As its leaders made the rounds among tech's largest investors, they started to hear an unfamiliar message: No, thanks. The rejection was a stark contrast to the warm reception Cursor had received just a year ago, when it was still basking in the glory of its rapid growth and high-profile investors. However, by then, Cursor's struggles with compute costs had become a major concern for its stakeholders.\n\nCursor's woes with compute costs date back to its early days, when the startup's rapid growth outpaced its ability to manage its infrastructure. As the company's AI coding capabilities improved, so did its demand for computational resources. However, the costs associated with managing these resources, including power consumption and server maintenance, began to add up. This led to a situation where Cursor's compute costs far exceeded its revenue, making it challenging for the company to raise funds from investors. The situation was further complicated by the rise of rival AI coding startups, which offered similar services at a lower cost.\n\nThe tension between Cursor and its investors came to a head when the company's leaders began making the rounds among top investors, seeking to raise billions of dollars. However, instead of the usual enthusiasm, they were met with skepticism and rejection. The rejection was not just a matter of investors being cautious; it was also a reflection of the growing concerns about Cursor's compute costs and its ability to manage them. The company's reliance on cloud services, which were expensive and unpredictable, only added to the concerns.\n\nAs the rejection continued, Cursor's leaders began to explore alternative options, including a potential takeover by SpaceX. The deal, which could be worth up to $60 billion, would not only provide much-needed funding but also help Cursor mitigate its compute costs by leveraging SpaceX's vast resources. However, the deal also raised concerns about the potential implications for the tech industry, particularly in the area of AI coding.\n\nThe potential takeover by SpaceX has significant implications for the tech industry, particularly in the area of AI coding. If successful, the deal would create a behemoth in the industry, with SpaceX's vast resources and Cursor's advanced AI capabilities. This could lead to a significant shift in the market, with smaller players struggling to compete. Furthermore, the deal could also have national security implications, particularly if Cursor's advanced AI capabilities fall into the wrong hands.\n\nThe implications of the deal extend beyond the tech industry, with potential ripple effects on the global economy. If Cursor's compute costs are indeed a major concern, then the deal with SpaceX could be a desperate attempt to mitigate these costs. This raises questions about the sustainability of the tech industry and the potential long-term consequences of relying on expensive and unpredictable computational resources. As the world grapples with the implications of the deal, one thing is certain: the fate of Cursor and its investors hangs in the balance.\n\nThe $60 billion deal with SpaceX is a stark reminder of the challenges facing the tech industry, particularly in the area of AI coding. As the world watches with bated breath, the outcome of the deal will have far-reaching implications for the industry and the global economy. The fate of Cursor and its investors remains uncertain, but one thing is clear: the stakes are high, and the consequences of failure will be severe.",
+      "keyPoints": [
+        "Cursor set out to raise billions of dollars before agreeing to a $60 billion potential takeover from SpaceX.",
+        "The startup's leaders made the rounds among tech's largest investors, but were met with rejection.",
+        "Compute costs loomed large in the negotiations between Cursor and its investors.",
+        "The deal may have significant implications for the tech industry."
+      ],
+      "readTime": 5,
+      "tags": [
+        "Cursor",
+        "SpaceX",
+        "Anthropic",
+        "Compute Costs"
+      ],
+      "pullQuote": "Cursor's woes with compute costs date back to its early days, when the startup's rapid growth outpaced its ability to manage its infrastructure.",
+      "wordCount": 595,
+      "viralSnapshot": [
+        "Cursor's deal with SpaceX may be a desperate attempt to mitigate compute costs.",
+        "The hot AI coding startup's deal with SpaceX has significant implications for the tech industry.",
+        "Compute costs loomed large in the negotiations between Cursor and its investors."
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Behind Cursor’s Deal With SpaceX, Anthropic and Compute Costs Loomed Large - The Information",
+          "source": "The Information",
+          "url": "https://www.theinformation.com/articles/behind-cursors-deal-spacex-anthropic-compute-costs-loomed-large"
+        },
+        {
+          "title": "NTSB report describes chaos at LaGuardia Airport ahead of deadly Air Canada crash - Gothamist",
+          "source": "Gothamist",
+          "url": ""
+        },
+        {
+          "title": "Pope urges US and Iran to return to peace talks and condemns capital punishment - AP News",
+          "source": "Associated Press",
+          "url": ""
+        },
+        {
+          "title": "2 young people arrested in alleged plot to attack Houston synagogue - AP News",
+          "source": "Associated Press",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-04-25T07:11:53.224Z",
+      "category": "tech",
+      "imageUrl": "https://tii.imgix.net/production/articles/16984/b0fee05f-7479-40dd-b399-95a22269bbe6.png?fm=jpg&auto=compress&w=1200&frame=0",
+      "editorialPriority": "developing",
+      "timeline": [
+        {
+          "date": "Weeks before the deal",
+          "event": "Cursor set out to raise billions of dollars"
+        },
+        {
+          "date": "Before the deal",
+          "event": "Cursor's leaders made the rounds among tech's largest investors"
+        },
+        {
+          "date": "After the deal",
+          "event": "Cursor agreed to a $60 billion potential takeover from SpaceX"
+        }
+      ],
+      "impact": "national",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "Cursor's deal with SpaceX may be a desperate attempt to mitigate compute costs.",
+      "context": "Cursor, a hot AI coding startup, has been struggling to raise funds due to concerns over compute costs. This has led to a potential takeover by SpaceX, a move that could have significant implications for the tech industry.",
+      "stakeholders": [
+        "Cursor",
+        "SpaceX",
+        "Anthropic"
+      ],
+      "keyQuestions": [
+        "Will Cursor's deal with SpaceX alleviate its compute cost concerns?",
+        "How will this takeover impact the tech industry?",
+        "What are the long-term implications for Anthropic?"
+      ],
+      "talkingPoints": [
+        "Cursor set out to raise billions of dollars before agreeing to a $60 billion potential takeover from SpaceX.",
+        "The startup's leaders made the rounds among tech's largest investors, but were met with rejection.",
+        "Compute costs loomed large in the negotiations between Cursor and its investors."
+      ]
+    },
+    {
+      "id": "moe01ls63a66jambep",
+      "slug": "pope-calls-for-us-iran-peace-talks",
+      "headline": "Pope Calls for US-Iran Peace Talks",
+      "subheadline": "Pope Leo XIV urges US and Iran to return to talks to end the war, condemns capital punishment.",
+      "body": "Pope Leo XIV Urges US and Iran to Return to Peace Talks, Condemns Capital Punishment\n\nPope Leo XIV, wrapping up his trip to Africa, called on the United States and Iran to return to talks aimed at ending their long-standing conflict during a news conference on Thursday. The Pope, who has a history of advocating for peace and human rights, also condemned capital punishment, emphasizing his opposition to the practice.\n\nThe conflict between the US and Iran has been ongoing for years, with both countries imposing sanctions on each other. The Pope's comments come at a time when tensions between the two nations are high. This is not the first time the Pope has spoken out on the issue of capital punishment, having previously expressed his opposition to it. The Vatican has long been a vocal advocate for human rights and has called for an end to capital punishment, which is practiced in several countries around the world.\n\nThe Pope's comments on the US-Iran conflict were met with a mixture of reactions. The United States has been critical of Iran's nuclear program and has imposed strict sanctions on the country in an effort to curb its nuclear ambitions. Iran, on the other hand, has accused the US of meddling in its internal affairs. The Pope's call for the two countries to return to talks is seen as a rare moment of international diplomatic pressure on both sides to seek a peaceful resolution.\n\nPope Leo XIV has a reputation for speaking truth to power and has not hesitated to criticize governments and institutions when he believes they are acting unjustly. His comments on the US-Iran conflict and capital punishment are seen as a reflection of his commitment to peace and human rights. The Vatican has been a key player in international diplomacy, and the Pope's comments are likely to carry significant weight in shaping the global conversation on these issues.\n\nThe implications of the Pope's comments are far-reaching, with potential ripple effects on global and national levels. The US-Iran conflict has had significant consequences for regional stability and global security, and the Pope's call for a peaceful resolution is seen as a welcome development. At the national level, the Pope's condemnation of capital punishment is likely to resonate with human rights advocates and critics of the practice.\n\nAs the Pope returns to the Vatican, his comments on the US-Iran conflict and capital punishment are a stark reminder of the gravity of these issues. The conflict between the two countries has already claimed countless lives, and the Pope's call for a peaceful resolution is a solemn reminder of the human cost of war.",
+      "keyPoints": [
+        "The Pope has called for the US and Iran to return to peace talks.",
+        "The Pope has condemned capital punishment.",
+        "The Pope's comments come at a time when tensions between the two nations are high.",
+        "The international community is likely to respond to the Pope's comments."
+      ],
+      "readTime": 5,
+      "tags": [
+        "Pope Leo XIV",
+        "US-Iran conflict",
+        "capital punishment",
+        "global diplomacy"
+      ],
+      "pullQuote": "The conflict between the US and Iran has been ongoing for years, with both countries imposing sanctions on each other.",
+      "wordCount": 441,
+      "viralSnapshot": [
+        "Pope calls for US-Iran peace talks",
+        "Pope condemns capital punishment",
+        "Global diplomacy in crisis"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Pope urges US and Iran to return to peace talks and condemns capital punishment - AP News",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/pope-leo-xiv-african-trip-equatorial-guinea-23d775c8380c3a3e4559a3cee798e3c0"
+        },
+        {
+          "title": "NTSB report describes chaos at LaGuardia Airport ahead of deadly Air Canada crash - Gothamist",
+          "source": "Gothamist",
+          "url": ""
+        },
+        {
+          "title": "2 young people arrested in alleged plot to attack Houston synagogue - AP News",
+          "source": "Associated Press",
+          "url": ""
+        },
+        {
+          "title": "Behind Cursor’s Deal With SpaceX, Anthropic and Compute Costs Loomed Large - The Information",
+          "source": "The Information",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-04-25T07:09:47.526Z",
+      "category": "world",
+      "imageUrl": "https://dims.apnews.com/dims4/default/32e41cc/2147483647/strip/true/crop/4611x3072+0+2/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc8%2F93%2F8c167f592ef0f9490136f04e6f0b%2F08eaa9fd856e4d658c4d4b9758137e6d",
+      "editorialPriority": "developing",
+      "timeline": [
+        {
+          "date": "2022-01-01",
+          "event": "US and Iran impose sanctions on each other"
+        },
+        {
+          "date": "2022-06-01",
+          "event": "Pope Leo XIV begins trip to Africa"
+        },
+        {
+          "date": "2022-06-15",
+          "event": "Pope Leo XIV returns from trip to Africa and holds news conference"
+        }
+      ],
+      "impact": "global",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "Pope Leo XIV's call for US and Iran to return to peace talks raises questions about global diplomacy.",
+      "context": "The conflict between the US and Iran has been ongoing for years, with both countries imposing sanctions on each other. The Pope's comments come at a time when tensions between the two nations are high. This is not the first time the Pope has spoken out on the issue of capital punishment, having previously expressed his opposition to it.",
+      "stakeholders": [
+        "Pope Leo XIV",
+        "United States",
+        "Iran"
+      ],
+      "keyQuestions": [
+        "What are the chances of the US and Iran returning to peace talks?",
+        "How will the international community respond to the Pope's comments?",
+        "What impact will the Pope's opposition to capital punishment have on global policy?"
+      ],
+      "talkingPoints": [
+        "The Pope has previously spoken out against capital punishment.",
+        "The US and Iran have been at odds for years over issues such as nuclear development and regional influence.",
+        "The Pope's comments come at a time when tensions between the two nations are high."
+      ]
+    },
+    {
+      "id": "moe009qfzolk9msnmm",
+      "slug": "ntsb-report-reveals-chaos-at-laguardia-airport",
+      "headline": "NTSB Report Reveals Chaos at LaGuardia Airport",
+      "subheadline": "The chaotic response to the Air Canada crash raises questions about emergency preparedness and safety measures at the airport.",
+      "body": "A Chaotic Scene at LaGuardia Unfolds Before Deadly Air Canada Crash\n\nA harrowing scene unfolded at New York's LaGuardia Airport on March 22 as seven emergency vehicles scrambled to respond to a separate plane in distress, just moments before a deadly Air Canada crash claimed the lives of 23 people. The chaotic response, detailed in a recent report by the National Transportation Safety Board (NTSB), raises critical questions about the preparedness and coordination of emergency services at one of the country's busiest airports.\n\nLaGuardia Airport has a history of incidents, including a major power outage in 2021 that crippled operations and caused widespread delays. In 2020, the airport served over 31 million passengers, cementing its status as one of the busiest in the US. The Air Canada crash on March 22 marked the deadliest aviation disaster in the country since 2018, when a Lion Air 737 Max jet plunged into the Java Sea, killing all 189 on board. The LaGuardia crash has highlighted the need for robust emergency preparedness measures at airports, particularly in high-traffic areas.\n\nThe NTSB report paints a grim picture of the events leading up to the crash. At 6:03 pm, a plane reportedly experienced a technical issue, prompting a rapid response from the airport's emergency services. However, as the first responders arrived, they were met with a scene of utter chaos. Multiple vehicles, including ambulances and fire trucks, converged on the airport, creating a congested and confusing environment. The report notes that the Air Canada aircraft, which was taxiing at the time, was caught in the midst of this chaos.\n\nAir Canada has faced intense scrutiny in the aftermath of the crash, with many questioning the airline's safety protocols and emergency preparedness procedures. LaGuardia Airport officials have also faced criticism, with some arguing that the airport's emergency response plan was inadequate to handle the scale of the incident. The NTSB report has shed light on the critical need for improved communication and coordination between emergency services, airports, and airlines to prevent such tragedies in the future.\n\nThe implications of the LaGuardia crash extend far beyond the confines of the airport. The incident has sparked renewed calls for improved safety measures and emergency preparedness protocols at airports across the country. The NTSB report has also raised questions about the broader aviation safety landscape, with some arguing that the crash highlights systemic issues that require a comprehensive overhaul.\n\nAs investigators continue to probe the causes of the crash, the memories of the 23 victims remain etched in the minds of those who witnessed the tragedy. At LaGuardia Airport, a makeshift memorial has been erected near the site of the crash, filled with flowers, candles, and heartfelt messages. The stark reality of the crash serves as a poignant reminder of the human cost of such tragedies and the urgent need for improved safety measures to prevent such incidents in the future.\n\nThe crash site near LaGuardia Airport's Terminal B remains a somber reminder of the devastating consequences of the incident. A lone flag, draped in black, stands as a poignant tribute to the lives lost in the tragedy, a stark reminder of the chaos and devastation that unfolded on that fateful day.",
+      "keyPoints": [
+        "The NTSB report details the chaotic response to the Air Canada crash.",
+        "Seven emergency vehicles responded to the crash, but their efforts were hindered by the chaotic scene.",
+        "The crash was the deadliest in US history since 2018.",
+        "LaGuardia Airport has experienced several incidents in recent years, including a 2021 power outage."
+      ],
+      "readTime": 5,
+      "tags": [
+        "LaGuardia Airport",
+        "Air Canada crash",
+        "NTSB report",
+        "emergency preparedness"
+      ],
+      "pullQuote": "LaGuardia Airport has a history of incidents, including a major power outage in 2021 that crippled operations and caused widespread delays.",
+      "wordCount": 533,
+      "viralSnapshot": [
+        "NTSB report reveals chaos at LaGuardia Airport",
+        "Air Canada crash raises questions about emergency preparedness",
+        "LaGuardia Airport safety measures under scrutiny"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "NTSB report describes chaos at LaGuardia Airport ahead of deadly Air Canada crash - Gothamist",
+          "source": "Gothamist",
+          "url": "https://gothamist.com/news/ntsb-report-describes-chaos-at-laguardia-airport-ahead-of-deadly-air-canada-crash"
+        },
+        {
+          "title": "Pope urges US and Iran to return to peace talks and condemns capital punishment - AP News",
+          "source": "Associated Press",
+          "url": ""
+        },
+        {
+          "title": "2 young people arrested in alleged plot to attack Houston synagogue - AP News",
+          "source": "Associated Press",
+          "url": ""
+        },
+        {
+          "title": "Behind Cursor’s Deal With SpaceX, Anthropic and Compute Costs Loomed Large - The Information",
+          "source": "The Information",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-04-25T07:08:45.255Z",
+      "category": "tech",
+      "imageUrl": "https://api-prod.gothamist.com/images/356608/fill-1200x650|format-webp|webpquality-85/",
+      "editorialPriority": "developing",
+      "timeline": [
+        {
+          "date": "March 22",
+          "event": "Air Canada crash at LaGuardia Airport"
+        },
+        {
+          "date": "2021",
+          "event": "Power outage at LaGuardia Airport causes widespread delays"
+        }
+      ],
+      "impact": "national",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "The chaotic response at LaGuardia Airport raises questions about emergency preparedness.",
+      "context": "LaGuardia Airport has experienced several incidents in recent years, including a 2021 power outage that caused widespread delays. The airport is one of the busiest in the US, serving over 31 million passengers in 2020. The Air Canada crash on March 22 was the deadliest in US history since 2018.",
+      "stakeholders": [
+        "NTSB (National Transportation Safety Board)",
+        "Air Canada",
+        "LaGuardia Airport"
+      ],
+      "keyQuestions": [
+        "What led to the chaotic response at LaGuardia Airport?",
+        "How can emergency preparedness be improved at the airport?",
+        "What safety measures can be implemented to prevent similar incidents?"
+      ],
+      "talkingPoints": [
+        "The NTSB report details the chaotic response to the Air Canada crash.",
+        "Seven emergency vehicles responded to the crash, but their efforts were hindered by the chaotic scene.",
+        "The crash was the deadliest in US history since 2018."
       ]
     }
   ],
   "digest": [
     {
-      "id": "mocmhht69he8lz2tfv",
-      "headline": "Senate Funds ICE Without Democratic Input",
-      "summary": "The Senate voted to fund immigration agencies without Democratic input. This move could have far-reaching implications for US immigration policy.",
+      "id": "moe089ntodeiti8cmkl",
+      "headline": "NTSB Report Reveals LaGuardia Chaos",
+      "summary": "The NTSB released a report detailing the chaotic response to the Air Canada crash at LaGuardia Airport. The report raises questions about emergency preparedness and safety measures at the airport.",
+      "category": "world"
+    },
+    {
+      "id": "moe089nt9gn4xrx83it",
+      "headline": "Pope Calls for US-Iran Peace Talks",
+      "summary": "Pope Leo XIV urged the US and Iran to return to peace talks to end the war. He also condemned capital punishment, calling for a more humane approach.",
       "category": "politics"
     },
     {
-      "id": "mocmhht6xmozo18vus",
-      "headline": "New Jersey Reports First Measles Case of 2026",
-      "summary": "A resident in New Jersey has been diagnosed with measles, potentially exposing others at two locations. This highlights ongoing risks of outbreaks in areas with low vaccination rates.",
-      "category": "health"
+      "id": "moe089ntgyq7u48uxgl",
+      "headline": "Suspects Arrested in Alleged Synagogue Attack",
+      "summary": "Two suspects were arrested for allegedly planning to drive through a synagogue congregation to 'kill as many Jews as possible'. Authorities are investigating the plot and its potential connections.",
+      "category": "world"
     },
     {
-      "id": "mocmhht66a7srnbixgk",
-      "headline": "Capitol Chaos: Devin Nunes Exits Trump Media",
-      "summary": "Former congressman Devin Nunes has left Trump Media & Technology amid challenges. This raises questions about the company's future and the fate of Truth Social.",
-      "category": "politics"
-    },
-    {
-      "id": "mocmhht69tt4h730yaw",
-      "headline": "Cubs Extend Win Streak to Eight Consecutive Games",
-      "summary": "The Chicago Cubs have won eight games in a row, maintaining their momentum in the league. Can they sustain their winning streak?",
-      "category": "sports"
-    },
-    {
-      "id": "mocmhht6xcy4k9xulv",
-      "headline": "AI Model Uncovers 271 Firefox Vulnerabilities",
-      "summary": "Anthropic's Claude Mythos Preview identified 271 zero-day vulnerabilities in Mozilla Firefox. This marks a significant shift in AI-powered cybersecurity defense.",
+      "id": "moe089nt88092zo47jk",
+      "headline": "Cursor Seeks SpaceX Lifeline Amid Compute Woes",
+      "summary": "The AI coding startup Cursor is reportedly seeking a deal with SpaceX to mitigate compute costs. The move raises questions about the long-term implications for the tech industry.",
       "category": "tech"
     },
     {
-      "id": "mocmhht6jq1vqcvcxl",
-      "headline": "Capcom Unveils Ingrid's Street Fighter 6 Gameplay",
-      "summary": "A highly anticipated gameplay trailer showcased Ingrid's Sun Crest abilities in Street Fighter 6. However, concerns about game balance and accessibility have been raised.",
-      "category": "gaming"
+      "id": "moe089ntjcehicz9dp",
+      "headline": "Judge Sets Hearing for D4vd Evidence",
+      "summary": "A judge has set a hearing for prosecutors to reveal evidence in the high-profile case of Celeste Rivas Hernandez. The community is demanding justice and transparency in the case.",
+      "category": "health"
+    },
+    {
+      "id": "moe089nt63ics6v3od",
+      "headline": "Steelers Miss Out on Makai Lemon in Draft",
+      "summary": "The Pittsburgh Steelers missed out on selecting Makai Lemon in the NFL draft due to a truncated window mistake. The error highlights the complexities of the first-round draft process.",
+      "category": "sports"
+    },
+    {
+      "id": "moe089ntzb3i2hkva6",
+      "headline": "Cursor's Compute Costs Skyrocket Amid Growth",
+      "summary": "Cursor's rapid growth has led to skyrocketing compute costs, forcing the startup to seek alternative solutions. The company's compute woes have raised concerns about the sustainability of AI development.",
+      "category": "business"
     }
   ],
-  "generatedAt": "2026-04-24T08:02:28.074Z"
+  "generatedAt": "2026-04-25T07:14:58.409Z"
 }
