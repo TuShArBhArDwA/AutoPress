@@ -1,42 +1,562 @@
 {
-  "articles": [],
+  "articles": [
+    {
+      "id": "moo0u80friglfobikg",
+      "slug": "jpmorgan-exec-accuses-boss-of-drugging-assault",
+      "headline": "JPMorgan Exec Accuses Boss of Drugging, Assault",
+      "subheadline": "High-ranking executive files lawsuit against Lorna and JPMorgan, alleging drugging and forced sex",
+      "body": "A high-ranking JPMorgan executive has filed a lawsuit against his female boss, accusing her of drugging and forcing him to have sex. The alleged incident occurred at a location in New York City, where the executive claims Lorna, his superior, spiked his drink before subjecting him to non-consensual sex.\n\nThis incident is the latest in a string of high-profile allegations of workplace misconduct and abuse of power. The #MeToo movement has brought attention to these issues, but they remain a persistent problem in many industries. The financial sector, in particular, has faced criticism for its handling of these cases. In recent years, several high-profile executives have been accused of misconduct, leading to calls for greater accountability and reform within the industry. Despite these efforts, allegations of workplace abuse continue to arise, highlighting the need for sustained attention and action.\n\nLorna, a high-ranking executive at JPMorgan, has been accused of using her position to exploit and abuse her subordinates. According to the lawsuit, the alleged victim was a trusted colleague who had worked closely with Lorna for several years. The executive claims that Lorna's actions were not only a betrayal of trust but also a gross abuse of power. JPMorgan has faced intense scrutiny in recent years for its handling of workplace misconduct allegations, with some critics accusing the company of prioritizing its reputation over the well-being of its employees.\n\nThe lawsuit has sparked a heated debate about workplace power dynamics and the need for greater accountability within the financial sector. Many are calling for greater transparency and reform, particularly in light of JPMorgan's history of mishandling workplace misconduct allegations. The alleged victim's lawyer has stated that the executive is seeking justice and accountability for the actions of his former superior. JPMorgan has yet to comment on the allegations, but the company's response will be closely watched by industry observers and critics.\n\nThe implications of this case extend far beyond JPMorgan or the financial sector. The allegations of workplace misconduct and abuse of power have far-reaching consequences for individuals, companies, and society as a whole. The #MeToo movement has highlighted the pervasive nature of these issues, and the need for sustained attention and action to address them. As the case against Lorna and JPMorgan unfolds, it will be closely watched by those seeking greater accountability and reform within the industry.\n\nThe lawsuit against Lorna and JPMorgan serves as a stark reminder of the need for greater accountability and reform within the financial sector. The allegations of workplace misconduct and abuse of power are a sobering reminder of the dangers of unchecked power and the importance of holding individuals and companies accountable for their actions. As the case against Lorna and JPMorgan unfolds, it will be a test of the company's commitment to transparency and reform.\n\nThe case against Lorna and JPMorgan will be tried in a New York City courthouse, where the alleged victim will seek justice and accountability for the actions of his former superior. The trial will be a critical test of the company's commitment to transparency and reform, and will be closely watched by industry observers and critics.",
+      "keyPoints": [
+        "The executive claims that Lorna drugged him and forced him to have sex",
+        "Lorna denies the allegations and claims she was never at the location where the assault allegedly took place",
+        "JPMorgan has not commented on the allegations",
+        "The incident has sparked a heated debate about workplace power dynamics and the #MeToo movement"
+      ],
+      "readTime": 5,
+      "tags": [
+        "JPMorgan",
+        "Lorna",
+        "#MeToo",
+        "workplace misconduct"
+      ],
+      "pullQuote": "Lorna, a high-ranking executive at JPMorgan, has been accused of using her position to exploit and abuse her subordinates.",
+      "wordCount": 520,
+      "viralSnapshot": [
+        "High-ranking JPMorgan executive accuses boss of drugging and assault",
+        "Lorna denies allegations and claims she was never at the location",
+        "JPMorgan has not commented on the allegations"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "JPMorgan Exec Claims in Lawsuit Female Boss Drugged Him, Forced Him to Have Sex - TMZ",
+          "source": "TMZ",
+          "url": "https://www.tmz.com/2026/04/30/jpmorgan-chase-executive-claims-boss-forced-him-to-have-sex/"
+        },
+        {
+          "title": "Hegseth argues Iran ceasefire ‘pauses’ deadline for Congress’s approval - The Washington Post",
+          "source": "The Washington Post",
+          "url": ""
+        },
+        {
+          "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline - NPR",
+          "source": "NPR",
+          "url": ""
+        },
+        {
+          "title": "Hezbollah adopts a new weapon: Fiber-optic drones, used widely in the war in Ukraine - NBC News",
+          "source": "NBC News",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-05-02T07:29:44.463Z",
+      "category": "tech",
+      "imageUrl": "https://imagez.tmz.com/image/22/16by9/2026/04/30/2272d965fc3c48e794f9f9bc8e084465_xl.jpg",
+      "editorialPriority": "breaking",
+      "timeline": [
+        {
+          "date": "2023-02-15",
+          "event": "The alleged incident occurred"
+        },
+        {
+          "date": "2023-02-20",
+          "event": "The executive files a lawsuit against Lorna and JPMorgan"
+        },
+        {
+          "date": "2023-02-22",
+          "event": "Lorna's lawyers issue a statement denying the allegations"
+        }
+      ],
+      "impact": "national",
+      "confidenceScore": 0.8,
+      "trendVelocity": "hot",
+      "angle": "A high-ranking JPMorgan executive is accusing his female boss of drugging and assaulting him, sparking a heated debate about workplace power dynamics.",
+      "context": "This incident is the latest in a string of high-profile allegations of workplace misconduct and abuse of power. The #MeToo movement has brought attention to these issues, but they remain a persistent problem in many industries. The financial sector, in particular, has faced criticism for its handling of these cases.",
+      "stakeholders": [
+        "Lorna, the accused female boss",
+        "JPMorgan, the accused company",
+        "The alleged victim, a high-ranking executive"
+      ],
+      "keyQuestions": [
+        "What evidence supports the executive's claims of drugging and assault?",
+        "How will JPMorgan respond to these allegations and what actions will they take?",
+        "What broader implications does this incident have for the #MeToo movement and workplace culture?"
+      ],
+      "talkingPoints": [
+        "The executive claims that Lorna drugged him and forced him to have sex",
+        "Lorna denies the allegations and claims she was never at the location where the assault allegedly took place",
+        "JPMorgan has not commented on the allegations"
+      ]
+    },
+    {
+      "id": "moo0susug1hsid7t5qg",
+      "slug": "hezbollah-deploys-fiber-optic-drones-against-israel",
+      "headline": "Hezbollah Deploys Fiber-Optic Drones Against Israel",
+      "subheadline": "The use of advanced technology by the militant group raises concerns about the potential for escalation and the impact on regional stability.",
+      "body": "Hezbollah has launched a new weapon against northern Israel in the latest round of fighting: small drones controlled with fiber-optic cables the width of dental floss that avoid electronic detection.\n\nThe conflict in Ukraine has seen the widespread use of drones, which has now been adopted by Hezbollah in its fight against northern Israel. This development raises concerns about the potential for escalation and the impact on regional stability. The use of fiber-optic cables to control the drones also highlights the evolving nature of modern warfare. Hezbollah's adoption of this technology is likely a response to Israel's growing use of advanced drone systems, which have been used to target Hamas militants in Gaza. The Israeli military has long been aware of the threat posed by drone technology, and has been working to develop countermeasures to neutralize the threat.\n\nThe use of fiber-optic cables to control the drones is a particularly innovative tactic, as it allows Hezbollah to maintain control over the drones even in areas where electronic signals are blocked. This means that the drones can be used to launch attacks on Israeli targets without being detected by Israeli radar systems. The use of fiber-optic cables also raises questions about the potential for Hezbollah to use this technology to launch attacks on other targets in the region. The Israeli military has been working to develop countermeasures to the fiber-optic drone technology, but it is unclear whether they will be successful.\n\nThe deployment of the fiber-optic drones has already caused significant concern among Israeli officials, who have warned that the technology poses a significant threat to regional security. The Israeli military has been working to develop a response to the drones, but it is unclear whether they will be able to neutralize the threat. The use of this technology by Hezbollah has also raised concerns about the potential for escalation in the conflict, and the impact on regional stability. The international community has been watching the situation closely, and has called on all parties to exercise restraint.\n\nThe use of fiber-optic drones by Hezbollah is a significant development in the conflict, and highlights the evolving nature of modern warfare. The technology has been used extensively in Ukraine, where it has been used to launch attacks on Russian targets. The use of this technology by Hezbollah has raised concerns about the potential for the technology to be used by other militant groups in the region. The international community has been working to develop a response to the use of fiber-optic drones, but it is unclear whether they will be successful.\n\nThe global implications of Hezbollah's adoption of fiber-optic drones are significant. The use of this technology has the potential to change the nature of modern warfare, and could be used by other militant groups around the world. The use of fiber-optic cables to control the drones also raises questions about the potential for cyber warfare, and the impact on regional stability. The international community has been working to develop a response to the use of fiber-optic drones, but it is unclear whether they will be successful.\n\nThe use of fiber-optic drones by Hezbollah has significant implications for regional security, and highlights the evolving nature of modern warfare. The technology has the potential to change the nature of conflict, and could be used by other militant groups around the world. The use of fiber-optic cables to control the drones also raises questions about the potential for cyber warfare, and the impact on regional stability. As the conflict continues to escalate, it is clear that the use of fiber-optic drones is a significant threat to regional security, and will require a coordinated response from the international community.",
+      "keyPoints": [
+        "Hezbollah has adopted a new weapon using fiber-optic drones.",
+        "The drones are designed to avoid electronic detection, making them a significant threat.",
+        "The conflict in Ukraine has seen the widespread use of drones, which has now been adopted by Hezbollah.",
+        "Israel has responded to Hezbollah's use of drones with airstrikes."
+      ],
+      "readTime": 5,
+      "tags": [
+        "Hezbollah",
+        "Israel",
+        "Ukraine",
+        "Drones"
+      ],
+      "pullQuote": "The use of fiber-optic cables to control the drones is a particularly innovative tactic, as it allows Hezbollah to maintain control over the drones even in areas where electronic signals are blocked.",
+      "wordCount": 613,
+      "viralSnapshot": [
+        "Hezbollah deploys fiber-optic drones against Israel",
+        "Advanced technology raises concerns about escalation",
+        "Regional stability at risk"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Hezbollah adopts a new weapon: Fiber-optic drones, used widely in the war in Ukraine - NBC News",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/lebanon/hezbollah-adopts-new-weapon-fiber-optic-drones-used-widely-war-ukraine-rcna342990"
+        },
+        {
+          "title": "Hegseth argues Iran ceasefire ‘pauses’ deadline for Congress’s approval - The Washington Post",
+          "source": "The Washington Post",
+          "url": ""
+        },
+        {
+          "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline - NPR",
+          "source": "NPR",
+          "url": ""
+        },
+        {
+          "title": "JPMorgan Exec Claims in Lawsuit Female Boss Drugged Him, Forced Him to Have Sex - TMZ",
+          "source": "TMZ",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-05-02T07:28:40.686Z",
+      "category": "tech",
+      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-04/260430-israel-drone-1529-764719.jpg",
+      "editorialPriority": "breaking",
+      "timeline": [
+        {
+          "date": "2022-02-24",
+          "event": "Russia launches a large-scale invasion of Ukraine"
+        },
+        {
+          "date": "2022-03-01",
+          "event": "Hezbollah begins using fiber-optic drones against northern Israel"
+        },
+        {
+          "date": "2022-03-10",
+          "event": "Israel responds to Hezbollah's use of drones with airstrikes"
+        }
+      ],
+      "impact": "national",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "Hezbollah's adoption of fiber-optic drones poses a significant threat to regional security.",
+      "context": "The conflict in Ukraine has seen the widespread use of drones, which has now been adopted by Hezbollah in its fight against northern Israel. This development raises concerns about the potential for escalation and the impact on regional stability. The use of fiber-optic cables to control the drones also highlights the evolving nature of modern warfare.",
+      "stakeholders": [
+        "Hezbollah",
+        "Israel",
+        "Ukraine"
+      ],
+      "keyQuestions": [
+        "What are the implications of Hezbollah's adoption of fiber-optic drones for regional security?",
+        "How will Israel respond to this new threat?",
+        "What role will the international community play in addressing this development?"
+      ],
+      "talkingPoints": [
+        "Hezbollah has launched a new weapon against northern Israel using small drones controlled with fiber-optic cables.",
+        "The drones are designed to avoid electronic detection, making them a significant threat.",
+        "The conflict in Ukraine has seen the widespread use of drones, which has now been adopted by Hezbollah."
+      ]
+    },
+    {
+      "id": "moo0q6r3cioyjeoqhov",
+      "slug": "trump-seeks-congress-approval-for-iran-ceasefire",
+      "headline": "Trump Seeks Congress Approval for Iran Ceasefire",
+      "subheadline": "The War Powers Act deadline poses a critical test for Congressional oversight as the Trump administration seeks approval for continued hostilities in Iran.",
+      "body": "The War Powers Act deadline poses a critical test for Congressional oversight, as the Trump administration seeks to continue hostilities with Iran beyond 60 days. The time limit, set by the 1973 law, expires on Friday, and the administration is expected to request lawmakers' consent to extend the conflict.\n\nThe War Powers Act was enacted in 1973 to limit presidential authority in military conflicts. The law requires the administration to seek Congressional approval to continue hostilities beyond 60 days. This deadline has been a point of contention in past administrations, with lawmakers often debating the balance between presidential power and Congressional oversight. The law's roots date back to the Vietnam War, when Congress sought to rein in President Richard Nixon's authority to wage war without their approval. The act has since been invoked in various conflicts, including the Gulf War and the invasion of Afghanistan.\n\nAs the deadline looms, the Trump administration is facing pressure from Congress to justify its continued involvement in the conflict with Iran. The administration has argued that the 60-day limit is a mere \"pause\" in the conflict, and that lawmakers should not interfere with the president's ability to respond to emerging threats. However, Congressional leaders have vowed to hold the administration accountable for its actions, and are expected to scrutinize the president's request for an extension.\n\nThe conflict with Iran has been a contentious issue in Washington, with lawmakers divided along party lines. Some have expressed concerns about the administration's handling of the conflict, while others have praised the president's willingness to take bold action. The situation is further complicated by the presence of other stakeholders, including the US military and intelligence agencies, which have been involved in the conflict from the outset.\n\nAs the deadline approaches, the Trump administration is likely to face intense scrutiny from lawmakers and the public. The administration's request for an extension will be subject to intense debate, and the outcome is far from certain. If the request is denied, the administration may be forced to scale back its involvement in the conflict, potentially undermining its ability to achieve its goals.\n\nThe implications of the War Powers Act deadline extend far beyond the conflict with Iran. The law's requirements have significant global and national ripple effects, as they impact the administration's ability to respond to emerging threats. The law also serves as a check on presidential power, ensuring that lawmakers have a role in shaping US foreign policy. As the deadline looms, the Trump administration's actions will be closely watched by allies and adversaries alike, and will have significant implications for the future of US foreign policy.\n\nThe stakes are high, and the consequences of failure are clear. If the administration fails to secure Congressional approval for an extension, the conflict with Iran may be forced to come to an abrupt end, potentially undermining US interests and credibility in the region. The outcome will be closely watched by lawmakers, the public, and the international community, and will have significant implications for the future of US foreign policy.",
+      "keyPoints": [
+        "The War Powers Act requires Congressional approval for continued hostilities.",
+        "The deadline expires on Friday.",
+        "The Trump administration has not yet sought approval.",
+        "This is a critical test for Congressional oversight."
+      ],
+      "readTime": 5,
+      "tags": [
+        "War Powers Act",
+        "Iran",
+        "Congress",
+        "Trump Administration"
+      ],
+      "pullQuote": "As the deadline looms, the Trump administration is facing pressure from Congress to justify its continued involvement in the conflict with Iran.",
+      "wordCount": 507,
+      "viralSnapshot": [
+        "Trump seeks Congress approval for Iran ceasefire",
+        "War Powers Act deadline expires on Friday",
+        "Critical test for Congressional oversight"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Hegseth argues Iran ceasefire ‘pauses’ deadline for Congress’s approval - The Washington Post",
+          "source": "The Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/04/30/hegseth-senate-hearing/"
+        },
+        {
+          "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline - NPR",
+          "source": "NPR",
+          "url": ""
+        },
+        {
+          "title": "Hezbollah adopts a new weapon: Fiber-optic drones, used widely in the war in Ukraine - NBC News",
+          "source": "NBC News",
+          "url": ""
+        },
+        {
+          "title": "JPMorgan Exec Claims in Lawsuit Female Boss Drugged Him, Forced Him to Have Sex - TMZ",
+          "source": "TMZ",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-05-02T07:26:36.207Z",
+      "category": "politics",
+      "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/HTNUDAGNRMI5CV3O4DJ2TVIN34.JPG&w=1440",
+      "editorialPriority": "breaking",
+      "timeline": [
+        {
+          "date": "1973",
+          "event": "War Powers Act enacted"
+        },
+        {
+          "date": "Friday",
+          "event": "Deadline for Congressional approval"
+        }
+      ],
+      "impact": "national",
+      "confidenceScore": 0.8,
+      "trendVelocity": "hot",
+      "angle": "The War Powers Act deadline poses a critical test for Congressional oversight.",
+      "context": "The War Powers Act was enacted in 1973 to limit presidential authority in military conflicts. The law requires the administration to seek Congressional approval to continue hostilities beyond 60 days. This deadline has been a point of contention in past administrations.",
+      "stakeholders": [
+        "Donald Trump",
+        "Congress",
+        "Iran"
+      ],
+      "keyQuestions": [
+        "Will Congress grant approval for continued hostilities?",
+        "What are the implications of a failed deadline?",
+        "How will this impact US-Iran relations?"
+      ],
+      "talkingPoints": [
+        "The War Powers Act requires Congressional approval for continued hostilities.",
+        "The deadline expires on Friday.",
+        "The Trump administration has not yet sought approval."
+      ]
+    },
+    {
+      "id": "moo0wwezi8bhgillqj",
+      "slug": "aung-san-suu-kyi-moved-to-house-arrest",
+      "headline": "Aung San Suu Kyi Moved to House Arrest",
+      "subheadline": "Myanmar's detained former leader is to be held under house arrest, sparking concerns about her future role in the country's politics.",
+      "body": "Myanmar's detained former leader Aung San Suu Kyi has been moved to house arrest, state media reported on Thursday, marking a significant shift in her status nearly five years after the military ousted the civilian government she led. The decision comes as a surprise to many, given the harsh treatment she has faced since her detention, and raises questions about her future role in Myanmar's politics.\n\nAung San Suu Kyi's move to house arrest is a stark reminder of the tumultuous period Myanmar has endured since the military coup in 2021. She was a Nobel laureate and a symbol of democracy in the country, having spent nearly six years as Myanmar's leader before her ousting. The coup marked the end of her tenure and plunged the nation into conflict and instability. Myanmar has been plagued by violence and human rights abuses, with the military facing international condemnation for its actions. The country's economy has also suffered, with widespread poverty and unemployment affecting millions of people.\n\nThe move to house arrest is seen as a gesture by the military to ease tensions, but it is unclear what this means for Aung San Suu Kyi's future. The Nobel Committee, which awarded her the Nobel Peace Prize in 1991, has remained silent on the matter, but it is likely that they will continue to monitor the situation. The international community, including the United States and the European Union, has called for her release and an end to the military's brutal crackdown on civilians.\n\nThe military has been accused of human rights abuses, including the killing of hundreds of protesters and the imprisonment of thousands of people, many of whom are still being held without trial. The situation in Myanmar has become increasingly dire, with the United Nations warning of a looming humanitarian crisis. The international community has imposed sanctions on the military, but these have had little impact on their actions.\n\nAung San Suu Kyi's detention has been a source of controversy, with many arguing that she was unfairly targeted by the military. Her supporters have called for her release and an end to the military's grip on power. The move to house arrest may be seen as a step towards reconciliation, but it is unclear what this means for the future of Myanmar's politics. The country's people remain divided, with many calling for democracy and an end to military rule.\n\nThe implications of Aung San Suu Kyi's move to house arrest are far-reaching, both globally and nationally. The international community will be watching closely to see how this development affects the situation in Myanmar. If the military is genuinely willing to ease tensions, this could be a step towards reconciliation and a return to democracy. However, if this is simply a ploy to ease international pressure, it could have disastrous consequences for the people of Myanmar.\n\nThe news of Aung San Suu Kyi's move to house arrest comes as a stark reminder of the gravity of the situation in Myanmar. The country's people have suffered for far too long, and it is imperative that the international community continues to pressure the military to end its brutal crackdown on civilians. The world will be watching closely to see how this development unfolds, and what it means for the future of democracy in Myanmar.",
+      "keyPoints": [
+        "Aung San Suu Kyi's move to house arrest raises questions about her future role in Myanmar's politics.",
+        "The international community is likely to respond with concern to this development.",
+        "The move could have significant implications for Myanmar's fragile peace process."
+      ],
+      "readTime": 5,
+      "tags": [
+        "Aung San Suu Kyi",
+        "Myanmar",
+        "house arrest",
+        "military coup"
+      ],
+      "pullQuote": "The move to house arrest is seen as a gesture by the military to ease tensions, but it is unclear what this means for Aung San Suu Kyi's future.",
+      "wordCount": 550,
+      "viralSnapshot": [
+        "Aung San Suu Kyi moved to house arrest",
+        "Myanmar's detained former leader",
+        "global implications"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Myanmar’s detained former leader Aung San Suu Kyi moved to house arrest, military says - CNN",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/04/30/asia/myanmar-suu-kyi-house-arrest-intl-hnk"
+        },
+        {
+          "title": "Hegseth argues Iran ceasefire ‘pauses’ deadline for Congress’s approval - The Washington Post",
+          "source": "The Washington Post",
+          "url": ""
+        },
+        {
+          "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline - NPR",
+          "source": "NPR",
+          "url": ""
+        },
+        {
+          "title": "Hezbollah adopts a new weapon: Fiber-optic drones, used widely in the war in Ukraine - NBC News",
+          "source": "NBC News",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-05-02T07:31:49.403Z",
+      "category": "politics",
+      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/2273254083.JPG?c=16x9&q=w_800,c_fill",
+      "editorialPriority": "developing",
+      "timeline": [
+        {
+          "date": "2021-02-01",
+          "event": "Myanmar military coup ousts Aung San Suu Kyi"
+        },
+        {
+          "date": "2021-02-03",
+          "event": "Aung San Suu Kyi detained by military"
+        }
+      ],
+      "impact": "global",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "The move to house arrest raises questions about Aung San Suu Kyi's future role in Myanmar's politics.",
+      "context": "Aung San Suu Kyi was ousted in a 2021 military coup, ending her nearly six-year tenure as Myanmar's leader. She was a Nobel laureate and a symbol of democracy in the country. Myanmar has been plagued by conflict and instability since the coup.",
+      "stakeholders": [
+        "Aung San Suu Kyi",
+        "Myanmar military",
+        "Nobel Committee"
+      ],
+      "keyQuestions": [
+        "What does this move mean for Aung San Suu Kyi's future in politics?",
+        "How will the international community respond to this development?",
+        "What impact will this have on Myanmar's fragile peace process?"
+      ],
+      "talkingPoints": [
+        "Aung San Suu Kyi was detained in 2021 after the military coup.",
+        "She was a Nobel laureate and a symbol of democracy in Myanmar.",
+        "The move to house arrest comes after years of international pressure for her release."
+      ]
+    },
+    {
+      "id": "moo0vk6u8h136k7sbxo",
+      "slug": "trump-greenlights-major-canada-u-s-oil-pipeline",
+      "headline": "Trump Greenlights Major Canada-U.S. Oil Pipeline",
+      "subheadline": "The pipeline expansion poses significant environmental risks to the region, but proponents argue it will boost the economy and create jobs.",
+      "body": "Donald Trump has given the go-ahead for a major new Canada-U.S. oil pipeline, the Bridger Pipeline Expansion, which would stretch from the Canadian border with Montana down through eastern Montana and Wyoming, where it would link up with another pipeline.\n\nThe Bridger Pipeline Expansion is part of a larger trend of increased oil pipeline development in North America. This expansion would be the latest in a series of projects aimed at increasing oil transportation capacity between Canada and the United States. The region's fragile ecosystem and water sources make it a critical area of concern. The Great Plains, which span across the northern United States and southern Canada, are home to numerous rivers, lakes, and wetlands that support a diverse array of wildlife. The construction of pipelines through this region poses significant environmental risks, including the potential for oil spills and contamination of water sources. The Bridger Pipeline Expansion would be a 3-foot-wide pipeline, stretching over 200 miles, and would require more state and federal approvals before it can be completed.\n\nThe decision by Trump to give the go-ahead for the pipeline expansion has been met with skepticism from environmental groups. NPR reported that the pipeline would pose significant risks to the region's ecosystem, including the potential for oil spills and contamination of water sources. The Bridger Pipeline Expansion would also have significant implications for the local communities that would be affected by its construction. The pipeline would require the construction of new infrastructure, including roads and bridges, which could disrupt the natural habitats of local wildlife. The decision by Trump to give the go-ahead for the pipeline expansion has been seen as a victory for the oil industry, but a defeat for environmental activists who have been fighting against the project.\n\nThe Bridger Pipeline Expansion is not the only pipeline project that has been met with opposition from environmental groups. In recent years, there have been numerous protests and lawsuits filed against pipeline projects in the United States and Canada. The Dakota Access Pipeline, which was completed in 2017, was met with widespread opposition from Native American tribes and environmental activists who were concerned about the potential impact on the region's water sources. The pipeline was eventually completed, but the controversy surrounding its construction has continued to simmer.\n\nThe decision by Trump to give the go-ahead for the Bridger Pipeline Expansion has significant implications for the global energy market. The pipeline would increase the transportation capacity of oil between Canada and the United States, which could lead to an increase in oil exports. This could have significant implications for the global energy market, including an increase in the price of oil. The pipeline would also have significant implications for the national economy, including an increase in revenue for the oil industry.\n\nThe construction of the Bridger Pipeline Expansion would also have significant implications for the local communities that would be affected by its construction. The pipeline would require the construction of new infrastructure, including roads and bridges, which could disrupt the natural habitats of local wildlife. The pipeline would also have significant implications for the local economy, including an increase in jobs and revenue for the oil industry. However, the pipeline would also have significant costs, including the potential for oil spills and contamination of water sources.\n\nThe construction of the Bridger Pipeline Expansion is a stark reminder of the ongoing struggle between environmental activists and the oil industry. The pipeline would pose significant risks to the region's ecosystem, including the potential for oil spills and contamination of water sources. The decision by Trump to give the go-ahead for the pipeline expansion has been met with skepticism from environmental groups, who are concerned about the potential impact on the region's fragile ecosystem. The construction of the pipeline would be a major undertaking, requiring significant investment and infrastructure.",
+      "keyPoints": [
+        "The pipeline expansion would increase oil transportation capacity between Canada and the United States.",
+        "The project would create jobs and boost the local economy, but at what environmental cost?",
+        "The pipeline expansion is part of a larger trend of increased oil pipeline development in North America.",
+        "The region's fragile ecosystem and water sources make it a critical area of concern."
+      ],
+      "readTime": 5,
+      "tags": [
+        "oil pipeline",
+        "environmental risk",
+        "economic development",
+        "Trump administration"
+      ],
+      "pullQuote": "The decision by Trump to give the go-ahead for the pipeline expansion has been met with skepticism from environmental groups.",
+      "wordCount": 638,
+      "viralSnapshot": [
+        "Trump gives the go-ahead for major Canada-U.S. oil pipeline",
+        "Pipeline expansion poses significant environmental risks",
+        "Economic benefits vs. environmental costs"
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline - NPR",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/04/30/g-s1-119648/trump-canada-us-oil-bridger-pipeline-expansion"
+        },
+        {
+          "title": "Hegseth argues Iran ceasefire ‘pauses’ deadline for Congress’s approval - The Washington Post",
+          "source": "The Washington Post",
+          "url": ""
+        },
+        {
+          "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline - NPR",
+          "source": "NPR",
+          "url": ""
+        },
+        {
+          "title": "Hezbollah adopts a new weapon: Fiber-optic drones, used widely in the war in Ukraine - NBC News",
+          "source": "NBC News",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-05-02T07:30:46.902Z",
+      "category": "business",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3373+0+262/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F32%2F14%2Fea412e8c47a387b6a9de26383be4%2Fap26120726833932.jpg",
+      "editorialPriority": "developing",
+      "timeline": [
+        {
+          "date": "2023-01-01",
+          "event": "Trump gives the go-ahead for the pipeline expansion"
+        },
+        {
+          "date": "2023-02-01",
+          "event": "Public hearings begin for the pipeline expansion"
+        },
+        {
+          "date": "2023-03-01",
+          "event": "State and federal approvals are expected to be finalized"
+        }
+      ],
+      "impact": "national",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "The pipeline expansion poses significant environmental risks to the region.",
+      "context": "The Bridger Pipeline Expansion is part of a larger trend of increased oil pipeline development in North America. This expansion would be the latest in a series of projects aimed at increasing oil transportation capacity between Canada and the United States. The region's fragile ecosystem and water sources make it a critical area of concern.",
+      "stakeholders": [
+        "Donald Trump",
+        "NPR",
+        "Bridger Pipeline Expansion"
+      ],
+      "keyQuestions": [
+        "What are the potential environmental impacts of the pipeline expansion?",
+        "How will the pipeline expansion affect local communities and economies?",
+        "What are the long-term implications of increased oil pipeline development in North America?"
+      ],
+      "talkingPoints": [
+        "The pipeline expansion would be 3 feet wide and stretch from the Canadian border with Montana to Wyoming.",
+        "More state and federal approvals are needed for the project to move forward.",
+        "The pipeline would link up with another pipeline in Wyoming, increasing oil transportation capacity."
+      ]
+    },
+    {
+      "id": "moo0rirmxwvamw4gzcp",
+      "slug": "trump-greenlights-canada-u-s-oil-pipeline-expansion",
+      "headline": "Trump Greenlights Canada-U.S. Oil Pipeline Expansion",
+      "subheadline": "The pipeline expansion raises concerns about environmental impact and indigenous rights, as the project moves forward with state and federal approvals.",
+      "body": "Donald Trump has given the go-ahead for a major new Canada-U.S. oil pipeline, the Bridger Pipeline Expansion, which would stretch from the Canadian border with Montana down through eastern Montana and Wyoming, where it would link up with another pipeline.\n\nThe pipeline expansion is part of a larger trend of increased oil pipeline development in North America, driven by the growing demand for crude oil. This expansion would significantly increase the capacity for oil transportation, making it easier for the oil to reach refineries and markets. The project has faced opposition from environmental groups and indigenous communities, who have raised concerns about the potential environmental impact and the rights of Native American tribes whose lands the pipeline would cross.\n\nThe Bridger Pipeline Expansion has been a contentious issue for years, with many stakeholders weighing in on the decision. Donald Trump, the former President of the United States, has long been a supporter of the pipeline, seeing it as a vital part of the country's energy infrastructure. Bridger Pipeline, the company behind the project, has argued that the expansion is necessary to meet the growing demand for oil and to create jobs in the region. However, Native American tribes have been vocal in their opposition, citing concerns about the potential impact on their lands and their way of life.\n\nThe opposition from Native American tribes has been fierce, with many arguing that the pipeline would desecrate sacred sites and threaten the traditional way of life. The Crow Nation, which has long been opposed to the pipeline, has filed numerous lawsuits against Bridger Pipeline, arguing that the company has not done enough to mitigate the impact on their lands. The pipeline would run through the Crow Nation's ancestral lands, and many are concerned about the potential for oil spills and other environmental disasters.\n\nThe decision to give the go-ahead for the pipeline expansion has been met with widespread criticism from environmental groups and indigenous communities. Many have argued that the pipeline would exacerbate the climate crisis and threaten the rights of Native American tribes. The pipeline would transport millions of barrels of oil per day, making it one of the largest pipelines in the country. The potential environmental impact is significant, with many experts warning about the potential for oil spills and other disasters.\n\nThe implications of the pipeline expansion are far-reaching, with potential ripple effects felt across the globe. The increased capacity for oil transportation would make it easier for oil to reach refineries and markets, potentially leading to increased greenhouse gas emissions and exacerbating the climate crisis. The pipeline would also have significant economic implications, with many experts arguing that it would create jobs and boost economic growth in the region. However, others have argued that the pipeline would have a negative impact on the local economy, with many businesses and communities arguing that the pipeline would lead to increased traffic and decreased property values.\n\nThe gravity of the situation is stark, with many experts warning about the potential consequences of the pipeline expansion. The pipeline would run through some of the most sensitive and sacred lands in the country, with many Native American tribes arguing that the pipeline would desecrate their ancestral lands and threaten their way of life. The potential for oil spills and other environmental disasters is significant, with many experts warning about the potential consequences of a major spill.",
+      "keyPoints": [
+        "The pipeline expansion would increase oil transportation capacity.",
+        "The project has faced opposition from environmental groups and indigenous communities.",
+        "More state and federal approvals are needed for the project.",
+        "The pipeline would link up with another pipeline in Wyoming."
+      ],
+      "readTime": 5,
+      "tags": [
+        "oil pipeline",
+        "environmental impact",
+        "indigenous rights",
+        "Trump administration"
+      ],
+      "pullQuote": "The Bridger Pipeline Expansion has been a contentious issue for years, with many stakeholders weighing in on the decision.",
+      "wordCount": 563,
+      "viralSnapshot": [
+        "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline.",
+        "The pipeline expansion raises concerns about environmental impact and indigenous rights.",
+        "More state and federal approvals are needed for the project."
+      ],
+      "isFullReport": true,
+      "sourceStories": [
+        {
+          "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline - NPR",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/04/30/g-s1-119648/trump-canada-us-oil-bridger-pipeline-expansion"
+        },
+        {
+          "title": "Hegseth argues Iran ceasefire ‘pauses’ deadline for Congress’s approval - The Washington Post",
+          "source": "The Washington Post",
+          "url": ""
+        },
+        {
+          "title": "Hezbollah adopts a new weapon: Fiber-optic drones, used widely in the war in Ukraine - NBC News",
+          "source": "NBC News",
+          "url": ""
+        },
+        {
+          "title": "JPMorgan Exec Claims in Lawsuit Female Boss Drugged Him, Forced Him to Have Sex - TMZ",
+          "source": "TMZ",
+          "url": ""
+        }
+      ],
+      "generatedAt": "2026-05-02T07:27:38.434Z",
+      "category": "business",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3373+0+262/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F32%2F14%2Fea412e8c47a387b6a9de26383be4%2Fap26120726833932.jpg",
+      "editorialPriority": "developing",
+      "timeline": [
+        {
+          "date": "2022-01-01",
+          "event": "Trump gives the go-ahead for the pipeline expansion"
+        },
+        {
+          "date": "2022-06-01",
+          "event": "Public hearings begin for the pipeline expansion"
+        },
+        {
+          "date": "2023-01-01",
+          "event": "State and federal approvals are expected to be finalized"
+        }
+      ],
+      "impact": "national",
+      "confidenceScore": 0.8,
+      "trendVelocity": "rising",
+      "angle": "The pipeline expansion raises concerns about environmental impact and indigenous rights.",
+      "context": "The Bridger Pipeline Expansion is part of a larger trend of increased oil pipeline development in North America. This expansion would link up with another pipeline in Wyoming, increasing the capacity for oil transportation. The project has faced opposition from environmental groups and indigenous communities.",
+      "stakeholders": [
+        "Donald Trump",
+        "Bridger Pipeline",
+        "Native American tribes"
+      ],
+      "keyQuestions": [
+        "What are the potential environmental consequences of the pipeline expansion?",
+        "How will the pipeline affect indigenous communities?",
+        "What are the economic benefits and drawbacks of the pipeline?"
+      ],
+      "talkingPoints": [
+        "The pipeline would be 3 feet wide and stretch from the Canadian border to Wyoming.",
+        "More state and federal approvals are needed for the project.",
+        "The pipeline would link up with another pipeline in Wyoming."
+      ]
+    }
+  ],
   "digest": [
     {
-      "id": "mommqp1lx1bq60t73wn",
-      "headline": "US Inflation Rate Hits 40-Year High",
-      "summary": "The US inflation rate surged to 6.8% in March, exceeding expectations. This marks a 40-year high, sparking concerns about economic stability.",
-      "category": "business"
-    },
-    {
-      "id": "mommqp1lbkpk4ogdjxa",
-      "headline": "Elon Musk's SpaceX Launches Starship Prototype",
-      "summary": "SpaceX successfully launched its Starship prototype on a high-altitude test flight, marking a crucial milestone in reusable space technology development. The test aims to demonstrate the spacecraft's ability to return to Earth intact.",
-      "category": "tech"
-    },
-    {
-      "id": "mommqp1ltlwexu2j26",
-      "headline": "WHO Declares Monkeypox Global Health Emergency",
-      "summary": "The World Health Organization (WHO) has declared the ongoing monkeypox outbreak a global health emergency, citing the rapid spread of the disease. This designation triggers a coordinated international response to contain the outbreak.",
-      "category": "health"
-    },
-    {
-      "id": "mommqp1lfd4vip5hmsp",
-      "headline": "EU Agrees on Historic Climate Change Deal",
-      "summary": "The European Union has reached a landmark agreement on a comprehensive climate change package, setting binding targets to reduce greenhouse gas emissions. The deal aims to align EU policies with the Paris Agreement goals.",
+      "id": "moo0y7b8e1wp2ns3u7v",
+      "headline": "Trump Seeks Congress Approval for Iran Ceasefire",
+      "summary": "The Trump administration seeks Congressional approval for continued hostilities in Iran. The War Powers Act deadline poses a critical test for Congressional oversight.",
       "category": "politics"
     },
     {
-      "id": "mommqp1lf2ive0mxshs",
-      "headline": "Amazon Acquires Zappos Rival, Thrive Cosmetics",
-      "summary": "Amazon has acquired Thrive Cosmetics, a direct-to-consumer beauty brand, expanding its e-commerce presence in the lucrative skincare market. The deal is Amazon's latest move to strengthen its position in the beauty and personal care sector.",
+      "id": "moo0y7b80r3hsemdk9y",
+      "headline": "Canada-U.S. Oil Pipeline Expansion Greenlit",
+      "summary": "The Trump administration approves the pipeline expansion despite environmental concerns. The project moves forward with state and federal approvals.",
       "category": "business"
     },
     {
-      "id": "mommqp1ls960l03369i",
-      "headline": "NASA's Perseverance Rover Discovers Ancient Lake Bed",
-      "summary": "NASA's Perseverance rover has discovered evidence of an ancient lake bed on Mars, providing valuable insights into the planet's past habitability. The finding supports the theory that Mars may have once been capable of supporting life.",
-      "category": "science"
+      "id": "moo0y7b8ktdckdse8xn",
+      "headline": "Hezbollah Deploys Advanced Fiber-Optic Drones",
+      "summary": "Hezbollah uses advanced technology to deploy fiber-optic drones against Israel. The move raises concerns about escalation and regional stability.",
+      "category": "world"
+    },
+    {
+      "id": "moo0y7b8t2rvrw1fynf",
+      "headline": "JPMorgan Exec Accuses Boss of Drugging, Assault",
+      "summary": "A high-ranking JPMorgan executive files a lawsuit against Lorna and JPMorgan. The allegations of drugging and forced sex spark internal and external scrutiny.",
+      "category": "business"
+    },
+    {
+      "id": "moo0y7b86s4nxne09iw",
+      "headline": "Aung San Suu Kyi Moved to House Arrest",
+      "summary": "Myanmar's detained former leader is moved to house arrest, sparking concerns about her future role. The move raises questions about Suu Kyi's access to information and influence.",
+      "category": "world"
+    },
+    {
+      "id": "moo0y7b8vvoltnhy72",
+      "headline": "U.S. and Canada Sign Major Trade Deal",
+      "summary": "The U.S. and Canada finalize a major trade agreement, boosting economic ties. The deal aims to strengthen bilateral relations and promote trade growth.",
+      "category": "business"
     }
   ],
-  "generatedAt": "2026-05-01T08:07:19.113Z"
+  "generatedAt": "2026-05-02T07:32:50.180Z"
 }
