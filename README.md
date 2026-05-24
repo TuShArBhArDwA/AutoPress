@@ -158,4 +158,4 @@ If you’d like to connect or provide feedback, feel free to reach out — [Clic
 
 ---
 
-**[Try AutoPress](https://autoopress.vercel.app/)** | **[Submit Feedback](https://github.com/TuShArBhArDwA/AutoPress/issues)**
+**[Try AutoPress](https://press.minianon.in)** | **[Submit Feedback](https://github.com/TuShArBhArDwA/AutoPress/issues)**
